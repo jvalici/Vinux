@@ -1,0 +1,11 @@
+AROUND
+eclyspe with pydev
+GIT
+Tortoise Git
+
+CORE
+Python 3
+Django
+pip install djangorestframework
+pip install simpleJson
+Angular 2 (with node.js and npm)Verify that you are running at least node v4.x.x and npm 3.x.x by running node -v and npm -v in a terminal/console window. Older versions produce errors.
