@@ -57,10 +57,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Vinux.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'VinuxHtml')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,6 +72,15 @@ TEMPLATES = [
             ],
         },
     },
+]
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.10/howto/static-files/
+
+STATIC_URL = '/VinuxHtml/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "VinuxHtml"),
+    os.path.join(BASE_DIR, "VinuxJs"),
 ]
 
 WSGI_APPLICATION = 'Vinux.wsgi.application'
@@ -120,7 +130,4 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-STATIC_URL = '/static/'

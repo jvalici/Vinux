@@ -12,5 +12,6 @@ admin.autodiscover()
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^test/$', controllerCellar.getTestJson),
+    url(r'^testView/$', controllerCellar.testView),
 ]
 
