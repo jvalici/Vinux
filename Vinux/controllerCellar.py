@@ -12,3 +12,8 @@ def getTestJson(request):
 # test
 def testView(request):
     return render(request, 'test.html',  {'vin1':'a','vin2':'b'} , content_type='html')
+
+
+# test
+def testTicTacToe(request):
+    return render(request, 'ticTacToe.html',  {}, content_type='html')
