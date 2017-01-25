@@ -15,9 +15,10 @@ def loadExampleObjects():
     wineProductionArea = WineProductionArea( name='Bourgundy')
     wineProductionArea.save()
     
-    wineType = WineType( productionArea = wineProductionArea, name='Pouilly Fuissé')
+    wineType = WineType( type='Pouilly Fuiss&eacute;', productionArea = wineProductionArea )
     wineType.save()
     
     wineBottle = WineBottle( producer = wineProducer, type = wineType, name = 'En Carementant', vintage = 2015 )
     wineBottle.save()
+    return 0
     

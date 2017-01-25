@@ -7,3 +7,5 @@ class SetupExampleDataBase(TestCase):
 
     def test_loading_objects(self):
         loadExampleObjects()
+        
+        
