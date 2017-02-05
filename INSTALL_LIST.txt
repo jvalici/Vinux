@@ -9,3 +9,11 @@ Django
 pip install djangorestframework
 pip install simpleJson
 nodejs (for npm)
+
+reconnaissance image
+https://pypi.python.org/pypi/pytesseract
+install tesseract-ocr and add fra language
+pip install pillow
+pip install pytesseract
+(
+
