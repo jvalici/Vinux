@@ -10,8 +10,8 @@ admin.autodiscover()
 
 
 urlpatterns = [
-    url(r'^test/$', controllerCellar.getTestJson),
-    url(r'^testView/$', controllerCellar.testView),
+    url(r'^homeView/$', controllerCellar.homeView),
+    url(r'^testJson/$', controllerCellar.testJson),
     url(r'^testTicTactToe/$', controllerCellar.testTicTacToe),
 ]
 
