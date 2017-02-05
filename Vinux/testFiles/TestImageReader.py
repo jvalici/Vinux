@@ -12,7 +12,7 @@ def readImage( imageName ):
     #enhancer = ImageEnhance.Contrast(im)
     #im = enhancer.enhance(2)
     #im = im.convert('1')
-    tmp = pytesseract.image_to_string(im, lang='fra',config='0')
+    tmp = pytesseract.image_to_string(im, lang='fra',config='-psm 3')
     print( tmp.encode('utf-8') )
     
 
