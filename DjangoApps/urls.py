@@ -21,4 +21,5 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^Vinux/', include('Vinux.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^accounts/', include('registration.backends.simple.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

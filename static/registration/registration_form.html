@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+<html>
+<head>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <!-- SETTINGS -->
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <title>Celibax registration</title>
+    <meta http-equiv="Content-Language" content="fr">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="description" LANG="en" content="Celibax is an online betting system. It will be possible to bet on anything with your friends.
+            It was initially designed to bet on which of your friends would be the first to get laid, but you can also use it for sporting events, life events or whatever you can think of!
+            You cannot play real money here, the Celibax money is the Chochoro and the shame of losing!">
+    <meta name="robots" content="index, follow">
+    <meta name="Revisit-after" content="10 days">
+    <meta name="Date-Creation-yyyymmdd" content="20071216">
+    <meta name="Date-Revision-yyyymmdd" content="20110104">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="expires" content="never">
+    <meta name="viewport" content="initial-scale=0.8">
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <!-- LIB INCLUDES -->
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="{% static "CoreJs/jquery.min1.7.2.js" %}"></script>
+    <script type="text/javascript" src="{% static "CoreJs/extendAjaxForCSRF.js" %}"></script>
+    <!-- the following include allow internet explorer to keep the same display than the other browser -->
+    <!--[if lt IE 10]>
+	    <script type="text/javascript" src="{% static "CoreJs/CSS3PIE.js" %}"></script>
+    <![endif]-->
+    
+</head>
+<body>
+
+{% block content %}
+    
+    <div class="oneLine">
+		
+	    <div class="myLeft" id="id_login">
+        
+		    <div class="section">      
+             <h2>Register</h2>
+                Please consider that this is not a professional site and security is only best effort. Do not use any sensitive password.
+                <form action="/accounts/register/" method="POST">{% csrf_token %}
+                    <table>
+                    {{ form.as_table }}
+                    </table>
+                <p>
+                    <input class="myRoundCorners myRight" type="submit" value="Submit" />
+                </p>
+                </form>
+            </div>
+        </div>
+     
+	    		
+		<div id="id_image">
+     		<img src="{{ STATIC_URL }}images/accueil.png">
+		</div>
+		
+    </div>
+
+{% endblock %}
+   
+</body>
+</html>

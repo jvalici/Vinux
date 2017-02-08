@@ -10,10 +10,12 @@ pip install djangorestframework
 pip install simpleJson
 nodejs (for npm)
 
+pip install django-registration (https://django-registration.readthedocs.io/en/2.2/install.html)
+
 reconnaissance image
 https://pypi.python.org/pypi/pytesseract
 install tesseract-ocr and add fra language
 pip install pillow
 pip install pytesseract
-(
+
 
