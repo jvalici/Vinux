@@ -1,18 +1,19 @@
 
 var GreatingMessage = React.createClass({
-  getInitialState: function( userName ) {
-    return { message: 'Hello, ' + userName };
+  getInitialState: function() {
+    return { message: 'Hello, ' };
   },
   render: function() {
     return (
       <div>
-        <MessageView message={ this.state.message }/>
+            <p>{ this.state.message } { this.props.userName }</p>
       </div>
     );
   }
 });
 
+
 ReactDOM.render(
-  <GreatingMessage />,
+  <GreatingMessage userName={ 'bbb' } />,
   document.getElementById('greeting-div')
 );

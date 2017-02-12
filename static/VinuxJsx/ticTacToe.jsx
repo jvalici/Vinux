@@ -1,4 +1,12 @@
 
+var MessageView = React.createClass({
+  render: function() {
+    return (
+      <p>{ this.props.message }</p>
+    );
+  }
+});
+
 var RandomMessage = React.createClass({
   getInitialState: function() {
     return { message: 'Hello, Universe' };
@@ -19,13 +27,6 @@ var RandomMessage = React.createClass({
   }
 });
 
-var MessageView = React.createClass({
-  render: function() {
-    return (
-      <p>{ this.props.message }</p>
-    );
-  }
-});
 
 ReactDOM.render(
   <RandomMessage />,

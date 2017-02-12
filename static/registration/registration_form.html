@@ -40,12 +40,12 @@
 {% block content %}
     
     <div class="oneLine">
-		
-	    <div class="myLeft" id="id_login">
+
+      <div class="myLeft" id="id_login">
         
-		    <div class="section">      
+        <div class="section">      
              <h2>Register</h2>
-                Please consider that this is not a professional site and security is only best effort. Do not use any sensitive password.
+                Ce site n'est pas securisé, les mots de passe sont transmis en clair sur le réseau
                 <form action="/accounts/register/" method="POST">{% csrf_token %}
                     <table>
                     {{ form.as_table }}
@@ -56,12 +56,11 @@
                 </form>
             </div>
         </div>
-     
-	    		
-		<div id="id_image">
-     		<img src="{{ STATIC_URL }}images/accueil.png">
-		</div>
-		
+
+        <div id="id_image">
+          <img src="{% static "VinuxImg/registrationVinux.jpg" %}">
+        </div>
+
     </div>
 
 {% endblock %}
