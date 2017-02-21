@@ -1,21 +1,25 @@
 AROUND
-eclyspe with pydev
-GIT
+eclyspe with pydev (Eclipse files checked in)
+Git
 Tortoise Git
+Nodejs (for npm)
+Mozilla Firebug
 
 CORE
-Python 3
-Django
+Python 3.5 and pipe (Windows: add python path to environement variables.)
+pip install Django==1.10.5
 pip install djangorestframework
 pip install simpleJson
-nodejs (for npm)
-
 pip install django-registration (https://django-registration.readthedocs.io/en/2.2/install.html)
 
-reconnaissance image
-https://pypi.python.org/pypi/pytesseract
-install tesseract-ocr and add fra language
+IMAGE RECOGNITION
+https://pypi.python.org/pypi/pytesseract 
+install tesseract-ocr from https://github.com/tesseract-ocr/tesseract/wiki
+  - Windows: add tesseract path to environement variables.
+  - add French data to trained data (Windows: C:\Program Files (x86)\Tesseract-OCR\tessdata) from https://github.com/tesseract-ocr/tessdata/blob/master/fra.traineddata
 pip install pillow
 pip install pytesseract
+
+
 
 
