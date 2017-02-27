@@ -18,12 +18,11 @@ from django.views.generic import RedirectView
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
+from django.contrib.auth import views as auth_views
 
-"""
-The only app for now is Vinux, redirect there...
-"""
+
 urlpatterns = [
-    url(r'^$', RedirectView.as_view(url='Vinux/homeView/')),
+    url(r'^$', RedirectView.as_view(url='Vinux/homeView/')),#The only app for now is Vinux, redirect there...
     url(r'^Vinux/', include('Vinux.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.simple.urls')),
