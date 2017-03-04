@@ -1,3 +1,0 @@
-python manage.py migrate
-python manage.py makemigrations Vinux
-python manage.py sqlmigrate Vinux 0001

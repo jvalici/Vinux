@@ -15,7 +15,8 @@
   2) rigt click Vinux->django->Make Migration (Vinux as argument)
   3) rigt click Vinux->django->Run Django Tests should work
 
-
-
+python manage.py migrate
+python manage.py makemigrations Vinux
+python manage.py sqlmigrate Vinux 0001
 
 https://docs.djangoproject.com/en/1.10/intro/tutorial01/
