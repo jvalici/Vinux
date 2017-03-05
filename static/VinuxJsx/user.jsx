@@ -14,6 +14,7 @@ var GreatingMessage = React.createClass({
 
 
 ReactDOM.render(
-  <GreatingMessage userName={ 'bbb' } />,
+  // usernameFromDjangoTestOnly is not a proper way to go
+  <GreatingMessage userName={ usernameFromDjangoTestOnly } />,
   document.getElementById('greeting-div')
 );
