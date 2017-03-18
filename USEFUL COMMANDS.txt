@@ -1,0 +1,18 @@
+MIGRATE
+python manage.py migrate
+python manage.py makemigrations Vinux
+python manage.py sqlmigrate Vinux 0001
+
+CREATE SUPER USER
+python manage.py createsuperuser
+
+CREATE SOME OBJECTS
+python manage.py shell
+from Vinux.testFiles.TestObjectsLoader import loadExampleObjects
+loadExampleObjects()
+
+RUN SERVER
+python manage.py runserver
+
+DOC
+https://docs.djangoproject.com/en/1.10/intro/tutorial01/

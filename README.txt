@@ -11,12 +11,10 @@
         Arguments: /select,${selected_resource_loc}\
 - nice to have: http://stackoverflow.com/questions/25594935/where-is-classical-vertical-scrollbar-in-pydev
 - in the Project exlporer
-  1) rigt click Vinux->django->Migrate
-  2) rigt click Vinux->django->Make Migration (Vinux as argument)
-  3) rigt click Vinux->django->Run Django Tests should work
+  a) rigt click Vinux->django->Migrate
+  b) rigt click Vinux->django->Make Migration (Vinux as argument)
+  c) rigt click Vinux->django->Run Django Tests should work
 
-python manage.py migrate
-python manage.py makemigrations Vinux
-python manage.py sqlmigrate Vinux 0001
 
-https://docs.djangoproject.com/en/1.10/intro/tutorial01/
+3) read through USEFUL COMMANDS
+
