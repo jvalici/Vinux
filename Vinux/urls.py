@@ -9,5 +9,6 @@ admin.autodiscover()
 
 urlpatterns = [
     url(r'^homeView/$', controllerCellar.homeView),
+    url(r'^getCellar/$', controllerCellar.getCellar),
 ]
 

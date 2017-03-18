@@ -16,10 +16,12 @@ class WineProducer(models.Model):
     contactInfo = models.ForeignKey(ContactInfo, on_delete=models.CASCADE)
     
 class WineProductionArea(models.Model):
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, primary_key=True)
+    includingArea = models.ForeignKey('self',blank=True, null=True)
     
 class WineType(models.Model):
-    type = models.CharField(max_length=200)
+    appelation = models.CharField(max_length=200)
+    color = models.CharField(max_length=1,choices=(('w', 'white'),('r','red'),('p','pink'))) #w: white, r: red, p:pink
     productionArea = models.ForeignKey(WineProductionArea)
     
 class WineBottle(models.Model):
@@ -47,8 +49,3 @@ class StoredWineBottle(models.Model):
     bottle = models.ForeignKey(WineBottle)
     priceIn = models.DecimalField(decimal_places=2, max_digits=7,  validators=[MinValueValidator(0)])
     
-class WineBottleReview(models.Model):
-    bottle = models.ForeignKey(WineBottle)
-    user = models.ForeignKey(User, editable = False)
-    reviewText = models.TextField()
-    mark = models.PositiveSmallIntegerField( validators=[MinValueValidator(0), MaxValueValidator(20)] )
