@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 {% load staticfiles %}
 
-<!--https://www.sitepoint.com/getting-started-react-jsx/-->
-
 <html>
-  <head>
-    <script src="{% static "coreJs/react.js" %}"></script>
-    <script src="{% static "coreJs/react-dom.js" %}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
-  </head>
-  <body>
-    
-    <div id="greeting-div"></div>
-    <script>var usernameFromDjangoTestOnly = '{{ user.username }}' </script>
-    <script type="text/babel" src="{% static "VinuxJsx/user.jsx" %}"></script>
-    
-    <div id="cellar-div"></div>
-    <script type="text/babel" src="{% static "VinuxJsx/cellar.jsx" %}"></script>
+<head>
+	<script src="{% static "coreJs/jquery-3.2.0.min.js" %}"></script>
+	<script src="{% static "coreJs/react.min.js" %}"></script>
+	<script src="{% static "coreJs/react-dom.min.js" %}"></script>
+	<!-- seem to be unable to replace the following script by a local file 
+	<script src="{% static "coreJs/babel-core-5.8.3-browser.min.js" %}"></script>
+	<script src="{% static "coreJs/babel-core-6.1.19-browser.min.js" %}"></script>
+	nor the more recent version
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js"></script>
+	-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+	<script src="{% static "coreJs/react-bootstrap-table.min.js" %}"></script>
+	<link rel="stylesheet" href="{% static "coreJs/react-bootstrap-table-all.min.css" %}"></link>
+</head>
+<body>
 
-    <div class="oneLine"><a href="/accounts/logout/?next=/accounts/login/">Log out.</a></div>
+	<div id="greeting-div"></div>
+	<script>
+		var usernameFromDjangoTestOnly = '{{ user.username }}';
+	</script>
+	<script type="text/babel" src="{% static "VinuxJsx/user.jsx" %}"></script>
 
-  </body>
+	<div id="cellar-div"></div>
+	<script type="text/babel" src="{% static "VinuxJsx/cellar.jsx" %}"></script>
+
+	<div class="oneLine">
+		<a href="/accounts/logout/?next=/accounts/login/">Log out.</a>
+	</div>
+
+</body>
 </html>

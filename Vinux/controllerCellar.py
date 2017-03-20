@@ -19,14 +19,14 @@ def getCellar(request):
         cellar.save()
     else:
         #ignore that a user could have several cellars and that len(cellars) could be >  0
-        cellar = cellars[0]
-    storedWineBottles = StoredWineBottle.objects.filter(vineCellar=cellar)                                  
+        cellar = cellars[0]                                 
     resList = { 'storedWineBottles': [ {
                 'appelation':s.bottle.type.appelation,
                 'color':s.bottle.type.color,
                 'productionArea':s.bottle.type.productionArea.name,
                 'producer':s.bottle.producer.name,
-                'name':s.bottle.name
-               } for s in storedWineBottles ] }
+                'name':s.bottle.name,
+                'priceIn':s.priceIn
+               } for s in StoredWineBottle.objects.filter(vineCellar=cellar) ] }
     return JsonResponse(resList)
 
