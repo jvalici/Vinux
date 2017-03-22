@@ -1,7 +1,7 @@
 from Vinux.models import ContactInfo, WineProducer, WineProductionArea, WineType, WineBottle, WineCellar, StoredWineBottle, BottleUserReview, BottleWebReview
 from django.contrib.auth.models import User
 
-def loadExampleObjects():
+def load_example_objects():
 
     contactInfo = ContactInfo( 
         postalAdrress='125 rue aux Bourgeois, 1680 VINZELLES, FRANCE',
@@ -28,14 +28,19 @@ def loadExampleObjects():
     wineBottle = WineBottle( producer = wineProducer, type = pouilly, name = 'En Carementant', vintage = 2015 )
     wineBottle.save()
     
+    # when using this function for the base, there will be some user already. For the test, create one
     users = User.objects.all()
-    review = BottleUserReview( user=users[0], bottle = wineBottle,  mark = 15,  pairing = 'avec du caca boudin', comment = 'Demander a francois comment va le fragin mort' )
+    if len( users ) > 0:
+        test_user=users[0]
+    else:
+        test_user = User.objects.create_user(username='testuser', password='12345')
+    review = BottleUserReview( user=test_user, bottle = wineBottle,  mark = 15,  pairing = 'avec du caca boudin', comment = 'Demander a francois comment va le fragin mort' )
     review.save()
     
     webReview = BottleWebReview( bottle=wineBottle, link='http://www.bretbrothers.com/vin/pouilly-fuisse-en-carementrant-bret-brothers-85.php')
     webReview.save()
     
-    cellar = WineCellar(owner=users[0])
+    cellar = WineCellar(owner=test_user)
     cellar.save()
     
     storedBottle = StoredWineBottle( vineCellar=cellar, bottle=wineBottle,priceIn = 12.90)
