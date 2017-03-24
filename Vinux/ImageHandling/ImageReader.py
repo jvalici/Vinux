@@ -23,6 +23,7 @@ def filter_small_objects(list_of_objects, do_first_dim, percentage_threshold):
     size_threshold = numpy.percentile(sizes, percentage_threshold)
     return sizes < size_threshold
     
+################################################################################
 def improve_mask_and_inverse(mask):
     # Apply threshold and then erosion and propagation to clean it up
     eroded_mask  = ndimage.binary_erosion(mask, iterations = 1)
@@ -41,10 +42,10 @@ def improve_mask_and_inverse(mask):
     struct = [[0,1,0], [1,1,1], [0,1,0]]
     mask_labels, nb_labels = ndimage.label(mask,struct)
        
-    import matplotlib.pyplot as plt
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    improved_image_file = os.path.join(dir_path,'blobs.png' )
-    plt.imsave(improved_image_file, mask_labels)
+#     import matplotlib.pyplot as plt
+#     dir_path = os.path.dirname(os.path.realpath(__file__))
+#     improved_image_file = os.path.join(dir_path,'blobs.png' )
+#     plt.imsave(improved_image_file, mask_labels)
     
     # if there are few item, return them all, else filer those which are either long or large
     target_number = 100
@@ -183,7 +184,7 @@ def improve_monochrome_image_by_pieces(image_path):
     # get image as monochrome (open and convert)
     image_file = Image.open(image_path)
     monochrome_image = numpy.array( image_file.convert('L') )
-    save_im( monochrome_image,'monochrom.jpg' )
+    # save_im( monochrome_image,'monochrom.jpg' )
     if monochrome_image.shape[0] * monochrome_image.shape[1] < 100000:
         return image_file
     
@@ -195,19 +196,19 @@ def improve_monochrome_image_by_pieces(image_path):
     
     # crop the array
     monochrome_image = monochrome_image[first_dim_start_index:first_dim_end_index, second_dim_start_index:second_dim_end_index]
-    save_im( monochrome_image,'croped.jpg' )
+    # save_im( monochrome_image,'croped.jpg' )
     
     # apply a smoothing filter
     monochrome_image = ndimage.filters.gaussian_filter(monochrome_image, sigma = 1)
-    save_im( monochrome_image,'filtered.jpg' )
+    # save_im( monochrome_image,'filtered.jpg' )
     
     # try to improve the contrast
     mask = get_mask_by_pieces(monochrome_image, True, 10, 60)
-    save_im( mask,'mask.jpg' )
+    # save_im( mask,'mask.jpg' )
     
     # try to improve the mask
     image = improve_mask_and_inverse(mask)
-    save_im( image,'improved_image.jpg' )
+    # save_im( image,'improved_image.jpg' )
     
     return image
 
