@@ -19,7 +19,14 @@ install tesseract-ocr from https://github.com/tesseract-ocr/tesseract/wiki
   - add French data to trained data (Windows: C:\Program Files (x86)\Tesseract-OCR\tessdata) from https://github.com/tesseract-ocr/tessdata/blob/master/fra.traineddata
 pip install pillow
 pip install pytesseract
-
-
+IMPORTANT
+https://github.com/madmaze/pytesseract/pull/33/commits/d715168f667908509307015d8707c5b74f64e984
+In pytesseract.py change
+line 165
+-        f = open(output_file_name)
++        f = open(output_file_name, 'rb')
+line 167
+-            return f.read().strip()
++            return f.read().decode('utf-8').strip()
 
 
