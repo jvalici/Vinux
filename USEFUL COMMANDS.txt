@@ -1,6 +1,6 @@
 MIGRATE
-python manage.py migrate
 python manage.py makemigrations Vinux
+python manage.py migrate
 python manage.py sqlmigrate Vinux 0001
 
 CREATE SUPER USER
@@ -8,7 +8,7 @@ python manage.py createsuperuser
 
 CREATE SOME OBJECTS
 python manage.py shell
-from Vinux.testFiles.TestObjectsLoader import loadExampleObjects
+from Vinux.testFiles.TestObjectsLoader import load_example_objects
 loadExampleObjects()
 
 RUN SERVER
