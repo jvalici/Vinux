@@ -57,13 +57,17 @@ var Cellar = React.createClass({
               <div>
                   <p>Il ne reste plus que ça dans votre cave:</p>
 
-                  <BootstrapTable exportCSV  data={this.state.cellarData.storedWineBottles} bordered={true} data-show-columns={true}>
-                      <TableHeaderColumn dataField="appelation">Appelation</TableHeaderColumn>
-                      <TableHeaderColumn dataField="color">Couleur</TableHeaderColumn>
-                      <TableHeaderColumn dataField="productionArea">Région</TableHeaderColumn>
-                      <TableHeaderColumn dataField="producer">Producteur</TableHeaderColumn>
-                      <TableHeaderColumn dataField="name" isKey={true}>Name</TableHeaderColumn>
-                      <TableHeaderColumn dataField="priceIn" >Prix</TableHeaderColumn>
+                  <BootstrapTable exportCSV  
+                      data={this.state.cellarData.storedWineBottles}
+                      bordered={ true }
+                      stripped={ true }
+                      insertRow>
+                      <TableHeaderColumn  width='150' dataField="appelation">Appelation</TableHeaderColumn>
+                      <TableHeaderColumn  width='50' dataField="color">Couleur</TableHeaderColumn>
+                      <TableHeaderColumn  width='150' dataField="productionArea">Région</TableHeaderColumn>
+                      <TableHeaderColumn  width='150' dataField="producer">Producteur</TableHeaderColumn>
+                      <TableHeaderColumn  width='200' dataField="name" isKey={true}>Name</TableHeaderColumn>
+                      <TableHeaderColumn  width='50' dataField="priceIn" >Prix</TableHeaderColumn>
                   </BootstrapTable>
               </div>
           );

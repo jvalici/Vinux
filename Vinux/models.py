@@ -5,15 +5,12 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 # Create your models here.
 # models.py
 
-class ContactInfo(models.Model):
-    postalAdrress = models.CharField(max_length=200)
-    email =  models.EmailField()
-    webSiteAddress = models.URLField()
-    telephoneNumber = models.CharField(max_length=200)
 
 class WineProducer(models.Model):
-    name = models.CharField(max_length=200)
-    contactInfo = models.ForeignKey(ContactInfo, on_delete=models.CASCADE)
+    firmName = models.CharField(max_length=200)
+    country = models.CharField(max_length=200)
+    postCode = models.CharField(max_length=200)
+    city = models.CharField(max_length=200)
     
 class WineProductionArea(models.Model):
     name = models.CharField(max_length=200, primary_key=True)
