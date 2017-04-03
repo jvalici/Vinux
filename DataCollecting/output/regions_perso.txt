@@ -1,0 +1,44 @@
+Alsace;NA
+Bas-Rhin;Alsace
+Haut-Rhin;Alsace
+Loire;NA
+Pays Nantais;Loire
+Anjou;Loire
+Saumurois;Loire
+Touraine;Loire
+Orleanais;Loire
+Centre;Loire
+Bordeaux;NA
+Rive droite;Bordeaux
+Medoc;Bordeaux
+Entre-deux-mers;Bordeaux
+Graves;Bordeaux
+Sauternais;Bordeaux
+Loraine;NA
+Sud-Ouest;NA
+Bergeracois et Duras;Sud-Ouest
+Moyenne Garonne;Sud-Ouest
+Piémont Massif Central;Sud-Ouest
+Piémont Pyrénéen;Sud-Ouest
+Jura;NA
+Champagne;NA
+Coteaux Champenois;Champagne
+Rose des Riceys;Champagne
+Bourgogne;NA
+Chablis;Bourgogne
+Cote Chalonnaise;Bourgogne
+Cote de Beaune;Bourgogne
+Cote de Nuits;Bourgogne
+Maconnais;Bourgogne
+Beaujolais;Bourgogne
+Cotes du Rhônes;NA
+Septentrionales;Cotes du Rhônes
+Meridionales;Cotes du Rhônes
+Provence;NA
+Languedoc;NA
+Roussillon;NA
+Corse;NA
+Savoie et Bugey;NA
+Bugey;Savoie et Bugey
+Savoie;Savoie et Bugey
+Poitou-Charentes;NA

@@ -1,0 +1,4 @@
+1,Nicolas CARMARANS,12460&nbsp;Montézic
+2,SARL LAURENS,12330&nbsp;Clairvaux-d'Aveyron
+3,DOMAINE DE LA CAROLIE,12330&nbsp;Valady
+4,CAV PAYS DE MILLAU,12520&nbsp;Compeyre

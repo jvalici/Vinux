@@ -1,0 +1,7 @@
+1,MAISON MOLLEX,01420&nbsp;Corbonod
+2,CAVEAU BUGISTE,01350&nbsp;Vongnes
+3,CAVEAU DES DEMOISELLES,01300&nbsp;Andert et Condon
+4,PERRON Grégoire André François,01250&nbsp;Journans
+5,CHARLIN Patrick Jacques,01680&nbsp;GROSLEE
+6,GAEC AIME BERNARD ET FILS,01420&nbsp;Corbonod
+7,DOMAINE DE LA DENTELLE,01250&nbsp;Bohas Meyriat Rignat

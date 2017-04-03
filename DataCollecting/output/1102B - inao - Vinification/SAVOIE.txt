@@ -1,0 +1,5 @@
+1,FUSTINONI Daniel Jean,73800&nbsp;Les Marches
+2,Edmond JACQUIN et Fils,73170&nbsp;Jongieux
+3,FRUITIERE DES VIGNERONS DES TERROIRS DE SAVOIE,73190&nbsp;Apremont
+4,"Cave des Vins Fins de Cruet" société coopérative agricole.,73800&nbsp;Cruet
+5,LE VIGNERON SAVOYARD Société Coopérative Agricole,73310&nbsp;Ruffieux

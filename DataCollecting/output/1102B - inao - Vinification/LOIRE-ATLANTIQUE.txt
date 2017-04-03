@@ -1,0 +1,6 @@
+1,LACHETEAU,44330&nbsp;Vallet
+2,GRANDES MARQUES DU VAL DE LOIRE - G.M.V.L.,44190&nbsp;Gorges
+3,SARL Baudouin et Victor DE GOULAINE,44650&nbsp;Corcoué-sur-Logne
+4,FAY D'HOMME,44690&nbsp;Monnieres
+5,FONTENEAU Claude Henri Georges,44430&nbsp;Le Landreau
+6,FAVREAU PATRICE,44190&nbsp;CLISSON

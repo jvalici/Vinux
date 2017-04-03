@@ -1,16 +1,9 @@
-from Vinux.models import ContactInfo, WineProducer, WineProductionArea, WineType, WineBottle, WineCellar, StoredWineBottle, BottleUserReview, BottleWebReview
+from Vinux.models import  WineProducer, WineProductionArea, WineType, WineBottle, WineCellar, StoredWineBottle, BottleUserReview, BottleWebReview
 from django.contrib.auth.models import User
 
 def load_example_objects():
-
-    contactInfo = ContactInfo( 
-        postalAdrress='125 rue aux Bourgeois, 1680 VINZELLES, FRANCE',
-        email='contact@bretbrothers.com',
-        webSiteAddress='http://www.bretbrothers.com',
-        telephoneNumber = '+33 (0)3.85.35.67.72')
-    contactInfo.save()
     
-    wineProducer = WineProducer( name='Bret Brothers, la soufriandiere', contactInfo=contactInfo )
+    wineProducer = WineProducer( firmName='Bret Brothers, la soufriandiere', country='France', postCode='71680', city='VINZELLES')
     wineProducer.save()
     
     france = WineProductionArea( name='France')
