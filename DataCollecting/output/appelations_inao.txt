@@ -1,5 +1,5 @@
 Ajaccio;Ajaccio;AOC - AOP;Corse
-Aloxe-Corton;Aloxe-Corton;AOC - AOP;Cote de Beaune
+Aloxe-Corton;Aloxe-Corton;AOC - AOP;Côte de Beaune
 Alsace-grand-cru;Alsace grand cru;AOC - AOP;Alsace
 Alsace-ou-Vin-d-Alsace;Alsace ou Vin d'Alsace;AOC - AOP;Alsace
 Anjou;Anjou;AOC - AOP;Anjou
@@ -7,22 +7,22 @@ Anjou-Villages;Anjou Villages;AOC - AOP;Anjou
 Anjou-Villages-Brissac;Anjou Villages Brissac;AOC - AOP;Anjou
 Anjou-Coteaux-de-la-Loire;Anjou-Coteaux de la Loire;AOC - AOP;Anjou
 Arbois;Arbois;AOC - AOP;Jura
-Auxey-Duresses;Auxey-Duresses;AOC - AOP;Cote de Beaune
+Auxey-Duresses;Auxey-Duresses;AOC - AOP;Côte de Beaune
 Bandol;Bandol;AOC - AOP;Provence
 Banyuls;Banyuls;AOC - AOP;Roussillon
 Banyuls-grand-cru;Banyuls grand cru;AOC - AOP;Roussillon
 Barsac;Barsac;AOC - AOP;Sauternais
-Batard-Montrachet;Bâtard-Montrachet;AOC - AOP;Cote de Beaune
-Bearn;Béarn;AOC - AOP;Piemont Pyreneen
+Batard-Montrachet;Bâtard-Montrachet;AOC - AOP;Côte de Beaune
+Bearn;Béarn;AOC - AOP;Piémont Pyrénéen
 Beaujolais;Beaujolais;AOC - AOP;Beaujolais
-Beaumes-de-Venise;Beaumes de Venise;AOC - AOP;Meridionales
-Beaune;Beaune;AOC - AOP;Cote de Beaune
+Beaumes-de-Venise;Beaumes de Venise;AOC - AOP;Côtes du Rhône meridionales
+Beaune;Beaune;AOC - AOP;Côte de Beaune
 Bellet-ou-Vin-de-Bellet;Bellet ou Vin de Bellet;AOC - AOP;Provence
 Bergerac;Bergerac;AOC - AOP;Loraine
-Bienvenues-Batard-Montrachet;Bienvenues-Bâtard-Montrachet;AOC - AOP;Cote de Beaune
-Blagny;Blagny;AOC - AOP;Cote de Beaune
-Blaye;Blaye;AOC - AOP;Rive droite
-Bonnes-Mares;Bonnes-Mares;AOC - AOP;Cote de Nuits
+Bienvenues-Batard-Montrachet;Bienvenues-Bâtard-Montrachet;AOC - AOP;Côte de Beaune
+Blagny;Blagny;AOC - AOP;Côte de Beaune
+Blaye;Blaye;AOC - AOP;Bordeaux rive droite
+Bonnes-Mares;Bonnes-Mares;AOC - AOP;Côte de Nuits
 Bonnezeaux;Bonnezeaux;AOC - AOP;Anjou
 Bordeaux;Bordeaux;AOC - AOP;Bordeaux
 Bordeaux-superieur;Bordeaux supérieur;AOC - AOP;Bordeaux
@@ -30,8 +30,8 @@ Bourgogne;Bourgogne;AOC - AOP;Bourgogne
 Bourgogne-aligote;Bourgogne aligoté;AOC - AOP;Bourgogne
 Bourgogne-mousseux;Bourgogne mousseux;AOC - AOP;Bourgogne
 Bourgogne-Passe-tout-grains;Bourgogne Passe-tout-grains;AOC - AOP;Bourgogne
-Bourgueil;Bourgueil;AOC - AOP;Touraine;
-Bouzeron;Bouzeron;AOC - AOP;Cote Chalonnaise
+Bourgueil;Bourgueil;AOC - AOP;Touraine
+Bouzeron;Bouzeron;AOC - AOP;Côte Chalonnaise
 Brouilly;Brouilly;AOC - AOP;Beaujolais
 Brulhois;Brulhois;AOC - AOP;Moyenne Garonne
 Bugey;Bugey;AOC - AOP;Bugey
@@ -39,254 +39,254 @@ Buzet;Buzet;AOC - AOP;Moyenne Garonne
 Cabardes;Cabardès;AOC - AOP;Languedoc
 Cabernet-d-Anjou;Cabernet d'Anjou;AOC - AOP;Anjou
 Cadillac;Cadillac;AOC - AOP;Entre-deux-mers
-Cahors;Cahors;AOC - AOP;Piemont Massif Central
-Cairanne;Cairanne;AOC - AOP;Meridionales
-Canon-Fronsac;Canon Fronsac;AOC - AOP;Rive droite
+Cahors;Cahors;AOC - AOP;Piémont Massif Central
+Cairanne;Cairanne;AOC - AOP;Côtes du Rhône meridionales
+Canon-Fronsac;Canon Fronsac;AOC - AOP;Bordeaux rive droite
 Cartagene-du-Languedoc;Cartagène du Languedoc;AOC;Languedoc
 Cassis;Cassis;AOC - AOP;Provence
 Cerons;Cérons;AOC - AOP;Sauternais
 Chablis;Chablis;AOC - AOP;Chablis
 Chablis-Grand-Cru;Chablis Grand Cru;AOC - AOP;Chablis
-Chambertin;Chambertin;AOC - AOP;Cote de Nuits
-Chambertin-Clos-de-Beze;Chambertin-Clos de Bèze;AOC - AOP;Cote de Nuits
-Chambolle-Musigny;Chambolle-Musigny;AOC - AOP;Cote de Nuits
+Chambertin;Chambertin;AOC - AOP;Côte de Nuits
+Chambertin-Clos-de-Beze;Chambertin-Clos de Bèze;AOC - AOP;Côte de Nuits
+Chambolle-Musigny;Chambolle-Musigny;AOC - AOP;Côte de Nuits
 Champagne;Champagne ;AOC - AOP;Champagne
-Chapelle-Chambertin;Chapelle-Chambertin;AOC - AOP;Cote de Nuits
-Charlemagne;Charlemagne;AOC - AOP;Cote de Beaune
-Charmes-Chambertin;Charmes-Chambertin;AOC - AOP;Cote de Nuits
-Chassagne-Montrachet;Chassagne-Montrachet;AOC - AOP;Cote de Beaune
+Chapelle-Chambertin;Chapelle-Chambertin;AOC - AOP;Côte de Nuits
+Charlemagne;Charlemagne;AOC - AOP;Côte de Beaune
+Charmes-Chambertin;Charmes-Chambertin;AOC - AOP;Côte de Nuits
+Chassagne-Montrachet;Chassagne-Montrachet;AOC - AOP;Côte de Beaune
 Chateau-Chalon;Château-Chalon;AOC - AOP;Jura
-Chateau-Grillet;Château-Grillet;AOC - AOP;Septentrionales
+Chateau-Grillet;Château-Grillet;AOC - AOP;Côtes du Rhône septentrionales
 Chateaumeillant;Châteaumeillant;AOC - AOP;Centre
-Chateauneuf-du-Pape;Châteauneuf-du-Pape;AOC - AOP;Meridionales
-Chatillon-en-Diois;Châtillon-en-Diois;AOC - AOP;Meridionales
+Chateauneuf-du-Pape;Châteauneuf-du-Pape;AOC - AOP;Côtes du Rhône meridionales
+Chatillon-en-Diois;Châtillon-en-Diois;AOC - AOP;Côtes du Rhône meridionales
 Chenas;Chénas;AOC - AOP;Beaujolais
-Chevalier-Montrachet;Chevalier-Montrachet;AOC - AOP;Cote de Beaune
-Cheverny;Cheverny;AOC - AOP;Touraine;
-Chinon;Chinon;AOC - AOP;Touraine;
+Chevalier-Montrachet;Chevalier-Montrachet;AOC - AOP;Côte de Beaune
+Cheverny;Cheverny;AOC - AOP;Touraine
+Chinon;Chinon;AOC - AOP;Touraine
 Chiroubles;Chiroubles;AOC - AOP;Beaujolais
-Chorey-les-Beaune;Chorey-lès-Beaune;AOC - AOP;Cote de Beaune
-Clairette-de-Bellegarde;Clairette de Bellegarde;AOC - AOP;Meridionales
-Clairette-de-Die;Clairette de Die;AOC - AOP;Meridionales
+Chorey-les-Beaune;Chorey-lès-Beaune;AOC - AOP;Côte de Beaune
+Clairette-de-Bellegarde;Clairette de Bellegarde;AOC - AOP;Côtes du Rhône meridionales
+Clairette-de-Die;Clairette de Die;AOC - AOP;Côtes du Rhône meridionales
 Clairette-du-Languedoc;Clairette du Languedoc;AOC - AOP;Languedoc
-Clos-de-la-Roche;Clos de la Roche;AOC - AOP;Cote de Nuits
-Clos-de-Tart;Clos de Tart;AOC - AOP;Cote de Nuits
-Clos-de-Vougeot-ou-Clos-Vougeot;Clos de Vougeot ou Clos Vougeot;AOC - AOP;Cote de Nuits
-Clos-des-Lambrays;Clos des Lambrays;AOC - AOP;Cote de Nuits
-Clos-Saint-Denis;Clos Saint-Denis;AOC - AOP;Cote de Nuits
+Clos-de-la-Roche;Clos de la Roche;AOC - AOP;Côte de Nuits
+Clos-de-Tart;Clos de Tart;AOC - AOP;Côte de Nuits
+Clos-de-Vougeot-ou-Clos-Vougeot;Clos de Vougeot ou Clos Vougeot;AOC - AOP;Côte de Nuits
+Clos-des-Lambrays;Clos des Lambrays;AOC - AOP;Côte de Nuits
+Clos-Saint-Denis;Clos Saint-Denis;AOC - AOP;Côte de Nuits
 Collioure;Collioure;AOC - AOP;Roussillon
-Condrieu;Condrieu;AOC - AOP;Septentrionales
+Condrieu;Condrieu;AOC - AOP;Côtes du Rhône septentrionales
 Corbieres;Corbières;AOC - AOP;Languedoc
 Corbieres-Boutenac;Corbières-Boutenac;AOC - AOP;Languedoc
-Cornas;Cornas;AOC - AOP;Septentrionales
-Corton;Corton;AOC - AOP;Cote de Beaune
-Corton-Charlemagne;Corton-Charlemagne;AOC - AOP;Cote de Beaune
-Costieres-de-Nîmes;Costières de Nîmes;AOC - AOP;Meridionales
-Cote-de-Beaune;Côte de Beaune;AOC - AOP;Cote de Beaune
-Cote-de-Beaune-Villages;Côte de Beaune-Villages;AOC - AOP;Cote de Beaune
+Cornas;Cornas;AOC - AOP;Côtes du Rhône septentrionales
+Corton;Corton;AOC - AOP;Côte de Beaune
+Corton-Charlemagne;Corton-Charlemagne;AOC - AOP;Côte de Beaune
+Costieres-de-Nîmes;Costières de Nîmes;AOC - AOP;Côtes du Rhône meridionales
+Cote-de-Beaune;Côte de Beaune;AOC - AOP;Côte de Beaune
+Cote-de-Beaune-Villages;Côte de Beaune-Villages;AOC - AOP;Côte de Beaune
 Cote-de-Brouilly;Côte de Brouilly;AOC - AOP;Beaujolais
-Cote-de-Nuits-Villages;Côte de Nuits-Villages;AOC - AOP;Cote de Nuits
+Cote-de-Nuits-Villages;Côte de Nuits-Villages;AOC - AOP;Côte de Nuits
 Cote-roannaise;Côte roannaise;AOC - AOP;Centre
-Cote-Rotie;Côte Rôtie;AOC - AOP;Septentrionales
+Cote-Rotie;Côte Rôtie;AOC - AOP;Côtes du Rhône septentrionales
 Coteaux-Bourguignons-ou-Bourgogne-grand-ordinaire-ou-Bourgogne-ordinaire;Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire;AOC - AOP;Bourgogne
 Coteaux-champenois;Coteaux champenois;AOC - AOP;Coteaux Champenois
 Coteaux-d-Aix-en-Provence;Coteaux d'Aix-en-Provence;AOC - AOP;Provence
-Coteaux-de-Die;Coteaux de Die;AOC - AOP;Meridionales
+Coteaux-de-Die;Coteaux de Die;AOC - AOP;Côtes du Rhône meridionales
 Coteaux-de-l-Aubance;Coteaux de l'Aubance;AOC - AOP;Anjou
 Coteaux-de-Saumur;Coteaux de Saumur;AOC - AOP;Saumurois
 Coteaux-du-Giennois;Coteaux du Giennois;AOC - AOP;Centre
 Coteaux-du-Layon;Coteaux du Layon;AOC - AOP;Anjou
 Coteaux-du-Loir;Coteaux du Loir;AOC - AOP;Anjou
 Coteaux-du-Lyonnais;Coteaux du Lyonnais;AOC - AOP;Bourgogne
-Coteaux-du-Quercy;Coteaux du Quercy;AOC - AOP;Piemont Massif Central
-Coteaux-du-Vendomois;Coteaux du Vendômois;AOC - AOP;Touraine;
+Coteaux-du-Quercy;Coteaux du Quercy;AOC - AOP;Piémont Massif Central
+Coteaux-du-Vendomois;Coteaux du Vendômois;AOC - AOP;Touraine
 Coteaux-d-Ancenis;Coteaux d'Ancenis;AOC - AOP;Anjou
 Coteaux-varois-en-Provence;Coteaux varois en Provence;AOC - AOP;Provence
 Cotes-d-Auvergne;Côtes d'Auvergne;AOC - AOP;Centre
 Cotes-de-Bergerac;Côtes de Bergerac;AOC - AOP;Bergeracois et Duras
-Cotes-de-Blaye;Côtes de Blaye;AOC - AOP;Rive droite
-Cotes-de-Bordeaux;Côtes de Bordeaux;AOC - AOP;Rive droite
+Cotes-de-Blaye;Côtes de Blaye;AOC - AOP;Bordeaux rive droite
+Cotes-de-Bordeaux;Côtes de Bordeaux;AOC - AOP;Bordeaux rive droite
 Cotes-de-Bordeaux-Saint-Macaire;Côtes de Bordeaux-Saint-Macaire;AOC - AOP;Entre-deux-mers
-Cotes-de-Bourg;-Bourg-et-Bourgeais;Côtes de Bourg; Bourg et Bourgeais;AOC - AOP;Rive droite
+Cotes-de-Bourg;Côtes de Bourg;AOC - AOP;Bordeaux rive droite
 Cotes-de-Duras;Côtes de Duras;AOC - AOP;Bergeracois et Duras
-Cotes-de-Millau;Côtes de Millau;AOC - AOP;Piemont Massif Central
+Cotes-de-Millau;Côtes de Millau;AOC - AOP;Piémont Massif Central
 Cotes-de-Montravel;Côtes de Montravel;AOC - AOP;Bergeracois et Duras
 Cotes-de-Provence;Côtes de Provence;AOC - AOP;Provence
 Cotes-de-Toul;Côtes de Toul;AOC - AOP;Loraine
 Cotes-du-Forez;Côtes du Forez;AOC - AOP;Centre
 Cotes-du-Jura;Côtes du Jura;AOC - AOP;Jura
 Cotes-du-Marmandais;Côtes du Marmandais;AOC - AOP;Bergeracois et Duras
-Cotes-du-Rhone;Côtes du Rhône;AOC - AOP;Cotes du Rhones
-Cotes-du-Rhone-Villages;Côtes du Rhône Villages;AOC - AOP;Meridionales
+Cotes-du-Rhone;Côtes du Rhône;AOC - AOP;Côtes du Rhône
+Cotes-du-Rhone-Villages;Côtes du Rhône Villages;AOC - AOP;Côtes du Rhône meridionales
 Cotes-du-Roussillon;Côtes du Roussillon;AOC - AOP;Roussillon
 Cotes-du-Roussillon-Villages;Côtes du Roussillon Villages;AOC - AOP;Roussillon
-Cotes-du-Vivarais;Côtes du Vivarais;AOC - AOP;Meridionales
+Cotes-du-Vivarais;Côtes du Vivarais;AOC - AOP;Côtes du Rhône meridionales
 Coulee-de-Serrant;Coulée de Serrant;AOC - AOP;Anjou
-Cour-Cheverny;Cour-Cheverny;AOC - AOP;Touraine;
+Cour-Cheverny;Cour-Cheverny;AOC - AOP;Touraine
 Cremant-de-Bordeaux;Crémant de Bordeaux;AOC - AOP;Bordeaux
 Cremant-de-Bourgogne;Crémant de Bourgogne;AOC - AOP;Bourgogne
-Cremant-de-Die;Crémant de Die;AOC - AOP;Meridionales
+Cremant-de-Die;Crémant de Die;AOC - AOP;Côtes du Rhône meridionales
 Cremant-de-Limoux;Crémant de Limoux;AOC - AOP;Languedoc
 Cremant-de-Loire;Crémant de Loire;AOC - AOP;Loire
 Cremant-du-Jura;Crémant du Jura;AOC - AOP;Jura
 Cremant-d’Alsace;Crémant d’Alsace;AOC - AOP;Alsace
-Criots-Batard-Montrachet;Criots-Bâtard-Montrachet;AOC - AOP;Cote de Beaune
-Crozes-Hermitage-ou-Crozes-Ermitage;Crozes-Hermitage ou Crozes-Ermitage;AOC - AOP;Septentrionales
+Criots-Batard-Montrachet;Criots-Bâtard-Montrachet;AOC - AOP;Côte de Beaune
+Crozes-Hermitage-ou-Crozes-Ermitage;Crozes-Hermitage ou Crozes-Ermitage;AOC - AOP;Côtes du Rhône septentrionales
 Duche-d-Uzes;Duché d'Uzès;AOC;Languedoc
-Echezeaux;Echezeaux;AOC - AOP;Cote de Nuits
-Entraygues---Le-Fel;Entraygues - Le Fel;AOC - AOP;Piemont Massif Central
+Echezeaux;Echezeaux;AOC - AOP;Côte de Nuits
+Entraygues---Le-Fel;Entraygues - Le Fel;AOC - AOP;Piémont Massif Central
 Entre-deux-Mers;Entre-deux-Mers;AOC - AOP;Entre-deux-mers
-Estaing;Estaing;AOC - AOP;Piemont Massif Central
+Estaing;Estaing;AOC - AOP;Piémont Massif Central
 Faugeres;Faugères;AOC - AOP;Languedoc
 Fiefs-Vendeens;Fiefs Vendéens;AOC - AOP;Pays Nantais
 Fitou;Fitou;AOC - AOP;Languedoc
-Fixin;Fixin;AOC - AOP;Cote de Nuits
+Fixin;Fixin;AOC - AOP;Côte de Nuits
 Fleurie;Fleurie;AOC - AOP;Beaujolais
-Floc-de-Gascogne;Floc de Gascogne;AOC - AOP;Piemont Pyreneen
-Fronsac;Fronsac;AOC - AOP;Rive droite
+Floc-de-Gascogne;Floc de Gascogne;AOC - AOP;Piémont Pyrénéen
+Fronsac;Fronsac;AOC - AOP;Bordeaux rive droite
 Fronton;Fronton;AOC - AOP;Moyenne Garonne
 Gaillac;Gaillac;AOC - AOP;Moyenne Garonne
 Gaillac-premieres-cotes;Gaillac premières côtes;AOC - AOP;Moyenne Garonne
-Gevrey-Chambertin;Gevrey-Chambertin;AOC - AOP;Cote de Nuits
-Gigondas;Gigondas;AOC - AOP;Meridionales
-Givry;Givry;AOC - AOP;Cote Chalonnaise
+Gevrey-Chambertin;Gevrey-Chambertin;AOC - AOP;Côte de Nuits
+Gigondas;Gigondas;AOC - AOP;Côtes du Rhône meridionales
+Givry;Givry;AOC - AOP;Côte Chalonnaise
 Grand-Roussillon;Grand Roussillon;AOC - AOP;Roussillon
-Grands-Echezeaux;Grands-Echezeaux;AOC - AOP;Cote de Nuits
+Grands-Echezeaux;Grands-Echezeaux;AOC - AOP;Côte de Nuits
 Graves;Graves;AOC - AOP;Entre-deux-mers
 Graves-de-Vayres;Graves de Vayres;AOC - AOP;Entre-deux-mers
 Graves-superieures;Graves supérieures;AOC - AOP;Graves
-Grignan-les-Adhemar;Grignan-les-Adhémar;AOC - AOP;Meridionales
-Griotte-Chambertin;Griotte-Chambertin;AOC - AOP;Cote de Nuits
+Grignan-les-Adhemar;Grignan-les-Adhémar;AOC - AOP;Côtes du Rhône meridionales
+Griotte-Chambertin;Griotte-Chambertin;AOC - AOP;Côte de Nuits
 Gros-Plant-du-Pays-Nantais;Gros Plant du Pays Nantais;AOC - AOP;Pays Nantais
-Haut-Medoc;Haut-Médoc;AOC - AOP;Medoc
+Haut-Médoc;Haut-Médoc;AOC - AOP;Médoc
 Haut-Montravel;Haut-Montravel;AOC - AOP;Bergeracois et Duras
-Haut-Poitou;Haut-Poitou;AOC - AOP;Touraine;
-Hermitage-ou-Ermitage-ou-l-Hermitage-ou-l-Ermitage;Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage;AOC - AOP;Septentrionales
+Haut-Poitou;Haut-Poitou;AOC - AOP;Touraine
+Hermitage-ou-Ermitage-ou-l-Hermitage-ou-l-Ermitage;Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage;AOC - AOP;Côtes du Rhône septentrionales
 Irancy;Irancy;AOC - AOP;Chablis
-Irouleguy;Irouléguy;AOC - AOP;Piemont Pyreneen
+Irouleguy;Irouléguy;AOC - AOP;Piémont Pyrénéen
 Jasnieres;Jasnières;AOC - AOP;Anjou
 Julienas;Juliénas;AOC - AOP;Beaujolais
-Jurancon;Jurançon;AOC - AOP;Piemont Pyreneen
+Jurancon;Jurançon;AOC - AOP;Piémont Pyrénéen
 La-Clape;La Clape;AOC - AOP;Languedoc
-La-Grande-Rue;La Grande Rue;AOC - AOP;Cote de Nuits
-La-Romanee;La Romanée;AOC - AOP;Cote de Nuits
-La-Tache;La Tâche;AOC - AOP;Cote de Nuits
-Ladoix;Ladoix;AOC - AOP;Cote de Beaune
-Lalande-de-Pomerol;Lalande-de-Pomerol;AOC - AOP;Rive droite
+La-Grande-Rue;La Grande Rue;AOC - AOP;Côte de Nuits
+La-Romanee;La Romanée;AOC - AOP;Côte de Nuits
+La-Tache;La Tâche;AOC - AOP;Côte de Nuits
+Ladoix;Ladoix;AOC - AOP;Côte de Beaune
+Lalande-de-Pomerol;Lalande-de-Pomerol;AOC - AOP;Bordeaux rive droite
 Languedoc;Languedoc;AOC - AOP;Languedoc
-Latricieres-Chambertin;Latricières-Chambertin;AOC - AOP;Cote de Nuits
+Latricieres-Chambertin;Latricières-Chambertin;AOC - AOP;Côte de Nuits
 Les-Baux-de-Provence;Les Baux de Provence;AOC - AOP;Provence
 Limoux;Limoux;AOC - AOP;Languedoc
-Lirac;Lirac;AOC - AOP;Meridionales
-Listrac-Medoc;Listrac-Médoc;AOC - AOP;Medoc
+Lirac;Lirac;AOC - AOP;Côtes du Rhône meridionales
+Listrac-Médoc;Listrac-Médoc;AOC - AOP;Médoc
 Loupiac;Loupiac;AOC - AOP;Entre-deux-mers
-Luberon;Luberon;AOC - AOP;Meridionales
-Lussac-Saint-Emilion;Lussac-Saint-Emilion;AOC - AOP;Rive droite
+Luberon;Luberon;AOC - AOP;Côtes du Rhône meridionales
+Lussac-Saint-Emilion;Lussac-Saint-Emilion;AOC - AOP;Bordeaux rive droite
 L-Etoile;L'Etoile;AOC - AOP;Jura
 Macon;Mâcon;AOC - AOP;Maconnais
 Macvin-du-Jura;Macvin du Jura;AOC - AOP;Jura
-Madiran;Madiran;AOC - AOP;Piemont Pyreneen
+Madiran;Madiran;AOC - AOP;Piémont Pyrénéen
 Malepere;Malepère;AOC - AOP;Languedoc
-Maranges;Maranges;AOC - AOP;Cote de Beaune
-Marcillac;Marcillac;AOC - AOP;Piemont Massif Central
-Margaux;Margaux;AOC - AOP;Medoc
-Marsannay;Marsannay;AOC - AOP;Cote de Nuits
+Maranges;Maranges;AOC - AOP;Côte de Beaune
+Marcillac;Marcillac;AOC - AOP;Piémont Massif Central
+Margaux;Margaux;AOC - AOP;Médoc
+Marsannay;Marsannay;AOC - AOP;Côte de Nuits
 Maury;Maury;AOC - AOP;Roussillon
-Mazis-Chambertin;Mazis-Chambertin;AOC - AOP;Cote de Nuits
-Mazoyeres-Chambertin;Mazoyères-Chambertin;AOC - AOP;Cote de Nuits
-Medoc;Médoc;AOC - AOP;Medoc
+Mazis-Chambertin;Mazis-Chambertin;AOC - AOP;Côte de Nuits
+Mazoyeres-Chambertin;Mazoyères-Chambertin;AOC - AOP;Côte de Nuits
+Médoc;Médoc;AOC - AOP;Médoc
 Menetou-Salon;Menetou-Salon;AOC - AOP;Centre
-Mercurey;Mercurey;AOC - AOP;Cote Chalonnaise
-Meursault;Meursault;AOC - AOP;Cote de Beaune
+Mercurey;Mercurey;AOC - AOP;Côte Chalonnaise
+Meursault;Meursault;AOC - AOP;Côte de Beaune
 Minervois;Minervois;AOC - AOP;Languedoc
 Minervois-La-Liviniere;Minervois-La Livinière;AOC - AOP;Languedoc
 Monbazillac;Monbazillac;AOC - AOP;Bergeracois et Duras
-Montagne-Saint-Emilion;Montagne-Saint-Emilion;AOC - AOP;Rive droite
-Montagny;Montagny;AOC - AOP;Cote Chalonnaise
-Monthelie;Monthélie;AOC - AOP;Cote de Beaune
-Montlouis-sur-Loire;Montlouis-sur-Loire;AOC - AOP;Touraine;
-Montrachet;Montrachet;AOC - AOP;Cote de Beaune
+Montagne-Saint-Emilion;Montagne-Saint-Emilion;AOC - AOP;Bordeaux rive droite
+Montagny;Montagny;AOC - AOP;Côte Chalonnaise
+Monthelie;Monthélie;AOC - AOP;Côte de Beaune
+Montlouis-sur-Loire;Montlouis-sur-Loire;AOC - AOP;Touraine
+Montrachet;Montrachet;AOC - AOP;Côte de Beaune
 Montravel;Montravel;AOC - AOP;Bergeracois et Duras
-Morey-Saint-Denis;Morey-Saint-Denis;AOC - AOP;Cote de Nuits
+Morey-Saint-Denis;Morey-Saint-Denis;AOC - AOP;Côte de Nuits
 Morgon;Morgon;AOC - AOP;Beaujolais
 Moselle;Moselle;AOC - AOP;Loraine
 Moulin-à-Vent;Moulin-à-Vent;AOC - AOP;Beaujolais
-Moulis-ou-Moulis-en-Medoc;Moulis ou Moulis-en-Médoc;AOC - AOP;Medoc
+Moulis-ou-Moulis-en-Médoc;Moulis ou Moulis-en-Médoc;AOC - AOP;Médoc
 Muscadet;Muscadet;AOC - AOP;Pays Nantais
 Muscadet-Coteaux-de-la-Loire;Muscadet Coteaux de la Loire;AOC - AOP;Pays Nantais
 Muscadet-Cotes-de-Grandlieu;Muscadet Côtes de Grandlieu;AOC - AOP;Pays Nantais
 Muscadet-Sevre-et-Maine;Muscadet Sèvre et Maine;AOC - AOP;Pays Nantais
-Muscat-de-Beaumes-de-Venise;Muscat de Beaumes-de-Venise;AOC - AOP;Meridionales
+Muscat-de-Beaumes-de-Venise;Muscat de Beaumes-de-Venise;AOC - AOP;Côtes du Rhône meridionales
 Muscat-de-Frontignan-ou-Frontignan-ou-Vin-de-Frontignan;Muscat de Frontignan ou Frontignan ou Vin de Frontignan;AOC - AOP;Languedoc
 Muscat-de-Lunel;Muscat de Lunel;AOC - AOP;Languedoc
 Muscat-de-Mireval;Muscat de Mireval;AOC - AOP;Languedoc
 Muscat-de-Rivesaltes;Muscat de Rivesaltes;AOC - AOP;Roussillon
 Muscat-de-Saint-Jean-de-Minervois;Muscat de Saint-Jean-de-Minervois;AOC - AOP;Languedoc
 Muscat-du-Cap-Corse;Muscat du Cap Corse;AOC - AOP;Corse
-Musigny;Musigny;AOC - AOP;Cote de Nuits
-Nuits-Saint-Georges;Nuits-Saint-Georges;AOC - AOP;Cote de Nuits
+Musigny;Musigny;AOC - AOP;Côte de Nuits
+Nuits-Saint-Georges;Nuits-Saint-Georges;AOC - AOP;Côte de Nuits
 Orleans;Orléans;AOC - AOP;Orleanais
 Orleans-Clery;Orléans-Cléry;AOC - AOP;Orleanais
-Pacherenc-du-Vic-Bilh;Pacherenc du Vic-Bilh;AOC - AOP;Piemont Pyreneen
+Pacherenc-du-Vic-Bilh;Pacherenc du Vic-Bilh;AOC - AOP;Piémont Pyrénéen
 Palette;Palette;AOC - AOP;Provence
 Patrimonio;Patrimonio;AOC - AOP;Corse
-Pauillac;Pauillac;AOC - AOP;Medoc
+Pauillac;Pauillac;AOC - AOP;Médoc
 Pecharmant;Pécharmant;AOC - AOP;Bergeracois et Duras
-Pernand-Vergelesses;Pernand-Vergelesses;AOC - AOP;Cote de Beaune
+Pernand-Vergelesses;Pernand-Vergelesses;AOC - AOP;Côte de Beaune
 Pessac-Leognan;Pessac-Léognan;AOC - AOP;Graves
 Petit-Chablis;Petit Chablis;AOC - AOP;Chablis
 Pic-Saint-Loup;Pic Saint-Loup;AOC - AOP;Languedoc
 Picpoul-de-Pinet;Picpoul de Pinet;AOC;Languedoc
 Pierrevert;Pierrevert;AOC - AOP;Provence
-Pineau-des-Charentes-ou-Pineau-Charentais;Pineau des Charentes ou Pineau Charentais;AOC - AOP;Poitoux-Charentes
-Pomerol;Pomerol;AOC - AOP;Rive droite
-Pommard;Pommard;AOC - AOP;Cote de Beaune
+Pineau-des-Charentes-ou-Pineau-Charentais;Pineau des Charentes ou Pineau Charentais;AOC - AOP;Poitou-Charentes
+Pomerol;Pomerol;AOC - AOP;Bordeaux rive droite
+Pommard;Pommard;AOC - AOP;Côte de Beaune
 Pouilly-Fuisse;Pouilly-Fuissé;AOC - AOP;Maconnais
 Pouilly-Fume-ou-Blanc-Fume-de-Pouilly;Pouilly-Fumé ou Blanc Fumé de Pouilly;AOC - AOP;Centre
 Pouilly-Loche;Pouilly-Loché;AOC - AOP;Maconnais
 Pouilly-sur-Loire;Pouilly-sur-Loire;AOC - AOP;Centre
 Pouilly-Vinzelles;Pouilly-Vinzelles;AOC - AOP;Maconnais
 Premieres-Cotes-de-Bordeaux;Premières Côtes de Bordeaux;AOC - AOP;Entre-deux-mers
-Puisseguin-Saint-Emilion;Puisseguin-Saint-Emilion;AOC - AOP;Rive droite
-Puligny-Montrachet;Puligny-Montrachet;AOC - AOP;Cote de Beaune
+Puisseguin-Saint-Emilion;Puisseguin-Saint-Emilion;AOC - AOP;Bordeaux rive droite
+Puligny-Montrachet;Puligny-Montrachet;AOC - AOP;Côte de Beaune
 Quarts-de-Chaume;Quarts de Chaume;AOC - AOP;Anjou
 Quincy;Quincy;AOC - AOP;Centre
-Rasteau;Rasteau;AOC - AOP;Meridionales
+Rasteau;Rasteau;AOC - AOP;Côtes du Rhône meridionales
 Regnie;Régnié;AOC - AOP;Beaujolais
 Reuilly;Reuilly;AOC - AOP;Centre
-Richebourg;Richebourg;AOC - AOP;Cote de Nuits
+Richebourg;Richebourg;AOC - AOP;Côte de Nuits
 Rivesaltes;Rivesaltes;AOC - AOP;Roussillon
-Romanee-Conti;Romanée-Conti;AOC - AOP;Cote de Nuits
-Romanee-Saint-Vivant;Romanée-Saint-Vivant;AOC - AOP;Cote de Nuits
+Romanee-Conti;Romanée-Conti;AOC - AOP;Côte de Nuits
+Romanee-Saint-Vivant;Romanée-Saint-Vivant;AOC - AOP;Côte de Nuits
 Rose-de-Loire;Rosé de Loire;AOC - AOP;Loire
 Rose-des-Riceys;Rosé des Riceys;AOC - AOP;Rose des Riceys
 Rose-d-Anjou;Rosé d'Anjou;AOC - AOP;Anjou
 Rosette;Rosette;AOC - AOP;Bergeracois et Duras
 Roussette-de-Savoie;Roussette de Savoie;AOC - AOP;Savoie
 Roussette-du-Bugey;Roussette du Bugey;AOC - AOP;Bugey
-Ruchottes-Chambertin;Ruchottes-Chambertin;AOC - AOP;Cote de Nuits
-Rully;Rully;AOC - AOP;Cote Chalonnaise
+Ruchottes-Chambertin;Ruchottes-Chambertin;AOC - AOP;Côte de Nuits
+Rully;Rully;AOC - AOP;Côte Chalonnaise
 Saint-Amour;Saint-Amour;AOC - AOP;Beaujolais
-Saint-Aubin;Saint-Aubin;AOC - AOP;Cote de Beaune
+Saint-Aubin;Saint-Aubin;AOC - AOP;Côte de Beaune
 Saint-Bris;Saint-Bris;AOC - AOP;Chablis
 Saint-Chinian;Saint-Chinian;AOC - AOP;Languedoc
-Saint-Emilion;Saint-Emilion;AOC - AOP;Rive droite
-Saint-Emilion-grand-cru;Saint-Emilion grand cru;AOC - AOP;Rive droite
-Saint-Estephe;Saint-Estèphe;AOC - AOP;Medoc
-Saint-Georges-Saint-Emilion;Saint-Georges-Saint-Emilion;AOC - AOP;Rive droite
-Saint-Joseph;Saint-Joseph;AOC - AOP;Septentrionales
-Saint-Julien;Saint-Julien;AOC - AOP;Medoc
-Saint-Mont;Saint-Mont;AOC - AOP;Piemont Pyreneen
-Saint-Nicolas-de-Bourgueil;Saint-Nicolas-de-Bourgueil;AOC - AOP;Touraine;
-Saint-Peray;Saint-Péray;AOC - AOP;Septentrionales
+Saint-Emilion;Saint-Emilion;AOC - AOP;Bordeaux rive droite
+Saint-Emilion-grand-cru;Saint-Emilion grand cru;AOC - AOP;Bordeaux rive droite
+Saint-Estephe;Saint-Estèphe;AOC - AOP;Médoc
+Saint-Georges-Saint-Emilion;Saint-Georges-Saint-Emilion;AOC - AOP;Bordeaux rive droite
+Saint-Joseph;Saint-Joseph;AOC - AOP;Côtes du Rhône septentrionales
+Saint-Julien;Saint-Julien;AOC - AOP;Médoc
+Saint-Mont;Saint-Mont;AOC - AOP;Piémont Pyrénéen
+Saint-Nicolas-de-Bourgueil;Saint-Nicolas-de-Bourgueil;AOC - AOP;Touraine
+Saint-Peray;Saint-Péray;AOC - AOP;Côtes du Rhône septentrionales
 Saint-Pourcain;Saint-Pourçain;AOC - AOP;Centre
-Saint-Romain;Saint-Romain;AOC - AOP;Cote de Beaune
+Saint-Romain;Saint-Romain;AOC - AOP;Côte de Beaune
 Saint-Sardos;Saint-Sardos;AOC - AOP;Sud-Ouest
 Saint-Veran;Saint-Véran;AOC - AOP;Maconnais
 Sainte-Croix-du-Mont;Sainte-Croix-du-Mont;AOC - AOP;Entre-deux-mers
 Sainte-Foy-Bordeaux;Sainte-Foy-Bordeaux;AOC - AOP;Entre-deux-mers
 Sancerre;Sancerre;AOC - AOP;Centre
-Santenay;Santenay;AOC - AOP;Cote de Beaune
+Santenay;Santenay;AOC - AOP;Côte de Beaune
 Saumur;Saumur;AOC - AOP;Saumurois
 Saumur;Saumur;AOC;Saumurois
 Saumur-Champigny;Saumur-Champigny;AOC - AOP;Saumurois
@@ -294,40 +294,39 @@ Saussignac;Saussignac;AOC - AOP;Bergeracois et Duras
 Sauternes;Sauternes;AOC - AOP;Sauternais
 Savennieres;Savennières;AOC - AOP;Anjou
 Savennieres-Roche-aux-Moines;Savennières Roche aux Moines;AOC - AOP;Anjou
-Savigny-les-Beaune;Savigny-lès-Beaune;AOC - AOP;Cote de Beaune
+Savigny-les-Beaune;Savigny-lès-Beaune;AOC - AOP;Côte de Beaune
 Seyssel;Seyssel;AOC - AOP;Savoie
-Tavel;Tavel;AOC - AOP;Meridionales
+Tavel;Tavel;AOC - AOP;Côtes du Rhône meridionales
 Terrasses-du-Larzac;Terrasses du Larzac;AOC - AOP;Languedoc
-Touraine;Touraine;AOC - AOP;Touraine;
-Touraine-Noble-Joue;Touraine Noble Joué;AOC - AOP;Touraine;
-Tursan;Tursan;AOC - AOP;Piemont Pyreneen
-Vacqueyras;Vacqueyras;AOC - AOP;Meridionales
-Valencay;Valençay;AOC - AOP;Touraine;
-Ventoux;Ventoux;AOC - AOP;Meridionales
+TouraineTouraineAOC - AOP;Touraine
+Touraine-Noble-Joue;Touraine Noble Joué;AOC - AOP;Touraine
+Tursan;Tursan;AOC - AOP;Piémont Pyrénéen
+Vacqueyras;Vacqueyras;AOC - AOP;Côtes du Rhône meridionales
+Valencay;Valençay;AOC - AOP;Touraine
+Ventoux;Ventoux;AOC - AOP;Côtes du Rhône meridionales
 Vin-de-Corse-ou-Corse;Vin de Corse ou Corse;AOC - AOP;Corse
 Vin-de-Savoie-ou-Savoie;Vin de Savoie ou Savoie;AOC - AOP;Savoie
-Vinsobres;Vinsobres;AOC - AOP;Meridionales
+Vinsobres;Vinsobres;AOC - AOP;Côtes du Rhône meridionales
 Vire-Clesse;Viré-Clessé;AOC - AOP;Maconnais
-Volnay;Volnay;AOC - AOP;Cote de Beaune
-Vosne-Romanee;Vosne-Romanée;AOC - AOP;Cote de Nuits
-Vougeot;Vougeot;AOC - AOP;Cote de Nuits
-Vouvray;Vouvray;AOC - AOP;Touraine;
+Volnay;Volnay;AOC - AOP;Côte de Beaune
+Vosne-Romanee;Vosne-Romanée;AOC - AOP;Côte de Nuits
+Vougeot;Vougeot;AOC - AOP;Côte de Nuits
+Vouvray;Vouvray;AOC - AOP;Touraine
 Agenais;Agenais;IPG;Sud-Ouest
 Alpes-de-Haute-Provence;Alpes-de-Haute-Provence;IPG;Provence
 Alpes-Maritimes;Alpes-Maritimes;IPG;Provence
 Alpilles;Alpilles;IPG;Provence
-Ardeche;Ardèche;IPG;Cotes du Rhones
+Ardeche;Ardèche;IPG;Côtes du Rhône
 Ariege;Ariège;IPG;Sud-Ouest
 Atlantique;Atlantique;IPG;Loire
 Aude;Aude;IPG;Languedoc
 Aveyron;Aveyron;IPG;Sud-Ouest
-Calvados;Calvados;IPG;Calvados
-Cevennes;Cévennes;IPG;Cotes du Rhones
+Cevennes;Cévennes;IPG;Côtes du Rhône
 Charentais;Charentais;IPG;Poitou-Charentes
 Cite-de-Carcassonne;Cité de Carcassonne;IPG;Languedoc
-Collines-Rhodaniennes;Collines Rhodaniennes;IPG;Cotes du Rhones
+Collines-Rhodaniennes;Collines Rhodaniennes;IPG;Côtes du Rhône
 Comte-Tolosan;Comté Tolosan;IPG;Sud-Ouest
-Comtes-Rhodaniens;Comtés Rhodaniens;IPG;Cotes du Rhones
+Comtes-Rhodaniens;Comtés Rhodaniens;IPG;Côtes du Rhône
 Cote-Vermeille;Côte Vermeille;IPG;Roussillon
 Coteaux-d-Enserune;Coteaux d'Ensérune;IPG;Languedoc
 Coteaux-de-Beziers;Coteaux de Béziers;IPG;Languedoc
@@ -338,7 +337,7 @@ Coteaux-de-l-Auxois;Coteaux de l'Auxois;IPG;Bourgogne
 Coteaux-de-Narbonne;Coteaux de Narbonne;IPG;Languedoc
 Coteaux-de-Peyriac;Coteaux de Peyriac;IPG;Languedoc
 Coteaux-de-Tannay;Coteaux de Tannay;IPG;Loire
-Coteaux-des-Baronnies;Coteaux des Baronnies;IPG;Cotes du Rhones
+Coteaux-des-Baronnies;Coteaux des Baronnies;IPG;Côtes du Rhône
 Coteaux-du-Cher-et-de-l-Arnon;Coteaux du Cher et de l'Arnon;IPG;Loire
 Coteaux-du-Pont-du-Gard;Coteaux du Pont du Gard;IPG;Languedoc
 Cotes-Catalanes;Côtes Catalanes;IPG;Roussillon
@@ -349,9 +348,9 @@ Cotes-de-Thau;Côtes de Thau;IPG;Languedoc
 Cotes-de-Thongue;Côtes de Thongue;IPG;Languedoc
 Cotes-du-Lot;Côtes du Lot;IPG;Sud-Ouest
 Cotes-du-Tarn;Côtes du Tarn;IPG;Sud-Ouest
-Drome;Drôme;IPG;Cotes du Rhones
+Drome;Drôme;IPG;Côtes du Rhône
 Franche-Comte;Franche-Comté;IPG;Jura
-Gard;Gard;IPG;Meridionales
+Gard;Gard;IPG;Côtes du Rhône meridionales
 Gers;Gers;IPG;Sud-Ouest
 Haute-Vallee-de-l-Aude;Haute Vallée de l'Aude;IPG;Languedoc
 Haute-Vallee-de-l-Orb;Haute Vallée de l'Orb;IPG;Languedoc
@@ -359,7 +358,7 @@ Haute-Marne;Haute-Marne;IPG;Champagne
 Haute-Vienne;Haute-Vienne;IPG;Loire
 Hautes-Alpes;Hautes-Alpes;IPG;Provence
 Ile-de-Beaute;Ile de Beauté;IPG;Corse
-Isere;Isère;IPG;Cotes du Rhones
+Isere;Isère;IPG;Côtes du Rhône
 Landes;Landes;IPG;Sud-Ouest
 Lavilledieu;Lavilledieu;IPG;Moyenne Garonne
 Le-Pays-Cathare;Le Pays Cathare;IPG;Languedoc
@@ -380,8 +379,8 @@ Urfe;Urfé;IPG;Loire
 Val-de-Loire;Val de Loire;IPG;Loire
 Vallee-du-Paradis;Vallée du Paradis;IPG;Languedoc
 Vallee-du-Torgan;Vallée du Torgan;IPG;Languedoc
-Var;Var;IPG;Meridionales
-Vaucluse;Vaucluse;IPG;Cotes du Rhones
+Var;Var;IPG;Côtes du Rhône meridionales
+Vaucluse;Vaucluse;IPG;Côtes du Rhône
 Vicomte-d-Aumelas;Vicomté d'Aumelas;IPG;Languedoc
 Vin-des-Allobroges;Vin des Allobroges;IPG;Savoie
 Vins-de-la-Correze;Vins de la Corrèze;IPG;Centre

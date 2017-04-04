@@ -9,8 +9,8 @@ Touraine;Loire
 Orleanais;Loire
 Centre;Loire
 Bordeaux;NA
-Rive droite;Bordeaux
-Medoc;Bordeaux
+Bordeaux rive droite;Bordeaux
+Médoc;Bordeaux
 Entre-deux-mers;Bordeaux
 Graves;Bordeaux
 Sauternais;Bordeaux
@@ -26,14 +26,14 @@ Coteaux Champenois;Champagne
 Rose des Riceys;Champagne
 Bourgogne;NA
 Chablis;Bourgogne
-Cote Chalonnaise;Bourgogne
-Cote de Beaune;Bourgogne
-Cote de Nuits;Bourgogne
+Côte Chalonnaise;Bourgogne
+Côte de Beaune;Bourgogne
+Côte de Nuits;Bourgogne
 Maconnais;Bourgogne
 Beaujolais;Bourgogne
-Cotes du Rhônes;NA
-Septentrionales;Cotes du Rhônes
-Meridionales;Cotes du Rhônes
+Côtes du Rhône;NA
+Côtes du Rhône septentrionales;Côtes du Rhône
+Côtes du Rhône meridionales;Côtes du Rhône
 Provence;NA
 Languedoc;NA
 Roussillon;NA
