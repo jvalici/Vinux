@@ -134,7 +134,7 @@ Criots-Batard-Montrachet;Criots-Bâtard-Montrachet;AOC - AOP;Côte de Beaune
 Crozes-Hermitage-ou-Crozes-Ermitage;Crozes-Hermitage ou Crozes-Ermitage;AOC - AOP;Côtes du Rhône septentrionales
 Duche-d-Uzes;Duché d'Uzès;AOC;Languedoc
 Echezeaux;Echezeaux;AOC - AOP;Côte de Nuits
-Entraygues---Le-Fel;Entraygues - Le Fel;AOC - AOP;Piémont Massif Central
+Entraygues---Fel;Entraygues - le Fel;AOC - AOP;Piémont Massif Central
 Entre-deux-Mers;Entre-deux-Mers;AOC - AOP;Entre-deux-mers
 Estaing;Estaing;AOC - AOP;Piémont Massif Central
 Faugeres;Faugères;AOC - AOP;Languedoc
@@ -312,76 +312,78 @@ Volnay;Volnay;AOC - AOP;Côte de Beaune
 Vosne-Romanee;Vosne-Romanée;AOC - AOP;Côte de Nuits
 Vougeot;Vougeot;AOC - AOP;Côte de Nuits
 Vouvray;Vouvray;AOC - AOP;Touraine
-Agenais;Agenais;IPG;Sud-Ouest
-Alpes-de-Haute-Provence;Alpes-de-Haute-Provence;IPG;Provence
-Alpes-Maritimes;Alpes-Maritimes;IPG;Provence
-Alpilles;Alpilles;IPG;Provence
-Ardeche;Ardèche;IPG;Côtes du Rhône
-Ariege;Ariège;IPG;Sud-Ouest
-Atlantique;Atlantique;IPG;Loire
-Aude;Aude;IPG;Languedoc
-Aveyron;Aveyron;IPG;Sud-Ouest
-Cevennes;Cévennes;IPG;Côtes du Rhône
-Charentais;Charentais;IPG;Poitou-Charentes
-Cite-de-Carcassonne;Cité de Carcassonne;IPG;Languedoc
-Collines-Rhodaniennes;Collines Rhodaniennes;IPG;Côtes du Rhône
-Comte-Tolosan;Comté Tolosan;IPG;Sud-Ouest
-Comtes-Rhodaniens;Comtés Rhodaniens;IPG;Côtes du Rhône
-Cote-Vermeille;Côte Vermeille;IPG;Roussillon
-Coteaux-d-Enserune;Coteaux d'Ensérune;IPG;Languedoc
-Coteaux-de-Beziers;Coteaux de Béziers;IPG;Languedoc
-Coteaux-de-Coiffy;Coteaux de Coiffy;IPG;Loraine
-Coteaux-de-Glanes;Coteaux de Glanes;IPG;Sud-Ouest
-Coteaux-de-l-Ain;Coteaux de l'Ain;IPG;Savoie et Bugey
-Coteaux-de-l-Auxois;Coteaux de l'Auxois;IPG;Bourgogne
-Coteaux-de-Narbonne;Coteaux de Narbonne;IPG;Languedoc
-Coteaux-de-Peyriac;Coteaux de Peyriac;IPG;Languedoc
-Coteaux-de-Tannay;Coteaux de Tannay;IPG;Loire
-Coteaux-des-Baronnies;Coteaux des Baronnies;IPG;Côtes du Rhône
-Coteaux-du-Cher-et-de-l-Arnon;Coteaux du Cher et de l'Arnon;IPG;Loire
-Coteaux-du-Pont-du-Gard;Coteaux du Pont du Gard;IPG;Languedoc
-Cotes-Catalanes;Côtes Catalanes;IPG;Roussillon
-Cotes-de-Gascogne;Côtes de Gascogne;IPG;Sud-Ouest
-Cotes-de-la-Charite;Côtes de la Charité;IPG;Centre
-Cotes-de-Meuse;Côtes de Meuse;IPG;Loraine
-Cotes-de-Thau;Côtes de Thau;IPG;Languedoc
-Cotes-de-Thongue;Côtes de Thongue;IPG;Languedoc
-Cotes-du-Lot;Côtes du Lot;IPG;Sud-Ouest
-Cotes-du-Tarn;Côtes du Tarn;IPG;Sud-Ouest
-Drome;Drôme;IPG;Côtes du Rhône
-Franche-Comte;Franche-Comté;IPG;Jura
-Gard;Gard;IPG;Côtes du Rhône meridionales
-Gers;Gers;IPG;Sud-Ouest
-Haute-Vallee-de-l-Aude;Haute Vallée de l'Aude;IPG;Languedoc
-Haute-Vallee-de-l-Orb;Haute Vallée de l'Orb;IPG;Languedoc
-Haute-Marne;Haute-Marne;IPG;Champagne
-Haute-Vienne;Haute-Vienne;IPG;Loire
-Hautes-Alpes;Hautes-Alpes;IPG;Provence
-Ile-de-Beaute;Ile de Beauté;IPG;Corse
-Isere;Isère;IPG;Côtes du Rhône
-Landes;Landes;IPG;Sud-Ouest
-Lavilledieu;Lavilledieu;IPG;Moyenne Garonne
-Le-Pays-Cathare;Le Pays Cathare;IPG;Languedoc
-Maures;Maures;IPG;Provence
-Mediterranee;Méditerranée;IPG;Provence
-Mont-Caume;Mont Caume;IPG;Provence
-Pays-d-Herault;Pays d'Hérault;IPG;Languedoc
-Pays-d-Oc;Pays d'Oc;IPG;Languedoc
-Pays-des-Bouches-du-Rhone;Pays des Bouches-du-Rhône;IPG;Provence
-Perigord;Périgord;IPG;Sud-Ouest
-Puy-de-Dome;Puy-de-Dôme;IPG;Loire
-Sable-de-Camargue;Sable de Camargue;IPG;Languedoc
-Saint-Guilhem-le-Desert;Saint-Guilhem-le-Désert;IPG;Languedoc
-Sainte-Marie-la-Blanche;Sainte-Marie-la-Blanche;IPG;Bourgogne
-Saone-et-Loire;Saône-et-Loire;IPG;Bourgogne
-Thezac-Perricard;Thézac-Perricard;IPG;Sud-Ouest
-Urfe;Urfé;IPG;Loire
-Val-de-Loire;Val de Loire;IPG;Loire
-Vallee-du-Paradis;Vallée du Paradis;IPG;Languedoc
-Vallee-du-Torgan;Vallée du Torgan;IPG;Languedoc
-Var;Var;IPG;Côtes du Rhône meridionales
-Vaucluse;Vaucluse;IPG;Côtes du Rhône
-Vicomte-d-Aumelas;Vicomté d'Aumelas;IPG;Languedoc
-Vin-des-Allobroges;Vin des Allobroges;IPG;Savoie
-Vins-de-la-Correze;Vins de la Corrèze;IPG;Centre
-Yonne;Yonne;IPG;Bourgogne
+Agenais;Agenais;IGP;Sud-Ouest
+Alpes-de-Haute-Provence;Alpes-de-Haute-Provence;IGP;Provence
+Alpes-Maritimes;Alpes-Maritimes;IGP;Provence
+Alpilles;Alpilles;IGP;Provence
+Ardeche;Ardèche;IGP;Côtes du Rhône
+Ariege;Ariège;IGP;Sud-Ouest
+Atlantique;Atlantique;IGP;Loire
+Aude;Aude;IGP;Languedoc
+Aveyron;Aveyron;IGP;Sud-Ouest
+Cevennes;Cévennes;IGP;Côtes du Rhône
+Charentais;Charentais;IGP;Poitou-Charentes
+Cite-de-Carcassonne;Cité de Carcassonne;IGP;Languedoc
+Collines-Rhodaniennes;Collines Rhodaniennes;IGP;Côtes du Rhône
+Comte-Tolosan;Comté Tolosan;IGP;Sud-Ouest
+Comtes-Rhodaniens;Comtés Rhodaniens;IGP;Côtes du Rhône
+Cote-Vermeille;Côte Vermeille;IGP;Roussillon
+Coteaux-d-Enserune;Coteaux d'Ensérune;IGP;Languedoc
+Coteaux-de-Beziers;Coteaux de Béziers;IGP;Languedoc
+Coteaux-du-Libron;Coteaux du Libron;IGP;Languedoc
+Coteaux-de-Coiffy;Coteaux de Coiffy;IGP;Loraine
+Coteaux-de-Glanes;Coteaux de Glanes;IGP;Sud-Ouest
+Coteaux-de-l-Ain;Coteaux de l'Ain;IGP;Savoie et Bugey
+Coteaux-de-l-Auxois;Coteaux de l'Auxois;IGP;Bourgogne
+Coteaux-de-Narbonne;Coteaux de Narbonne;IGP;Languedoc
+Coteaux-de-Peyriac;Coteaux de Peyriac;IGP;Languedoc
+Coteaux-de-Tannay;Coteaux de Tannay;IGP;Loire
+Coteaux-des-Baronnies;Coteaux des Baronnies;IGP;Côtes du Rhône
+Coteaux-du-Cher-et-de-l-Arnon;Coteaux du Cher et de l'Arnon;IGP;Loire
+Coteaux-du-Pont-du-Gard;Coteaux du Pont du Gard;IGP;Languedoc
+Cotes-Catalanes;Côtes Catalanes;IGP;Roussillon
+Cotes-de-Gascogne;Côtes de Gascogne;IGP;Sud-Ouest
+Cotes-de-la-Charite;Côtes de la Charité;IGP;Centre
+Cotes-de-Meuse;Côtes de Meuse;IGP;Loraine
+Cotes-de-Thau;Côtes de Thau;IGP;Languedoc
+Cotes-de-Thongue;Côtes de Thongue;IGP;Languedoc
+Cotes-du-Lot;Côtes du Lot;IGP;Sud-Ouest
+Lot-et-Garonne;Lot-et-Garonne;IGP;Sud-Ouest
+Cotes-du-Tarn;Côtes du Tarn;IGP;Sud-Ouest
+Drome;Drôme;IGP;Côtes du Rhône
+Franche-Comte;Franche-Comté;IGP;Jura
+Gard;Gard;IGP;Côtes du Rhône meridionales
+Gers;Gers;IGP;Sud-Ouest
+Haute-Vallee-de-l-Aude;Haute Vallée de l'Aude;IGP;Languedoc
+Haute-Vallee-de-l-Orb;Haute Vallée de l'Orb;IGP;Languedoc
+Haute-Marne;Haute-Marne;IGP;Champagne
+Haute-Vienne;Haute-Vienne;IGP;Loire
+Hautes-Alpes;Hautes-Alpes;IGP;Provence
+Ile-de-Beaute;Ile de Beauté;IGP;Corse
+Isere;Isère;IGP;Côtes du Rhône
+Landes;Landes;IGP;Sud-Ouest
+Lavilledieu;Lavilledieu;IGP;Moyenne Garonne
+Le-Pays-Cathare;Le Pays Cathare;IGP;Languedoc
+Maures;Maures;IGP;Provence
+Mediterranee;Méditerranée;IGP;Provence
+Mont-Caume;Mont Caume;IGP;Provence
+Pays-d-Herault;Pays d'Hérault;IGP;Languedoc
+Pays-d-Oc;Pays d'Oc;IGP;Languedoc
+Pays-des-Bouches-du-Rhone;Pays des Bouches-du-Rhône;IGP;Provence
+Perigord;Périgord;IGP;Sud-Ouest
+Puy-de-Dome;Puy-de-Dôme;IGP;Loire
+Sable-de-Camargue;Sable de Camargue;IGP;Languedoc
+Saint-Guilhem-le-Desert;Saint-Guilhem-le-Désert;IGP;Languedoc
+Sainte-Marie-la-Blanche;Sainte-Marie-la-Blanche;IGP;Bourgogne
+Saone-et-Loire;Saône-et-Loire;IGP;Bourgogne
+Thezac-Perricard;Thézac-Perricard;IGP;Sud-Ouest
+Urfe;Urfé;IGP;Loire
+Val-de-Loire;Val de Loire;IGP;Loire
+Vallee-du-Paradis;Vallée du Paradis;IGP;Languedoc
+Vallee-du-Torgan;Vallée du Torgan;IGP;Languedoc
+Var;Var;IGP;Côtes du Rhône meridionales
+Vaucluse;Vaucluse;IGP;Côtes du Rhône
+Vicomte-d-Aumelas;Vicomté d'Aumelas;IGP;Languedoc
+Vin-des-Allobroges;Vin des Allobroges;IGP;Savoie
+Correze;Corrèze;IGP;Centre
+Yonne;Yonne;IGP;Bourgogne
