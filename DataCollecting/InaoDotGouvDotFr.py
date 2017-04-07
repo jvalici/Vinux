@@ -1,5 +1,13 @@
 import urllib3
-import os, shutil
+import os
+import re
+
+def remove_special_chars(the_str):
+    tmp = the_str.replace('\u00e0', 'a').replace('\u00e2', 'a').replace('\u00e4', 'a').replace('\u00e7', 'c')
+    tmp = tmp.replace('\u00e8', 'e').replace('\u00e9', 'e').replace('\u00ea', 'e').replace('\u00eb', 'e')
+    tmp = tmp.replace('\u00ee', 'i').replace('\u00ef', 'i').replace('\u00f4', 'o').replace('\u00f6', 'o')
+    tmp = tmp.replace('\u00f9', 'u').replace('\u00fb', 'u').replace('\u00fc', 'u')
+    return tmp
 
 def browse_inao_dot_gouv_dot_fr():
     base_url = 'http://www.inao.gouv.fr/produit/'
@@ -63,20 +71,33 @@ def browse_inao_dot_gouv_dot_fr():
             out_file.close()
     all_out_file.close()
     
+
 def clean_denominations():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    denom_in_path = os.path.join(dir_path, 'denominations_inao_all.txt')
+    denom_in_path = os.path.join(dir_path, 'denominations_inao.txt')
     denom_in =  open(denom_in_path, "r")
-    denoms_out_path = os.path.join(dir_path, 'denominations_inao_all_cleaned.txt')
+    denoms_out_path = os.path.join(dir_path, 'denominations_inao_cleaned.txt')
     denom_out = open(denoms_out_path, "w")
-    prev = ''
+    errors_path = os.path.join(dir_path, 'denominations_inao_errors.txt')
+    errors = open(errors_path, "w")
+    prev =''
     for line in denom_in:
-        pos = line.find(';')
-        denom = line[:pos].lower()
-        if denom != prev:
-            denom_out.write(line)
-        prev = denom
+        pos1 = line.find(';')
+        pos2 = line.find(';', pos1 + 1)
+        pos3 = line.find(';', pos2 + 1)
+        pos4 = line.find(';', pos3 + 1)
+        pos5 = line.find(';', pos4 + 1)
+        pos6 = line.find(';', pos5 + 1)
+        denom1 = remove_special_chars(line[:pos1].lower())
+        denom2 = line[pos6+1:len(line)-1]#-1 for \n char
+        denom2_mod = remove_special_chars(denom2.lower())
+        if denom1 != prev:
+            if denom1.find(denom2_mod) == -1:
+                errors.write(denom1+'-------' + denom2+'-------' + denom2_mod+ '\n')
+            if  len(re.findall('[A-Z][A-Z]', denom2 ))>0:
+                 errors.write(denom1+'-------' + denom2+'-------' + denom2_mod+ '\n')
+            denom_out.write(denom2+line[len(denom2):])
+        prev = denom1
     denom_in.close()
     denom_out.close()
-            
-    
+    errors.close()

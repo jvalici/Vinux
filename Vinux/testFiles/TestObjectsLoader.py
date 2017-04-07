@@ -1,24 +1,31 @@
-from Vinux.models import  WineProducer, WineProductionArea, WineType, WineBottle, WineCellar, StoredWineBottle, BottleUserReview, BottleWebReview
+from Vinux.models import  WineProducer, WineProductionArea, WineAppelation, WineDenomination, WineBottle, Comment
+from Vinux.models import  WineCellar, StoredWineBottle, BottleUserReview, BottleWebReview, CommentImage
 from django.contrib.auth.models import User
+from PIL import Image
+import os
 
 def load_example_objects():
     
-    wineProducer = WineProducer( firmName='Bret Brothers, la soufriandiere', country='France', postCode='71680', city='VINZELLES')
+    wineProducer = WineProducer( companyName='G.A.E.C. Bret Brothers, la soufriandiere', country='France', postCode='71680', city='VINZELLES')
     wineProducer.save()
+    test = wineProducer.usualName
     
-    france = WineProductionArea( name='France')
-    france.save()
+    wineProducer2 = WineProducer( companyName='Bret Brothers, la soufriandiere EARL', country='France', postCode='71680', city='VINZELLES')
+    wineProducer2.save()
+    test = wineProducer2.usualName
     
-    bourgogne = WineProductionArea( name='Bourgundy', includingArea = france )
+    bourgogne = WineProductionArea( name='Bourgogne' )
     bourgogne.save()
     
-    pouilly = WineType( appelation='Pouilly Fuiss&eacute;', color='b',  productionArea = bourgogne )
-    pouilly.save()
+    maconnais = WineProductionArea( name='Maconnais', parentArea = bourgogne )
+    maconnais.save()
     
-    genericBlanc = WineType( appelation='Generique', color='b',  productionArea = bourgogne )
-    genericBlanc.save()
-
-    wineBottle = WineBottle( producer = wineProducer, type = pouilly, name = 'En Carementant', vintage = 2015 )
+    pf = WineAppelation('Pouilly Fuiss\u00E9', bourgogne, 'AOP', True)
+    pf.save()
+    pfec = WineDenomination('Pouilly-Fuiss\u00E9 En Carmentrant', pf)
+    pfec.save()
+    
+    wineBottle = WineBottle( producer = wineProducer, denomination = pfec, vintage = 2015 )
     wineBottle.save()
     
     # when using this function for the base, there will be some user already. For the test, create one
@@ -27,9 +34,19 @@ def load_example_objects():
         test_user=users[0]
     else:
         test_user = User.objects.create_user(username='testuser', password='12345')
-    review = BottleUserReview( user=test_user, bottle = wineBottle,  mark = 15,  pairing = 'avec du caca boudin', comment = 'Demander a francois comment va le fragin mort' )
-    review.save()
     
+    c = Comment(comment = 'glou glou', user = test_user, content_object = wineBottle)
+    c.save()
+    
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    image_path = os.path.join(dir_path, 'testImageData', 'etiquette_3.jpg')
+    image_file = Image.open(image_path)
+    i = CommentImage(comment = c, image = image_path)
+    i.save()
+    
+    review = BottleUserReview( mark = 15,  pairing = 'avec du caca boudin', comment = c)
+    review.save()
+
     webReview = BottleWebReview( bottle=wineBottle, link='http://www.bretbrothers.com/vin/pouilly-fuisse-en-carementrant-bret-brothers-85.php')
     webReview.save()
     

@@ -33,7 +33,7 @@ Maconnais;Bourgogne
 Beaujolais;Bourgogne
 Côtes du Rhône;NA
 Côtes du Rhône septentrionales;Côtes du Rhône
-Côtes du Rhône meridionales;Côtes du Rhône
+Côtes du Rhône méridionales;Côtes du Rhône
 Provence;NA
 Languedoc;NA
 Roussillon;NA
@@ -42,3 +42,4 @@ Savoie et Bugey;NA
 Bugey;Savoie et Bugey
 Savoie;Savoie et Bugey
 Poitou-Charentes;NA
+Normandie;NA
