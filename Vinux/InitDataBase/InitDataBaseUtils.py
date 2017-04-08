@@ -6,6 +6,7 @@ def init_data_base_with_known_objects():
     path_to_files = os.path.dirname(os.path.realpath(__file__))
     path_to_files = os.path.join(path_to_files, '..', '..', 'DataCollecting', 'output')
     
+    #area
     path_to_arreas = os.path.join(path_to_files, 'regions_perso.txt')
     arreas = open(path_to_arreas, "r")
     for a in arreas:
@@ -19,6 +20,7 @@ def init_data_base_with_known_objects():
                 wpa = WineProductionArea( name = a[:pos], parentArea = parentArea)
             wpa.save()
     
+    # appellation
     path_to_appelations = os.path.join(path_to_files, 'appelations_inao.txt')
     appelations = open(path_to_appelations, "r")
     errors_path = os.path.join(path_to_files, 'denominations_inao_errors2.txt')
@@ -38,7 +40,7 @@ def init_data_base_with_known_objects():
             app = WineAppelation( name= a[:pos1], area=area, euStatus = aop_igp, isAOC=is_aoc)
             app.save()
         
-        
+    # denomination
     path_to_denominations = os.path.join(path_to_files, 'denominations_inao.txt')
     denominations = open(path_to_denominations, "r")
     for d in denominations:
@@ -57,6 +59,45 @@ def init_data_base_with_known_objects():
                 errors.write('appelation_name: '+appelation_name+'-----'+d)
             den = WineDenomination( name=d[:pos1], appelation=app)
             den.save()
+            
+    path_to_growers = os.path.join(path_to_files,'0121Z - inao - Culture de la Vigne', '0121Z - Culture de la Vigne.txt')
+    growers = open(path_to_growers, "r")
+    for g in growers:
+        pos1 = g.find(';')
+        pos2 = g.find(';', pos1 + 1)
+        pos3 = g.find(';', pos2 + 1)
+        pos4 = g.find(';', pos3 + 1)
+        if  pos4 > - 1:
+            errors.write(g)
+        name = g[pos1+1:pos2].title()
+        city = g[pos3+1:len(g)-1].title()
+        p = WineProducer(companyName = name, country = 'France', postCode = g[pos2+1:pos3], city = city, type='v' )
+        p.save()
+        
+    path_to_fves = os.path.join(path_to_files,'1102A - inao - Fabrication de vins effervescents','1102A - Fabrication de vins effervescents.txt')
+    fves = open(path_to_fves, "r")
+    for f in fves:
+        pos1 = f.find(';')
+        pos2 = f.find(';', pos1 + 1)
+        pos3 = f.find(';', pos2 + 1)
+        pos4 = f.find(';', pos3 + 1)
+        if  pos4 > - 1:
+            errors.write(f)
+        p = WineProducer(companyName = f[pos1+1:pos2], country = 'France', postCode = f[pos2+1:pos3], city = f[pos3+1:len(g)-1], type='e' )
+        p.save()
+        
+    path_to_coops = os.path.join(path_to_files,'1102B - inao - Vinification','1102B - Vinification.txt')
+    coops = open(path_to_coops, "r")
+    for c in coops:
+        pos1 = c.find(';')
+        pos2 = c.find(';', pos1 + 1)
+        pos3 = c.find(';', pos2 + 1)
+        pos4 = c.find(';', pos3 + 1)
+        if  pos4 > - 1:
+            errors.write(c)
+        p = WineProducer(companyName = c[pos1+1:pos2], country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], type='e' )
+        p.save()
+        
     errors.close()
         
         

@@ -1146,7 +1146,7 @@ ALSACE vendanges tardives Pinot gris;3 février 2017;AOC - Appellation d'origine 
 ALSACE vendanges tardives Riesling;3 février 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B001D24;Alsace;Alsace
 Alsace Wolxheim blanc;3 février 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - blanc - Sec (usage) -  - 1B064S;Alsace;Alsace Wolxheim
 Alsace Wolxheim sélection de grains nobles;3 février 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de sélection de grains nobles - blanc - Doux -  - 1B064D14;Alsace;Alsace Wolxheim
-Alsace Wolxheim vendanges tardives ;3 février 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B064D24;Alsace;Alsace Wolxheim
+Alsace Wolxheim vendanges tardives;3 février 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B064D24;Alsace;Alsace Wolxheim
 Anjou blanc;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - blanc -  - 1B200;Anjou;Anjou
 Anjou gamay nouveau ou primeur;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin primeur - Rouge - Sec (usage) -  - 1R203S01;Anjou;Anjou
 Anjou GAMAY PRIMEUR;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin primeur - Rouge - Sec (usage) -  - 1R203S01;Anjou;Anjou
@@ -1542,7 +1542,7 @@ Beaujolais Romanèche-Thorins rosé;6 octobre 2016;AOC - Appellation d'origine con
 Beaujolais Romanèche-Thorins rouge nouveau ou primeur;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin primeur - Rouge - Sec (usage) - Villages - 1R301 52;Beaujolais Village;Beaujolais Romanèche-Thorins
 Beaujolais ROMANECHE-THORINS rouge;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rouge - Sec (usage) - Villages - 1R301 51;Beaujolais Village;Beaujolais Romanèche-Thorins
 Beaujolais Romanèche-Thorins rouge;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rouge - Sec (usage) - Villages - 1R301 51;Beaujolais Village;Beaujolais Romanèche-Thorins
-Beaujolais rosé  nouveau ou primeur;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin primeur - Rosé - Sec (usage) -  - 1S300 01;Beaujolais;Beaujolais
+Beaujolais rosé nouveau ou primeur;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin primeur - Rosé - Sec (usage) -  - 1S300 01;Beaujolais;Beaujolais
 Beaujolais rosé;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rosé - Sec (usage) -  - 1S300;Beaujolais;Beaujolais
 Beaujolais rosé;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rosé - Sec (usage) -  - 1S300;Beaujolais;Beaujolais
 Beaujolais rouge nouveau ou primeur;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin primeur - Rouge - Sec (usage) -  - 1R300 01;Beaujolais;Beaujolais
@@ -1948,7 +1948,7 @@ Bugey Montagnieu rosé;Bugey Montagnieu rosé;AOVDQS - Appellation d'origine Vins 
 Bugey Montagnieu rouge;6 octobre 2016;AOVDQS - Appellation d'origine Vins délimités de qualité supérieure;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rouge - Sec (usage) -  - 2R119S;Bugey;Bugey Montagnieu
 Bugey Montagnieu;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rouge - Sec (usage) -  - 1R463S;Bugey;Bugey Montagnieu
 Bugey mousseux blanc;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin mousseux - blanc -  - 1B460M01;Bugey;Bugey
-Bugey mousseux Cerdon  blanc;Bugey Cerdon mousseux blanc;AOVDQS - Appellation d'origine Vins délimités de qualité supérieure;AOP - Appellation d'origine protégée;Vins - Vin mousseux - blanc -  - 2B116M;Bugey;Bugey mousseux Cerdon
+Bugey mousseux Cerdon blanc;Bugey Cerdon mousseux blanc;AOVDQS - Appellation d'origine Vins délimités de qualité supérieure;AOP - Appellation d'origine protégée;Vins - Vin mousseux - blanc -  - 2B116M;Bugey;Bugey mousseux Cerdon
 Bugey mousseux rosé;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin mousseux - Rosé -  - 1S460M01;Bugey;Bugey
 Bugey pétillant blanc;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin pétillant - blanc -  - 1B460P01;Bugey;Bugey
 Bugey pétillant rosé;6 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin pétillant - Rosé -  - 1S460P01;Bugey;Bugey
@@ -2906,7 +2906,7 @@ Coteaux du Giennois rouge;17 novembre 2015;AOC - Appellation d'origine contrôlée
 Coteaux du Grésivaudan blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - blanc -  - Zone - 3B382;Coteaux du Grésivaudan;Coteaux du Grésivaudan
 Coteaux du Grésivaudan rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rosé -  - Zone - 3S382;Coteaux du Grésivaudan;Coteaux du Grésivaudan
 Coteaux du Grésivaudan rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rouge -  - Zone - 3R382;Coteaux du Grésivaudan;Coteaux du Grésivaudan
-Coteaux du LAYON  ;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de triees successives - blanc - Doux -  - 1B212L01;Coteaux du Layon;Coteaux du Layon
+Coteaux du LAYON;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de triees successives - blanc - Doux -  - 1B212L01;Coteaux du Layon;Coteaux du Layon
 Coteaux du Layon Beaulieu-sur-Layon sélection de grains nobles;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de sélection de grains nobles - blanc - Doux -  - 1B212L11;Coteaux du Layon;Coteaux du Layon Beaulieu-sur-Layon
 Coteaux du LAYON BEAULIEU-SUR-LAYON sélection de grains nobles;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de sélection de grains nobles - blanc - Doux -  - 1B212L11;Coteaux du Layon;Coteaux du Layon Beaulieu-sur-Layon
 Coteaux du Layon Beaulieu-sur-Layon;1 août 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de triees successives - blanc - Doux -  - 1B212L01;Coteaux du Layon;Coteaux du Layon Beaulieu-sur-Layon
@@ -3100,7 +3100,7 @@ Côtes de Gascogne primeur rouge;3 mai 2016;;IGP - Indication géographique protég
 Côtes de Gascogne rosé;3 mai 2016;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rosé -  - Zone - 3S323;Côtes de Gascogne;Côtes de Gascogne
 Côtes de Gascogne rouge;3 mai 2016;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rouge -  - Zone - 3R323;Côtes de Gascogne;Côtes de Gascogne
 Côtes de Gascogne surmûri blanc;3 mai 2016;;IGP - Indication géographique protégée;Vins - Vin de raisins surmuris - blanc - Zone - 3B323U;Côtes de Gascogne;Côtes de Gascogne
-Côtes de la Charité  mousseux de qualité rosé;1 août 2016;;IGP - Indication géographique protégée;Vins - Vin jaune - Rosé - Zone - 3S582M;Côtes de la Charité;Côtes de la Charité
+Côtes de la Charité mousseux de qualité rosé;1 août 2016;;IGP - Indication géographique protégée;Vins - Vin jaune - Rosé - Zone - 3S582M;Côtes de la Charité;Côtes de la Charité
 Côtes de la Charité blanc;1 août 2016;;IGP - Indication géographique protégée;Vins - Vin tranquille - blanc -  - Zone - 3B582;Côtes de la Charité;Côtes de la Charité
 Côtes de la Charité mousseux de qualité blanc;1 août 2016;;IGP - Indication géographique protégée;Vins - Vin mousseux - blanc - Zone - 3B582M;Côtes de la Charité;Côtes de la Charité
 Côtes de la Charité rosé;1 août 2016;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rosé -  - Zone - 3S582;Côtes de la Charité;Côtes de la Charité
@@ -3593,7 +3593,7 @@ Franche-Comté Doubs primeur rosé;23 janvier 2017;;IGP - Indication géographique 
 Franche-Comté Doubs primeur rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin primeur - Rouge - Zone - 3R705;Franche-Comté;Franche-Comté Doubs
 Franche-Comté Doubs rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rosé - Zone - 3S705;Franche-Comté;Franche-Comté Doubs
 Franche-Comté Doubs rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rouge - Zone - 3R705;Franche-Comté;Franche-Comté Doubs
-Franche-Comté Gy  mousseux de qualité blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - blanc - Zone - 3B706M;Franche-Comté;Franche-Comté Gy
+Franche-Comté Gy mousseux de qualité blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - blanc - Zone - 3B706M;Franche-Comté;Franche-Comté Gy
 Franche-Comté Gy blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - blanc - Zone - 3B706;Franche-Comté;Franche-Comté Gy
 Franche-Comté Gy mousseux de qualité rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rosé - Zone - 3S706M;Franche-Comté;Franche-Comté Gy
 Franche-Comté Gy mousseux de qualité rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rouge - Zone - 3R706M;Franche-Comté;Franche-Comté Gy
@@ -3611,7 +3611,7 @@ Franche-Comté Haute-Saône primeur rosé;23 janvier 2017;;IGP - Indication géograp
 Franche-Comté Haute-Saône primeur rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin primeur - Rouge - Zone - 3R707;Franche-Comté;Franche-Comté Haute-Saône
 Franche-Comté Haute-Saône rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rosé - Zone - 3S707;Franche-Comté;Franche-Comté Haute-Saône
 Franche-Comté Haute-Saône rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rouge - Zone - 3R707;Franche-Comté;Franche-Comté Haute-Saône
-Franche-Comté Hugier  mousseux de qualité rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rosé - Zone - 3S708M;Franche-Comté;Franche-Comté Hugier
+Franche-Comté Hugier mousseux de qualité rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rosé - Zone - 3S708M;Franche-Comté;Franche-Comté Hugier
 Franche-Comté Hugier blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - blanc - Zone - 3B708;Franche-Comté;Franche-Comté Hugier
 Franche-Comté Hugier mousseux de qualité blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - blanc - Zone - 3B708M;Franche-Comté;Franche-Comté Hugier
 Franche-Comté Hugier mousseux de qualité rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rouge - Zone - 3R708M;Franche-Comté;Franche-Comté Hugier
@@ -3673,7 +3673,7 @@ GAILLAC primeur blanc;GAILLAC primeur blanc;AOC - Appellation d'origine contrôlé
 Gaillac rosé;10 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rosé - Sec -  - 1S128S;Gaillac;Gaillac
 Gaillac rouge primeur;10 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin primeur - Rouge - Sec (usage) -  - 1R128S 2;Gaillac;Gaillac
 Gaillac rouge;10 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rouge - Sec -  - 1R128S;Gaillac;Gaillac
-Gaillac vendanges tardives ;10 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B128DVT;Gaillac;Gaillac
+Gaillac vendanges tardives;10 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B128DVT;Gaillac;Gaillac
 Gard blanc;22 août 2014;;IGP - Indication géographique protégée;Vins - Vin tranquille - blanc -  - Départemental - 3B301;Gard;Gard
 Gard primeur blanc;22 août 2014;;IGP - Indication géographique protégée;Vins - Vin primeur - blanc - Départemental - 3B301;Gard;Gard
 Gard primeur rosé;22 août 2014;;IGP - Indication géographique protégée;Vins - Vin primeur - Rosé - Départemental - 3S301;Gard;Gard
@@ -3959,8 +3959,8 @@ Juliénas LES PAQUELETS;7 octobre 2016;AOC - Appellation d'origine contrôlée;AOP 
 Juliénas ou Juliénas cru du Beaujolais;7 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rouge - Sec (usage) - Cru - 1R367;Juliénas;Juliénas
 Juliénas;7 octobre 2016;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - Rouge - Sec (usage) -  - 1R367;Juliénas;Juliénas
 Jurançon sec;13 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - blanc - Sec -  - 1B135S;Jurançon;Jurançon
-JURANCON vendanges tardives ;13 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B135L01;Jurançon;Jurançon
-Jurançon vendanges tardives ;13 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B135L01;Jurançon;Jurançon
+JURANCON vendanges tardives;13 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B135L01;Jurançon;Jurançon
+Jurançon vendanges tardives;13 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de vendanges tardives - blanc - Doux -  - 1B135L01;Jurançon;Jurançon
 JURANCON;13 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de triees successives - blanc - Doux -  - 1B135L;Jurançon;Jurançon
 Jurançon;13 mars 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin de triees successives - blanc - Doux -  - 1B135L;Jurançon;Jurançon
 L'Etoile blanc;23 janvier 2017;AOC - Appellation d'origine contrôlée;AOP - Appellation d'origine protégée;Vins - Vin tranquille - blanc - Sec (usage) -  - 1B376;L'Etoile;L'Etoile
@@ -4524,7 +4524,7 @@ Méditérranée Comté de Grignan primeur rosé;23 janvier 2017;;IGP - Indication géo
 Méditérranée Comté de Grignan primeur rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin primeur - Rouge - Régional - 3R033;Méditerranée;Méditérranée Comté de Grignan
 Méditérranée Comté de Grignan rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rosé - Régional - 3S033;Méditerranée;Méditérranée Comté de Grignan
 Méditérranée Comté de Grignan rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - Rouge - Régional - 3R033;Méditerranée;Méditérranée Comté de Grignan
-Méditérranée Coteaux de Montélimar  mousseux de qualité rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rosé - Régional - 3S034M;Méditerranée;Méditérranée Coteaux de Montélimar
+Méditérranée Coteaux de Montélimar mousseux de qualité rosé;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rosé - Régional - 3S034M;Méditerranée;Méditérranée Coteaux de Montélimar
 Méditérranée Coteaux de Montélimar blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin tranquille - blanc - Régional - 3B034;Méditerranée;Méditérranée Coteaux de Montélimar
 Méditérranée Coteaux de Montélimar mousseux de qualité blanc;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - blanc - Régional - 3B034M;Méditerranée;Méditérranée Coteaux de Montélimar
 Méditérranée Coteaux de Montélimar mousseux de qualité rouge;23 janvier 2017;;IGP - Indication géographique protégée;Vins - Vin mousseux - Rouge - Régional - 3R034M;Méditerranée;Méditérranée Coteaux de Montélimar
