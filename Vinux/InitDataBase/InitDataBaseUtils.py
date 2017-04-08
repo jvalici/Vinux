@@ -30,13 +30,12 @@ def init_data_base_with_known_objects():
             is_aoc = alc.find('aoc ') > -1
             pos1 = alc.find(';')
             pos2 = alc.find(';', pos1 + 1)
-            pos3 = alc.find(';', pos2 + 1)
-            area_name = alc[ pos3+1:]
+            area_name = alc[ pos2+1:]
             try:
                 area = WineProductionArea.objects.get(name__iexact = area_name)
             except:
                 errors.write(area_name+'\n')
-            app = WineAppelation( name= a[pos1+1:pos2], area=area, euStatus = aop_igp, isAOC=is_aoc)
+            app = WineAppelation( name= a[:pos1], area=area, euStatus = aop_igp, isAOC=is_aoc)
             app.save()
         
         
