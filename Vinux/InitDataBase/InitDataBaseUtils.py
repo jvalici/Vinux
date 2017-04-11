@@ -17,7 +17,7 @@ def init_data_base_with_known_objects():
                 wpa = WineProductionArea( name = a[:pos] )
             else:
                 parentArea = WineProductionArea.objects.get(name__iexact = parentAreaStr)
-                wpa = WineProductionArea( name = a[:pos], parentArea = parentArea)
+                wpa = WineProductionArea( name = a[:pos].title(), parentArea = parentArea)
             wpa.save()
     
     # appellation
@@ -37,7 +37,7 @@ def init_data_base_with_known_objects():
                 area = WineProductionArea.objects.get(name__iexact = area_name)
             except:
                 errors.write(area_name+'\n')
-            app = WineAppelation( name= a[:pos1], area=area, euStatus = aop_igp, isAOC=is_aoc)
+            app = WineAppelation( name= a[:pos1].title(), area=area, euStatus = aop_igp, isAOC=is_aoc)
             app.save()
         
     # denomination
@@ -57,7 +57,7 @@ def init_data_base_with_known_objects():
                 app = WineAppelation.objects.get(name__iexact = appelation_name)
             except:
                 errors.write('appelation_name: '+appelation_name+'-----'+d)
-            den = WineDenomination( name=d[:pos1], appelation=app)
+            den = WineDenomination( name=d[:pos1].title(), appelation=app)
             den.save()
             
     path_to_growers = os.path.join(path_to_files,'0121Z - inao - Culture de la Vigne', '0121Z - Culture de la Vigne.txt')
@@ -83,7 +83,7 @@ def init_data_base_with_known_objects():
         pos4 = f.find(';', pos3 + 1)
         if  pos4 > - 1:
             errors.write(f)
-        p = WineProducer(companyName = f[pos1+1:pos2], country = 'France', postCode = f[pos2+1:pos3], city = f[pos3+1:len(g)-1], type='e' )
+        p = WineProducer(companyName = f[pos1+1:pos2].title(), country = 'France', postCode = f[pos2+1:pos3], city = f[pos3+1:len(g)-1], type='e' )
         p.save()
         
     path_to_coops = os.path.join(path_to_files,'1102B - inao - Vinification','1102B - Vinification.txt')
@@ -95,7 +95,7 @@ def init_data_base_with_known_objects():
         pos4 = c.find(';', pos3 + 1)
         if  pos4 > - 1:
             errors.write(c)
-        p = WineProducer(companyName = c[pos1+1:pos2], country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], type='e' )
+        p = WineProducer(companyName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], type='e' )
         p.save()
         
     errors.close()

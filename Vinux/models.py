@@ -5,6 +5,7 @@ from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 from Vinux.modelsUtils import get_usual_name_from_compagny_name
 
+
 class WineProducer(models.Model):
     companyName = models.CharField(max_length=200)
     country = models.CharField(max_length=200)

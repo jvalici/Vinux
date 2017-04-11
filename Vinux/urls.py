@@ -10,5 +10,10 @@ admin.autodiscover()
 urlpatterns = [
     url(r'^homeView/$', controllerCellar.homeView),
     url(r'^getCellar/$', controllerCellar.getCellar),
+    url(r'^getAreasFirstLevel/$', controllerCellar.getAreasFirstLevel),
+    url(r'^getAreasSecondLevel/$', controllerCellar.getAreasSecondLevel),
+    url(r'^getDenominations/$', controllerCellar.getDenominations),
+    url(r'^getProducers/$', controllerCellar.getProducers),
+    url(r'^addBottle/$', controllerCellar.addBottle),
 ]
 

@@ -9,7 +9,12 @@ python manage.py createsuperuser
 CREATE SOME OBJECTS
 python manage.py shell
 from Vinux.testFiles.TestObjectsLoader import load_example_objects
-loadExampleObjects()
+from Vinux.InitDataBase.InitDataBaseUtils import init_data_base_with_known_objects
+load_example_objects()
+init_data_base_with_known_objects()
+
+CREATE the JS bundle
+go to  static/CoreJs and run "browserify vinuxIncludes.js > bundle.js"
 
 RUN SERVER
 python manage.py runserver
