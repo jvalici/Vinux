@@ -48,3 +48,4 @@ def get_usual_name_from_compagny_name(compagny_name):
             pos = compagny_name_modified.find(s)
             if pos == 0:
                 return compagny_name[len(s):]
+        return compagny_name

@@ -72,7 +72,7 @@ def getAreasSecondLevel(request):
 @login_required(login_url='/accounts/login/')
 def getProducers(request):
     denomination = request.GET['denomination']
-    producers = [x for x in WineProducer.objects.all() if (x.usualName and x.usualName[:1]=='B')]
+    producers = WineProducer.objects.filter(postCode__startswith='71')
     resList = { 'prods': [ { 'id':p.id, 'label':p.usualName } for p in producers ] }
     return JsonResponse(resList)
 
@@ -83,13 +83,21 @@ def addBottle(request):
     denomination = request.POST['denomination']
     producer_id = request.POST['producer_id']
     price = float(request.POST['price'])
-    vintage = request.POST['vintage']
-    name = request.POST['name']
-    bottles = WineBottle.objects.filter( producer__id = producer_id, denomination__name__iexact = denomination, name = name, vintage = vintage )
+    vintage = int(request.POST['vintage'])
+    if 'name' in request.POST:
+        has_a_name = True
+        name = request.POST['name']
+        bottles = WineBottle.objects.filter( producer__id = producer_id, denomination__name__iexact = denomination, name = name, vintage = vintage )
+    else:
+        has_a_name =  False
+        bottles = WineBottle.objects.filter( producer__id = producer_id, denomination__name__iexact = denomination, vintage = vintage )
     if len(bottles) != 1:
         producer = WineProducer.objects.get(id = producer_id)
         denom = WineDenomination.objects.get(name__iexact = denomination)
-        b = WineBottle( producer = producer, denomination = denom, name = name, vintage = vintage )
+        if has_a_name:
+            b = WineBottle( producer = producer, denomination = denom, name = name, vintage = vintage )
+        else:
+            b = WineBottle( producer = producer, denomination = denom, vintage = vintage )
         b.save()
     else:
         b = bottles[0]

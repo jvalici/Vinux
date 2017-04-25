@@ -117,7 +117,7 @@ Côtes de Blaye;AOC - AOP;Bordeaux rive droite
 Côtes de Bordeaux;AOC - AOP;Bordeaux rive droite
 Côtes de Bordeaux-Saint-Macaire;AOC - AOP;Entre-deux-mers
 Côtes de Bourg;AOC - AOP;Bordeaux rive droite
-côtes de castillon;AOC - AOP;Bordeaux rive droite
+côtes de Bordeaux castillon;AOC - AOP;Bordeaux rive droite
 Côtes de Duras;AOC - AOP;Bergeracois et Duras
 Côtes de Millau;AOC - AOP;Piémont Massif Central
 Côtes de Montravel;AOC - AOP;Bergeracois et Duras
@@ -229,7 +229,7 @@ Morgon;AOC - AOP;Beaujolais
 Moselle;AOC - AOP;Loraine
 Moulin à Vent;AOC - AOP;Beaujolais
 Moulis;AOC - AOP;Médoc
-Mousseux de Savoie;AOC - AOP;Savoie
+Savoie Mousseux;AOC - AOP;Savoie
 Muscadet;AOC - AOP;Pays Nantais
 Muscadet Coteaux de la Loire;AOC - AOP;Pays Nantais
 Muscadet Côtes de Grandlieu;AOC - AOP;Pays Nantais

@@ -1,4 +1,4 @@
-from DataCollecting.Departements import departements
+from DataCollecting.output.Departements import departements
 import urllib3
 import os, shutil
 

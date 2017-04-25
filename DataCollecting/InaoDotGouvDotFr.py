@@ -76,6 +76,7 @@ def clean_denominations():
     dir_path = os.path.dirname(os.path.realpath(__file__))
     denom_in_path = os.path.join(dir_path, 'denominations_inao.txt')
     denom_in =  open(denom_in_path, "r")
+    denom_in =  open(denom_in_path, "r")
     denoms_out_path = os.path.join(dir_path, 'denominations_inao_cleaned.txt')
     denom_out = open(denoms_out_path, "w")
     errors_path = os.path.join(dir_path, 'denominations_inao_errors.txt')
@@ -96,7 +97,8 @@ def clean_denominations():
                 errors.write(denom1+'-------' + denom2+'-------' + denom2_mod+ '\n')
             if  len(re.findall('[A-Z][A-Z]', denom2 ))>0:
                  errors.write(denom1+'-------' + denom2+'-------' + denom2_mod+ '\n')
-            denom_out.write(denom2+line[len(denom2):])
+            tmp = denom2+line[len(denom2):]
+            denom_out.write(tmp.title())
         prev = denom1
     denom_in.close()
     denom_out.close()

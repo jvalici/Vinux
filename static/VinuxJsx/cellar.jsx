@@ -191,7 +191,7 @@ class Modal extends React.Component {
   {
       $.ajax({
           url: '/Vinux/addBottle/',
-          data: {'denomination':this.state.denomination, 'producer_id':this.state.producer_id, 'price':this.state.price, 'milesime':this.state.vintage, 'name':this.state.name},
+          data: {'denomination':this.state.denomination, 'producer_id':this.state.producer_id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
           type:'POST',
           dataType: 'json',
           success: function(data) {
