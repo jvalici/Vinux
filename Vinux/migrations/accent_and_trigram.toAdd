@@ -1,0 +1,7 @@
+from django.contrib.postgres.operations import UnaccentExtension, TrigramExtension
+
+class Migration(migrations.Migration):
+    operations = [
+        UnaccentExtension(),
+        TrigramExtension(),
+    ]

@@ -99,11 +99,11 @@ class Modal extends React.Component {
               }
           });
       $.ajax({
-          url: '/Vinux/getAreasFirstLevel/',
+          url: '/Vinux/getDenominations/',
           type:'GET',
           dataType: 'json',
           success: function(data) {
-              this.setState({areas_level_1: data.areas});
+              this.setState({denominations: data.denoms});
           }.bind(this),
           error:function (xhr, ajaxOptions, thrownError) {
               alert(xhr.status);
@@ -115,72 +115,42 @@ class Modal extends React.Component {
   openModal1() {
       this.setState( { modalLevel: 1 });
   }
-  
-  openModal2(val) {
-      $.ajax({
-          url: '/Vinux/getAreasSecondLevel/',
-          data: {'parent_area':val.label},
-          type:'GET',
-          dataType: 'json',
-          success: function(data) {
-              this.setState({areas_level_2: data.areas});
-          }.bind(this),
-          error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
-            }
-        });
-      this.setState( { area_level_1: val.label });
-      this.setState( { modalLevel: 2 });
+
+
+  getProducers(val)
+  {
+      if( val.length % 3 == 0){
+          $.ajax({
+              url: '/Vinux/getProducers/',
+              data: {'hint':val},
+              type:'GET',
+              dataType: 'json',
+              success: function(data) {
+                  this.setState({producers: data.prods});
+              }.bind(this),
+              error:function (xhr, ajaxOptions, thrownError) {
+                  alert(xhr.status);
+                  alert(thrownError);
+                }
+            });
+      }
   }
   
-  openModal3(val) {
-      $.ajax({
-          url: '/Vinux/getDenominations/',
-          data: {'parent_area':this.state.area_level_1, 'area':val.label},
-          type:'GET',
-          dataType: 'json',
-          success: function(data) {
-              this.setState({denominations: data.denoms});
-          }.bind(this),
-          error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
-            }
-        });
-      this.setState( { modalLevel: 3 });
+  handleProductChange(val)
+  {
+      this.setState( { product_id: val.value });
   }
-  
-  openModal4(val) {
-      $.ajax({
-          url: '/Vinux/getProducers/',
-          data: {'denomination':val.label},
-          type:'GET',
-          dataType: 'json',
-          success: function(data) {
-              this.setState({producers: data.prods});
-          }.bind(this),
-          error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
-            }
-        });
-      this.setState( { denomination: val.label });
-      this.setState( { modalLevel: 4 });
+  handleProducerChange(val)
+  {
+      this.setState( { producers_id: val.value });
   }
-  
-  openModal5(val) {
-      this.setState( { producer_id: val.id });
-      this.setState( { modalLevel: 5 });
-  }
-  
   handlePriceChange(form)
   {
-      this.setState( { price: form.currentTarget.value });;
+      this.setState( { price: form.currentTarget.value });
   }
   handleVintageChange(form)
   {
-      this.setState( { vintage: form.currentTarget.value });;
+      this.setState( { vintage: form.currentTarget.value });
   }
   handleNameChange(form)
   {
@@ -191,7 +161,7 @@ class Modal extends React.Component {
   {
       $.ajax({
           url: '/Vinux/addBottle/',
-          data: {'denomination':this.state.denomination, 'producer_id':this.state.producer_id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
+          data: {'denomination_id':this.state.product_id, 'producer_id':this.state.producer_id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
           type:'POST',
           dataType: 'json',
           success: function(data) {
@@ -234,28 +204,12 @@ class Modal extends React.Component {
                   <p>Il ne reste plus que ça dans votre cave:</p>
                   <button onClick={() => this.openModal1()}>Nvlle bouteille</button>
                   <Modal isOpen={this.state.modalLevel == 1} onClose={() => this.closeModal()}>
-                      <p><button onClick={() => this.closeModal()}>Annuler</button></p>
-                      <p>Choisir une région:</p>
-                      <Select options={this.state.areas_level_1} onChange={this.openModal2.bind(this)}></Select>
-                  </Modal>
-                 <Modal isOpen={this.state.modalLevel == 2} onClose={() => this.closeModal()}>
-                    <p><button onClick={() => this.closeModal()}>Annuler</button></p>
-                    <p>Choisir une sous-région:</p>
-                    <Select options={this.state.areas_level_2} onChange={this.openModal3.bind(this)}></Select>
-                 </Modal>
-                 <Modal isOpen={this.state.modalLevel == 3} onClose={() => this.closeModal()}>
-                    <p><button onClick={() => this.closeModal()}>Annuler</button></p>
-                    <p>Choisir une dénomination:</p>
-                    <Select options={this.state.denominations} onChange={this.openModal4.bind(this)}></Select>
-                 </Modal>
-                 <Modal isOpen={this.state.modalLevel == 4} onClose={() => this.closeModal()}>
-                     <p><button onClick={() => this.closeModal()}>Annuler</button></p>
-                     <p>Choisir un producteur:</p>
-                     <Select options={this.state.producers} onChange={this.openModal5.bind(this)}></Select>
-                 </Modal>
-                 <Modal isOpen={this.state.modalLevel == 5} onClose={() => this.closeModal()}>
                      <p><button onClick={() => this.closeModal()}>Annuler</button></p>
                      <form onSubmit={() => this.finishAddingBottle()}>
+                         <p>Choisir un produit:</p>
+                         <Select options={this.state.denominations} onChange={this.handleProductChange.bind(this)}></Select>
+                         <p>Choisir un producteur:</p>
+                         <Select options={this.state.producers} onInputChange={this.getProducers.bind(this)}  onChange={this.handleProducerChange.bind(this)}></Select>
                          <p>Prix (Euros): <input type="number" step="0.01" id="price" onChange={this.handlePriceChange.bind(this)}></input></p>
                          <p>Milésime: <input type="number" step="1" id="vintage" onChange={this.handleVintageChange.bind(this)}></input></p>
                          <p>Nom: <input type="text" id="name" onChange={this.handleNameChange.bind(this)}  ></input></p>

@@ -10,6 +10,7 @@ pip install Django==1.10.5
 pip install djangorestframework
 pip install simpleJson
 pip install django-registration (https://django-registration.readthedocs.io/en/2.2/install.html)
+pip install psycopg2 (for unaccent and trigram postgre extensions)
 
 CORE JS (not yet used)
 Nodejs (for npm)

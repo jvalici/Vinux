@@ -34,49 +34,19 @@ def getCellar(request):
 # home view
 @login_required(login_url='/accounts/login/')
 def getDenominations(request):
-    area_name = request.GET['area']
-    if area_name.lower() == 'tout':
-        area_name = request.GET['parent_area']
-    area = WineProductionArea.objects.get( name__iexact=area_name )
-    denoms = WineDenomination.objects.filter(appelation__area = area)
+    denoms = WineDenomination.objects.all()
     tmp = [{ 'id':remove_special_chars(d.name).lower(), 'label':d.name } for d in denoms]
-    # when there is no parent area, also list the denomination of the daugther areas
-    if area.parentArea is None:
-        areas = WineProductionArea.objects.filter( parentArea=area )
-        for a in areas:
-            area2 = WineProductionArea.objects.get( name__iexact=a.name )
-            denoms = WineDenomination.objects.filter(appelation__area = area2)
-            tmp = tmp + [{ 'id':remove_special_chars(d.name).lower(), 'label':d.name } for d in denoms]
     resList = { 'denoms': tmp  }
-    return JsonResponse(resList)
-
-# get areas
-@login_required(login_url='/accounts/login/')
-def getAreasFirstLevel(request):
-    areas = WineProductionArea.objects.filter( parentArea__isnull=True )
-    resList = { 'areas':  [ { 'id':remove_special_chars(a.name).lower(), 'label':a.name } for a in areas ] }
-    return JsonResponse(resList)
-
-# get areas
-@login_required(login_url='/accounts/login/')
-def getAreasSecondLevel(request):
-    parent_area = request.GET['parent_area']
-    areas = WineProductionArea.objects.filter( parentArea__name__iexact=parent_area )
-    tmp = [ { 'id':remove_special_chars(a.name).lower(), 'label':a.name } for a in areas ]
-    tmp =  [{'id':'tout', 'label':'tout'}] + tmp 
-    resList = { 'areas': tmp }
     return JsonResponse(resList)
 
 
 # 
 @login_required(login_url='/accounts/login/')
 def getProducers(request):
-    denomination = request.GET['denomination']
-    producers = WineProducer.objects.filter(postCode__startswith='71')
+    hint = request.GET['hint']
+    producers = WineProducer.objects.filter(companyName__unaccent__lower__trigram_similar==hint)
     resList = { 'prods': [ { 'id':p.id, 'label':p.usualName } for p in producers ] }
     return JsonResponse(resList)
-
-
 # 
 @login_required(login_url='/accounts/login/')
 def addBottle(request):
