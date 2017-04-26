@@ -98,18 +98,6 @@ class Modal extends React.Component {
                 alert(thrownError);
               }
           });
-      $.ajax({
-          url: '/Vinux/getDenominations/',
-          type:'GET',
-          dataType: 'json',
-          success: function(data) {
-              this.setState({denominations: data.denoms});
-          }.bind(this),
-          error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
-            }
-        });
   }
   
   openModal1() {
@@ -136,13 +124,33 @@ class Modal extends React.Component {
       }
   }
   
-  handleProductChange(val)
+  getDenominations(val)
   {
-      this.setState( { product_id: val.value });
+      if( val.length % 3 == 0){
+          $.ajax({
+              url: '/Vinux/getDenominations/',
+              data: {'hint':val},
+              type:'GET',
+              dataType: 'json',
+              success: function(data) {
+                  this.setState({denominations: data.denoms});
+              }.bind(this),
+              error:function (xhr, ajaxOptions, thrownError) {
+                  alert(xhr.status);
+                  alert(thrownError);
+                }
+            });
+      }
+  }
+  
+  
+  handleDenominationChange(val)
+  {
+      this.setState( { denomination_id: val.id });
   }
   handleProducerChange(val)
   {
-      this.setState( { producers_id: val.value });
+      this.setState( { producer_id: val.id });
   }
   handlePriceChange(form)
   {
@@ -157,11 +165,16 @@ class Modal extends React.Component {
       this.setState( { name: form.currentTarget.value });
   }
   
+  closeModal() {
+      this.setState( { price: '' });
+      this.setState( { modalLevel: 0 });
+  }
+  
   finishAddingBottle()
   {
       $.ajax({
           url: '/Vinux/addBottle/',
-          data: {'denomination_id':this.state.product_id, 'producer_id':this.state.producer_id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
+          data: {'denomination_id':this.state.denomination_id, 'producer_id':this.state.producer_id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
           type:'POST',
           dataType: 'json',
           success: function(data) {
@@ -175,10 +188,7 @@ class Modal extends React.Component {
       closeModal();
   }
   
-  closeModal() {
-      this.setState( { price: '' });
-      this.setState( { modalLevel: 0 });
-  }
+  
 
       
   //------------------------------------------------------------------------------
@@ -205,9 +215,9 @@ class Modal extends React.Component {
                   <button onClick={() => this.openModal1()}>Nvlle bouteille</button>
                   <Modal isOpen={this.state.modalLevel == 1} onClose={() => this.closeModal()}>
                      <p><button onClick={() => this.closeModal()}>Annuler</button></p>
-                     <form onSubmit={() => this.finishAddingBottle()}>
+                     <form>
                          <p>Choisir un produit:</p>
-                         <Select options={this.state.denominations} onChange={this.handleProductChange.bind(this)}></Select>
+                         <Select options={this.state.denominations} onInputChange={this.getDenominations.bind(this)} onChange={this.handleDenominationChange.bind(this)}></Select>
                          <p>Choisir un producteur:</p>
                          <Select options={this.state.producers} onInputChange={this.getProducers.bind(this)}  onChange={this.handleProducerChange.bind(this)}></Select>
                          <p>Prix (Euros): <input type="number" step="0.01" id="price" onChange={this.handlePriceChange.bind(this)}></input></p>

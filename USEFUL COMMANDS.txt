@@ -1,7 +1,5 @@
 MIGRATE
 python manage.py makemigrations Vinux
-  IMPORTANT: check migrations.accent_and_trigram.toAdd and copy the operations as the first operations of the initial migration created at the previous command (0001_initial.py?)
-  this is for the companyName__unaccent__lower__trigram_similar==hint search in Vinux.controllerCellar
 python manage.py migrate
 python manage.py sqlmigrate Vinux 0001
 
@@ -15,7 +13,7 @@ from Vinux.InitDataBase.InitDataBaseUtils import init_data_base_with_known_objec
 load_example_objects()
 init_data_base_with_known_objects()
 
-CREATE the JS bundle
+CREATE the JS bundle (not yet used)
 go to  static/CoreJs and run "browserify vinuxIncludes.js > bundle.js"
 
 RUN SERVER

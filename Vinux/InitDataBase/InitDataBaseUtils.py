@@ -57,7 +57,7 @@ def init_data_base_with_known_objects():
                 app = WineAppelation.objects.get(name__iexact = appelation_name)
             except:
                 errors.write('appelation_name: '+appelation_name+'-----'+d)
-            den = WineDenomination( name=d[:pos1].title(), appelation=app)
+            den = WineDenomination.create( name=d[:pos1].title(), appelation=app)
             den.save()
             
     path_to_growers = os.path.join(path_to_files,'0121Z - inao - Culture de la Vigne', '0121Z - Culture de la Vigne.txt')
@@ -71,7 +71,7 @@ def init_data_base_with_known_objects():
             errors.write(g)
         name = g[pos1+1:pos2].title()
         city = g[pos3+1:len(g)-1].title()
-        p = WineProducer(companyName = name, country = 'France', postCode = g[pos2+1:pos3], city = city, type='v' )
+        p = WineProducer.create(inputName = name, country = 'France', postCode = g[pos2+1:pos3], city = city, producerType='v' )
         p.save()
         
     path_to_fves = os.path.join(path_to_files,'1102A - inao - Fabrication de vins effervescents','1102A - Fabrication de vins effervescents.txt')
@@ -83,7 +83,7 @@ def init_data_base_with_known_objects():
         pos4 = f.find(';', pos3 + 1)
         if  pos4 > - 1:
             errors.write(f)
-        p = WineProducer(companyName = f[pos1+1:pos2].title(), country = 'France', postCode = f[pos2+1:pos3], city = f[pos3+1:len(g)-1], type='e' )
+        p = WineProducer.create(inputName = f[pos1+1:pos2].title(), country = 'France', postCode = f[pos2+1:pos3], city = f[pos3+1:len(g)-1], producerType='e' )
         p.save()
         
     path_to_coops = os.path.join(path_to_files,'1102B - inao - Vinification','1102B - Vinification.txt')
@@ -95,7 +95,7 @@ def init_data_base_with_known_objects():
         pos4 = c.find(';', pos3 + 1)
         if  pos4 > - 1:
             errors.write(c)
-        p = WineProducer(companyName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], type='e' )
+        p = WineProducer.create(inputName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], producerType='e' )
         p.save()
         
     errors.close()
