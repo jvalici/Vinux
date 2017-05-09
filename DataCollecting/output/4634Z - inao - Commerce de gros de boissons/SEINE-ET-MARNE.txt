@@ -1,0 +1,43 @@
+1,ROUQUETTE,77500&nbsp;Chelles
+2,VOLNER SAS,77220&nbsp;Tournan-en-Brie
+3,OENOSTRIA,77000&nbsp;Melun
+4,LES REGIONAUX,77410&nbsp;Claye-Souilly
+5,GUINAND DISTRIBUTION,77320&nbsp;La Ferté-Gaucher
+6,COMIDIS (COMPAGNIE INTERNATIONALE DE DISTRIBUTION),77127&nbsp;Lieusaint
+7,SOCIETE A RESPONSABILITE LIMITEE GATINORGE,77570&nbsp;Aufferville
+8,A.C.C.O.,77000&nbsp;Melun
+9,J.E.G.,77127&nbsp;Lieusaint
+10,LA QUINTA DES VINS,77330&nbsp;Ozoir-la-Ferrière
+11,V2B DISTRIBUTION,77220&nbsp;Gretz-Armainvilliers
+12,ETS PHELIZON LANDREA DISTRIBUTION,77120&nbsp;Coulommiers
+13,L H IMPORT EXPORT,77380&nbsp;Combs-la-Ville
+14,TAGNAM,77340&nbsp;Pontault-Combault
+15,COTE CAVE,77250&nbsp;Moret Loing et Orvanne
+16,LES VINS MIRZA GHALIB,77120&nbsp;Coulommiers
+17,G.A. INTERNATIONAL,77600&nbsp;Bussy-Saint-Georges
+18,VIN TECH,77120&nbsp;Coulommiers
+19,AVL,77600&nbsp;Bussy-Saint-Georges
+20,BAO IMPORT,77100&nbsp;Meaux
+21,E.R.T.,77111&nbsp;Soignolles-en-Brie
+22,HATHYR DISTRIBUTION,77270&nbsp;Villeparisis
+23,VINCHELIN Jeoffrey Christian Marcel,77650&nbsp;Jutigny
+24,PARIS BOISSONS,77220&nbsp;Gretz-Armainvilliers
+25,VINIS AGENCE,77250&nbsp;Moret Loing et Orvanne
+26,PIRO VINO,77950&nbsp;Voisenon
+27,BIERES JAILLET,77130&nbsp;Montereau-Fault-Yonne
+28,AMOUR DU VIN,77170&nbsp;Brie-Comte-Robert
+29,LA CAVE D'OZ,77330&nbsp;Ozoir-la-Ferrière
+30,SIRARE,77300&nbsp;Fontainebleau
+31,HAS VIANDE,77000&nbsp;Vaux-le-Pénil
+32,H.A Diffusion,77600&nbsp;Jossigny
+33,AMERICA EXOTICA SARL,77120&nbsp;Coulommiers
+34,AGENCE FABRICE BERRET,77270&nbsp;Villeparisis
+35,SASU VIVIER & CO,77750&nbsp;Bassevelle
+36,LOMA INTERNATIONAL,77100&nbsp;Meaux
+37,BACCHUS FRANCE,77450&nbsp;Montry
+38,Arlabosse Jean-Louis Michel,77400&nbsp;Lagny-Sur-Marne
+39,SARL CAVEAU DES VINS,77400&nbsp;Lagny-sur-Marne
+40,SAOSIS SAS,77550&nbsp;Moissy-Cramayel
+41,INTERNATIONAL WINE,77185&nbsp;Lognes
+42,DIS VINS ET TERROIRS,77183&nbsp;Croissy Beaubourg
+43,RITEM NEGOCE EXPORT,77760&nbsp;Ury

@@ -1,0 +1,27 @@
+1,CAVES JACQUOT Fils,25300&nbsp;Pontarlier
+2,SOCLI,25220&nbsp;Thise
+3,FEUVRIER S.A.,25000&nbsp;Besançon
+4,BOURQUIN PERE ET FILS,25290&nbsp;Ornans
+5,FRANCHE COMTE BOISSONS SERVICES,25400&nbsp;Exincourt
+6,SOCIETE D'EXPLOITATION DES ETABLISSEMENTS ROBBE FRERES,25160&nbsp;Saint-Point-Lac
+7,DUFAY BOISSONS,25360&nbsp;Lanans
+8,EURL GUY ROGNON,25500&nbsp;MORTEAU
+9,HDM,25300&nbsp;Pontarlier
+10,P.F.M. BOISSONS,25000&nbsp;Besançon
+11,VIGNARMONY,25520&nbsp;Sombacour
+12,JOLY CONSEIL ET VINS,25720&nbsp;Larnod
+13,CAVES DE LA GRANDE OIE MAISON GIRARDET,25300&nbsp;Doubs
+14,LA DAME JEANNE,25620&nbsp;Mamirolle
+15,JM DISTRIBUTION,25680&nbsp;Cuse et Adrisans
+16,TARDIS,25000&nbsp;Besançon
+17,BOISSENIN Thomas, Francis, Richard,25210&nbsp;Bonnétage
+18,WORLD ENERGY DISTRIBUTION ou WED,25520&nbsp;Bians-les-Usiers
+19,FUSIER Dominique, Michel, Joseph,25500&nbsp;Les Fins
+20,HD DISTRIBUTION,25270&nbsp;Villers-sous-Chalamont
+21,Brasserie Froghail,25170&nbsp;Moncley
+22,PARISOT Eric,25600&nbsp;Sochaux
+23,GAUDEVAUX,25210&nbsp;Grand'combe-des-Bois
+24,NARBEY Jean-Francois,25450&nbsp;Damprichard
+25,SHOPINETTE,25410&nbsp;Saint-Vit
+26,BOISSONSDISTRIBUTION 25,25870&nbsp;Devecey
+27,PROVIN,25320&nbsp;CHEMAUDIN ET VAUX

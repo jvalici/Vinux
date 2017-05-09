@@ -1,0 +1,23 @@
+1,SARL LENGLET,80360&nbsp;Étricourt-Manancourt
+2,SODIBOISSONS PICARDIE,80000&nbsp;Amiens
+3,Société de Distribution de Boissons BRANQUART,80600&nbsp;Doullens
+4,Caves Jean LEVISSE,80600&nbsp;Doullens
+5,DE CLERCK Jean Philippe Géo Gabriel,80200&nbsp;Péronne
+6,CAVE DU BEFFROI,80135&nbsp;Saint-Riquier
+7,CASH BRUAY,80160&nbsp;Plachy-Buyon
+8,CASH SIN-LE-NOBLE,80160&nbsp;Plachy-Buyon
+9,CASH LENS,80160&nbsp;Plachy-Buyon
+10,FOLL'BOISSONS,80250&nbsp;Folleville
+11,VAN GOETHEM,80250&nbsp;Jumel
+12,FERME BRASSERIE BELLE,80500&nbsp;Villers-Tournelle
+13,SARL GUILLE,80160&nbsp;Conty
+14,COTE VIGNOBLES,80000&nbsp;Amiens
+15,COTE VIGNOBLES,80000&nbsp;Amiens
+16,POUILLOT DISTRIBUTION,80000&nbsp;Amiens
+17,BOISSONS AMIENOISES,80000&nbsp;Amiens
+18,CARILLON Bernard Pierre Georges,80100&nbsp;Abbeville
+19,BELGUISE Joel,80400&nbsp;Ham
+20,SCS VINO-DISTRIBUTION,80500&nbsp;Erches
+21,LES CHAIS DE BREBIERES,80300&nbsp;Albert
+22,FLUTTE,80320&nbsp;Pertain
+23,LES CAVES DU PONTHIEU,80370&nbsp;Heuzecourt

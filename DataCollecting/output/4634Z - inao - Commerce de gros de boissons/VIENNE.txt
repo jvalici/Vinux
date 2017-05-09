@@ -1,0 +1,17 @@
+1,AMPELIDAE,86380&nbsp;Jaunay-Marigny
+2,VINS FROMAGET,86370&nbsp;Vivonne
+3,POITOU BOISSONS,86360&nbsp;Chasseneuil-du-Poitou
+4,POITOU BOISSONS,86360&nbsp;Chasseneuil-du-Poitou
+5,WINE FAST SAS,86000&nbsp;Poitiers
+6,FWS,86100&nbsp;Châtellerault
+7,Herbs and Drinks La Roche Posay,86270&nbsp;La Roche-Posay
+8,GENERAL POITOU NEGOCE,86500&nbsp;Montmorillon
+9,RANG ROYAL,86000&nbsp;Poitiers
+10,V.S.G. (Vins Spiritueux Guionnet) en liquidation amiable,86000&nbsp;Poitiers
+11,ELLEN SARL,86800&nbsp;Saint-Julien-l'Ars
+12,PERUCHON Stéphane Maurice,86240&nbsp;Fontaine-le-Comte
+13,BRULE Jérôme,86390&nbsp;Lathus-Saint-Rémy
+14,TALENTS ET TERROIRS,86300&nbsp;Valdivienne
+15,SR VINS,86130&nbsp;Jaunay-Marigny
+16,MORGEAU & CÔT,86490&nbsp;Beaumont-Saint-Cyr
+17,SARL VINI-POITOU,86170&nbsp;Maisonneuve

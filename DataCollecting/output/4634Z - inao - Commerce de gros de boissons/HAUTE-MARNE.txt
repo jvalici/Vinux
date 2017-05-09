@@ -1,0 +1,9 @@
+1,VIADIS,52000&nbsp;CHAMARANDES CHOIGNES
+2,SOCIETE D'EXPLOITATION LEROUSSEAU EUVRARD,52210&nbsp;Arc-en-Barrois
+3,NUTRISCO & EXTINGUO,52320&nbsp;Marbéville
+4,RICHARD Jacky Hubert Raymond,52210&nbsp;Chameroy
+5,E.L,52600&nbsp;Chalindrey
+6,CISTER'S,52120&nbsp;Châteauvillain
+7,CHAMPAGNE DAUBANTON-MOUILLAT,52330&nbsp;Rizaucourt-Buchey
+8,MONTGILBERT François Marcel André,52100&nbsp;Saint-Dizier
+9,GUILLIEN Christophe, Hubert, Marcel,52190&nbsp;Villegusien-le-Lac

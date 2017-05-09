@@ -1,0 +1,22 @@
+1,BODEGAS GALLEGO LAPORTE WORLD WINES, SL,45880&nbsp;Corral de Almaguer
+2,TERRE DE VIGNOBLES,45120&nbsp;Chalette-sur-Loing
+3,BVBT 45,45160&nbsp;Olivet
+4,CAVE SAINT JACQUES - ETS SASSEIGNE,45320&nbsp;Courtenay
+5,COVIFRUIT,45160&nbsp;Olivet
+6,CASA GADOS,45470&nbsp;Traînou
+7,GM DISTRIBUTION,45140&nbsp;St Jean de la Ruelle
+8,ENTREPOTS JESUS,45200&nbsp;Montargis
+9,AKLUCE,45000&nbsp;Orléans
+10,LADIE VIN,45700&nbsp;Pannes
+11,LES LYS,45420&nbsp;Bonny-sur-Loire
+12,DELATTE Laurent,45270&nbsp;Beauchamps-sur-Huillard
+13,AROMAVINIS,45340&nbsp;Egry
+14,LES VIGNERONS REUNIS,45220&nbsp;Saint Germain des Prés
+15,VIGNOBLE 2000,45140&nbsp;Ormes
+16,MADE IN FOOD,45000&nbsp;Orléans
+17,SARL HELS VINS ET COMPAGNIE,45220&nbsp;Gy les Nonains
+18,L.P.O,45100&nbsp;Orléans
+19,LA CAVE AUX VINS ET AUX FROMAGES,45430&nbsp;Mardie
+20,BAUNE PHILIPPE MARIE RENE ROGER,45130&nbsp;Meung Sur Loire
+21,EMILE BALLAND,45420&nbsp;Bonny Sur Loire
+22,VIGNERONS D'ART,45640&nbsp;Sandillon

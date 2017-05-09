@@ -1,0 +1,7 @@
+1,MATAMOROS,48200&nbsp;Rimeize
+2,LAUZE BOISSONS,48240&nbsp;Saint-Privat-de-Vallongue
+3,Gévaudan Boissons,48000&nbsp;Mende
+4,SOCIETE ROURE ET FILS,48800&nbsp;Villefort
+5,HUGONY,48300&nbsp;Langogne
+6,BOYER Jean-Pierre,48140&nbsp;Le Malzieu ville
+7,HORECA SERVICES,48200&nbsp;Saint-Chély d'Apcher

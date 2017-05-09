@@ -1,0 +1,34 @@
+1,SARL CHATEAU CHATON,76270&nbsp;Bouelles
+2,ANDRE VALOIS ET CIE,76700&nbsp;Harfleur
+3,VALLEE DE SEINE BOISSONS,76480&nbsp;Duclair
+4,BONO Distribution,76350&nbsp;Oissel
+5,MAISON BRUN,76340&nbsp;Villers-sous-Foucarmont
+6,ProWine and co,76000&nbsp;Rouen
+7,SOTEBI,76600&nbsp;Le Havre
+8,PIERRE NOBLE,76000&nbsp;Rouen
+9,EPICURA,76230&nbsp;Bois-Guillaume
+10,YSIAD,76800&nbsp;Saint-Etienne-du-Rouvray
+11,TRENTE ET QUARANTE,76250&nbsp;Déville-les-Rouen
+12,EVOE,76000&nbsp;Rouen
+13,LA TABLE DES OENOPHILES,76130&nbsp;Mont-Saint-Aignan
+14,LEDEE Audrey, Danièle, Ghislaine,76520&nbsp;Franqueville-Saint-Pierre
+15,SAMUEL CUVIER,76400&nbsp;Fécamp
+16,TERROIR & DECOUVERTES,76590&nbsp;LONGUEVILLE SUR SCIE
+17,SCM,76230&nbsp;Bois Guillaume
+18,SARL SELECTION ET PROMOTION DE VINS DE BORDEAUX,76000&nbsp;Rouen
+19,DOMAINE DE L'ALLIANCE,76000&nbsp;Rouen
+20,M&F,76240&nbsp;Le Mesnil Esnard
+21,CARACTERE VIN,76170&nbsp;La Frenaye
+22,STUART DISTRIBUTION,76042&nbsp;Rouen cedex 1
+23,Dolcevita76,76890&nbsp;Val-de-Saane
+24,CAVE DU PAYS DE BRAY,76220&nbsp;Ferrières-en-Bray
+25,LAPERT Michel Rene Henri,76400&nbsp;FECAMP
+26,SARL PRESTaVIN,76320&nbsp;Saint-Pierre-les-Elbeuf
+27,LES CAVES DE L'AUSTREBERTHE,76360&nbsp;Barentin
+28,MEDEX,76000&nbsp;Rouen
+29,ATACAMA INTERNATIONAL,76320&nbsp;Saint-Pierre-les-Elbeuf
+30,QUILLET Nicolas Romain Bruno,76360&nbsp;Villers Ecalles
+31,ae. Alexandre,76130&nbsp;Mont-Saint-Aignan
+32,BUSH,76310&nbsp;Sainte-Adresse
+33,G.B.A.M,76620&nbsp;Le Havre
+34,E.U.R.L. WM&CO,76750&nbsp;Vieux Manoir

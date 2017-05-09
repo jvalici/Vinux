@@ -1,0 +1,30 @@
+1,CHARPENTIER,02310&nbsp;Charly-sur-Marne
+2,BLAISE BOISSONS CONSEILS DISTRIBUTION,02500&nbsp;Hirson
+3,"Champagne PANNIER SAS",02400&nbsp;Château-Thierry
+4,RAFFIN VINI DEPUIS 1995,02100&nbsp;Saint-Quentin
+5,SARL CHAMPAGNE ROBERDELPH,02310&nbsp;Charly-sur-Marne
+6,"BELOUIS-GRICOURT",02850&nbsp;Trélou-sur-Marne
+7,LTB,02140&nbsp;Lemé
+8,SARL DEHU,02650&nbsp;Fossoy
+9,TRADITIONS BAVAROISES,02850&nbsp;Trélou-sur-Marne
+10,CURTIL,02820&nbsp;Corbeny
+11,LM BOISSONS,02430&nbsp;Gauchy
+12,ASSELIN LANGLET,02800&nbsp;La Fère
+13,MENUT BOISSONS SERVICES,02200&nbsp;Soissons
+14,VINOLEM,02680&nbsp;Fontaine-lès-Clercs
+15,VARNIER Vincent Michel Hubert,02210&nbsp;Brécy
+16,DE CRUYENAERE,02400&nbsp;Château-Thierry
+17,FETY-SIMART,02310&nbsp;Charly-sur-Marne
+18,PIERRE Laurent Marcel Denis,02310&nbsp;Saulchery
+19,M & H Distribution,02210&nbsp;Chouy
+20,VINISSIMO FRANCE,02460&nbsp;Silly-la-Poterie
+21,HUCLIN Xavier Alfred Paul,02140&nbsp;Plomion
+22,PELLIS Jean-Guy Louis Alphonse,02100&nbsp;Saint-Quentin
+23,MANGIN Patrick Armand Georges,02800&nbsp;Versigny
+24,SARL PATIES,02840&nbsp;Festieux
+25,VINCELET Pascal Gilbert Maurice,02000&nbsp;Chivy-lès-Etouvelles
+26,ETS THIEBAUT PERE ET FILS,02240&nbsp;Séry-lès-Mézières
+27,ETS THIEBAUT PERE ET FILS LA DEMEURE SAINT VINCENT,02240&nbsp;SERY-LES-MEZIERES
+28,EURL WILLEMS VINS TERROIRS,02330&nbsp;Vallees-en-Champagne
+29,EURL WILLEMS VINS TERROIRS,02330&nbsp;Vallees-en-Champagne
+30,SA WEST BOUND GESTRO LDA,02130&nbsp;COULONGES COHAN

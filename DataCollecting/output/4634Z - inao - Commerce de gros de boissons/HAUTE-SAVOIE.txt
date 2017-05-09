@@ -1,0 +1,60 @@
+1,"S.A.R.L. WINE MARK FRANCE",74390&nbsp;Châtel
+2,CENTRE NORDIQUE D'ALIMENTATION,74290&nbsp;Talloires-Montmin
+3,20BE,74290&nbsp;Menthon-Saint-Bernard
+4,"DUVERNAY L'ART DU VIN",74100&nbsp;Annemasse
+5,CERCLE DES VINS FINS,74000&nbsp;Annecy
+6,UNION NOUVELLE,74000&nbsp;Annecy
+7,4 D,74270&nbsp;Musièges
+8,VINATIS,74000&nbsp;Annecy
+9,UNION COMMERCIALE DES VINS DE FRANCE - UCVF,74160&nbsp;Saint-Julien-En-Genevois
+10,BLANC BOISSONS,74200&nbsp;Thonon-les-Bains
+11,FRANCIS CHARLETY,74000&nbsp;Annecy
+12,CAVES DU MONT,74230&nbsp;La Balme-de-Thuy
+13,CAVE LAMBERT,74910&nbsp;Seyssel
+14,CAVE RIBEYROLLES,74400&nbsp;Chamonix-Mont-Blanc
+15,LES CAVES DE THOIRIA,74800&nbsp;La Roche-sur-Foron
+16,SOCIETE NOUVELLE VINS CABROL,74200&nbsp;Thonon-les-Bains
+17,MAISON FRANCIOLI,74700&nbsp;Sallanches
+18,CONROY VINS & SPIRITUEUX,74700&nbsp;Sallanches
+19,CAVES LEON FAVRE,74150&nbsp;Rumilly
+20,INZER,74166&nbsp;ARCHAMPS
+21,AUX DELICES DU HOUBLON,74000&nbsp;Annecy
+22,PRESTIWINE,74250&nbsp;Viuz-en-Sallaz
+23,VINTAGE SELECTIONS,74110&nbsp;Essert-romand
+24,LEOPARD SARL,74100&nbsp;Vetraz Monthoux
+25,NASY Angélique, Béatrice,74100&nbsp;Annemasse
+26,DE KERGUZ Jean-Michel Christian,74200&nbsp;ALLINGES
+27,JEAN-MARIE PANISSET VINS-CONSEILS,74230&nbsp;Dingy-Saint-Clair
+28,D.M.M.,74400&nbsp;Chamonix-Mont-Blanc
+29,ETABLISSEMENTS VITTET,74130&nbsp;Bonneville
+30,PETER HANKEY ASSOCIATES,74910&nbsp;SEYSSEL
+31,MAIZIERE Michaël,74160&nbsp;Collonges-sous-Salève
+32,BOUCHER Vincent Marcel Stéphane Marie,74520&nbsp;Valleiry
+33,CELLIER DES ANNEES VINS,74200&nbsp;Thonon-les-Bains
+34,CARNOTZET D'ALCOOLS ET VINS D'EVIAN,74500&nbsp;Evian-les-bains
+35,DURET BOISSONS,74350&nbsp;CRUSEILLES
+36,SOMMELIER DU LEMAN,74140&nbsp;Excenevex
+37,PREMIUM WINES CLUB,74000&nbsp;Annecy
+38,YDARI,74000&nbsp;Annecy
+39,BERNARD Claude,74130&nbsp;Vougy
+40,SARL HM DISTRIBUTION,74300&nbsp;Cluses
+41,SAVARY DE BEAUREGARD Isabelle Edith Marie,74150&nbsp;Marcellaz-Albanais
+42,PERDUTROUVE,74370&nbsp;Argonay
+43,MAISON TAIRRAZ ET FILS,74400&nbsp;Chamonix-Mont-Blanc
+44,ETABLISSEMENTS MOCCAND - GACHET,74340&nbsp;Samoëns
+45,M le Vin,74120&nbsp;Megève
+46,PANGALLO Jean-David,74100&nbsp;Vetraz Monthoux
+47,SIDURÉ,74140&nbsp;Messery
+48,MENARD François Vincent Joseph Emmanuel,74000&nbsp;Annecy
+49,MAISON DUTOIT,74160&nbsp;Saint-Julien-En-Genevois
+50,IZGA DISTRIBUTION,74000&nbsp;Annecy
+51,IDEALP,74150&nbsp;Vallières
+52,L'ENVERS DU VIN,74000&nbsp;Annecy
+53,L'ENVERS DU VIN,74000&nbsp;Annecy
+54,AC VINS,74140&nbsp;Douvaine
+55,DELORME J ET J,74380&nbsp;Lucinges
+56,BOUQUETIN BLANC DISTRIBUTION,74950&nbsp;Scionzier
+57,LCO,74140&nbsp;Messery
+58,BIBIER BOISSON DISTRIBUTION,74170&nbsp;Saint-Gervais-les-Bains
+59,ETABLISSEMENTS JEAN-LUC FRANCISOD,74270&nbsp;Chessenaz
+60,AUX CAVES DU CHATEAU,74210&nbsp;Faverges-Seythenex

@@ -1,0 +1,152 @@
+1,PEPSICO FRANCE SNC,92705&nbsp;Colombes CEDEX
+2,ORANGINA SCHWEPPES FRANCE,92200&nbsp;Neuilly-sur-Seine
+3,NESTLE WATERS MARKETING & DISTRIBUTION,92130&nbsp;Issy-les-Moulineaux
+4,CAP WINE INTERNATIONAL,92200&nbsp;Neuilly-sur-Seine
+5,LA VALLONGUE,92400&nbsp;Courbevoie
+6,RICHARD,92230&nbsp;Gennevilliers
+7,FRANCE BOISSONS ILE DE FRANCE,92230&nbsp;Gennevilliers
+8,SOCIETE NOUVELLE DE PRODUITS ALIMENTAIRES,92110&nbsp;Clichy
+9,INTER CAVES,92230&nbsp;Gennevilliers
+10,LE COMPTOIR DU VIN,92300&nbsp;Levallois-Perret
+11,BARNUM,92390&nbsp;Villeneuve-la-Garenne
+12,COMPTOIR DES VINS DU SOLEIL,92400&nbsp;Courbevoie
+13,FABULOUS BRANDS,92240&nbsp;Malakoff
+14,LES LONGS REAGES,92190&nbsp;Meudon
+15,ROYAL SLUSH COMPANY,92100&nbsp;Boulogne-Billancourt
+16,COMPAGNIE FINANCIÈRE ET VITICOLE DE PARIS,92200&nbsp;Neuilly-sur-Seine
+17,LMDW CREATIONS,92110&nbsp;Clichy
+18,VERT ET OR & ASSOCIES,92300&nbsp;Levallois-Perret
+19,Ethical Wine & Spirits,92100&nbsp;Boulogne-Billancourt
+20,LA VINERIA,92500&nbsp;Rueil-Malmaison
+21,MHD MOET HENNESSY DIAGEO,92400&nbsp;Courbevoie
+22,VITIS EPICURIA,92200&nbsp;Neuilly-sur-Seine
+23,CHEMIN DES VIGNES,92130&nbsp;Issy-les-Moulineaux
+24,MED'S - COMPTOIR DES VINS,92120&nbsp;Montrouge
+25,LMDW COLLECTIONS,92110&nbsp;Clichy
+26,GAVROCHE BOISSONS,92110&nbsp;Clichy
+27,LES CHAIS DE FRANCE,92130&nbsp;Issy-les-Moulineaux
+28,SOUTH WORLD WINES,92130&nbsp;Issy-les-Moulineaux
+29,NEGOTIUM,92200&nbsp;Neuilly-sur-Seine
+30,VERT ET OR,92300&nbsp;Levallois-Perret
+31,COMPAGNIE GENERALE DES VINS,92260&nbsp;Fontenay-aux-Roses
+32,SINOFRAM,92380&nbsp;Garches
+33,LES GRANDS VINS DE L'EMPEREUR,92130&nbsp;Issy-les-Moulineaux
+34,OENOSCHOOL SARL,92600&nbsp;Asnières-sur-Seine
+35,SCANDIVINE,92150&nbsp;Suresnes
+36,ILE DE FRANCE SOURCES,92300&nbsp;Levallois-Perret
+37,ELLESVINO,92200&nbsp;Neuilly-sur-Seine
+38,FRANCE BEVERAGE & FOOD,92270&nbsp;Bois-Colombes
+39,LES BOISSONS ENERGISANTES,92100&nbsp;Boulogne-Billancourt
+40,LE GOFF CONSEILS,92120&nbsp;Montrouge
+41,MIL ET ZIM,92000&nbsp;Nanterre
+42,VINS CHRISTOPHE DUMONT,92380&nbsp;Garches
+43,MSR BOISSONS,92300&nbsp;Levallois-Perret
+44,SARL SAVEURS ET MILLESIMES,92120&nbsp;Montrouge
+45,COTE VINS,92200&nbsp;Neuilly-sur-Seine
+46,UN SAUT A LA CAVE,92210&nbsp;Saint-Cloud
+47,BRAND PIONEERS FRANCE,92130&nbsp;Issy-les-Moulineaux
+48,CAVEXCHANGE,92130&nbsp;Issy-les-Moulineaux
+49,APOGEE,92140&nbsp;Clamart
+50,CAP SUR LE VIN,92150&nbsp;Suresnes
+51,VINOPTIMO,92100&nbsp;Boulogne-Billancourt
+52,EURL GUILLAUME LECOINTRE,92300&nbsp;Levallois-Perret
+53,CASA GAVA,92170&nbsp;Vanves
+54,LE BARON DE BOURGOGNE,92200&nbsp;Neuilly-sur-Seine
+55,PAR3,92330&nbsp;Sceaux
+56,LUXEMANIA,92100&nbsp;Boulogne-Billancourt
+57,VINDEL,92100&nbsp;Boulogne-Billancourt
+58,MCA SAS,92100&nbsp;Boulogne-Billancourt
+59,CREATIVE DRINK,92220&nbsp;Bagneux
+60,FOUGERE SARL,92975&nbsp;PARIS LA DEFENSE 2
+61,LUXE CAPITAL,92330&nbsp;Sceaux
+62,FRUTOIA SASU,92250&nbsp;La Garenne-Colombes
+63,SARL SAMBRON NEGOCE,92200&nbsp;Neuilly-sur-Seine
+64,REIGNAC SELECTION,92160&nbsp;Antony
+65,ANGEL WINE,92600&nbsp;Asnières-sur-Seine
+66,LA CIGOGNE NOIRE,92110&nbsp;Clichy
+67,MAISON MAIROT,92260&nbsp;Fontenay-aux-Roses
+68,VINS 100,92290&nbsp;Châtenay-Malabry
+69,DE LA VIGNE O VERRE,92250&nbsp;La Garenne-Colombes
+70,F.S.W,92700&nbsp;Colombes
+71,PENARD'S WINE & PARTNER'S,92150&nbsp;Suresnes
+72,LA MORDUE,92130&nbsp;Issy-les-Moulineaux
+73,INTER BRASSERIE,92110&nbsp;Clichy
+74,QUENIOUX Alain Gerard Armand,92100&nbsp;Boulogne-Billancourt
+75,SARL VINCENT,92410&nbsp;Ville d'Avray
+76,VINIUS EURL,92420&nbsp;Vaucresson
+77,SIVEC Société Internationale de Vins et Champagne,92110&nbsp;Clichy
+78,AMBRE,92110&nbsp;Clichy
+79,WINE 4 TRADE,92200&nbsp;Neuilly-sur-Seine
+80,SARL CAP SAVEURS,92600&nbsp;Asnières-sur-Seine
+81,MARVIC,92320&nbsp;Châtillon
+82,OVALIE-DISTRIB,92600&nbsp;Asnières-sur-Seine
+83,PÔLE VINS SPIRITUEUX,92200&nbsp;Neuilly-sur-Seine
+84,GESTIN DUG,92200&nbsp;Neuilly-sur-Seine
+85,BENNACEUR Farid,92000&nbsp;Nanterre
+86,MOUDJAHED Linda,92000&nbsp;Nanterre
+87,KNIBBE Laurent,92160&nbsp;Antony
+88,BIEREVOLUTION,92300&nbsp;Levallois-Perret
+89,LE PETIT SHOP,92120&nbsp;Montrouge
+90,LA MICHELLOISE,92400&nbsp;Courbevoie
+91,LE REGALIA,92400&nbsp;Courbevoie
+92,LE MEILLEUR CADEAU,92500&nbsp;Rueil-Malmaison
+93,EZ LIQUIDS,92150&nbsp;Suresnes
+94,BISSAP,92400&nbsp;Courbevoie
+95,GF GROUPE,92270&nbsp;Bois-Colombes
+96,VINS IMPORTS EXPORTS,92400&nbsp;Courbevoie
+97,VERTICALE,92200&nbsp;Neuilly-sur-Seine
+98,CVF DISTRIBUTION,92500&nbsp;Rueil-Malmaison
+99,AZ ASSOCIES,92700&nbsp;Colombes
+100,MD RHUMS ET LIQUEURS,92100&nbsp;Boulogne-Billancourt
+101,A.V.S.,92220&nbsp;Bagneux
+102,SACH AND WINES,92270&nbsp;Bois-Colombes
+103,LANSDORF Michaël,92600&nbsp;Asnières-sur-Seine
+104,SIP DRINKS,92200&nbsp;Neuilly-sur-Seine
+105,WOLF AGENCY,92600&nbsp;Asnières-sur-Seine
+106,THE B BRANDS COMPANY,92200&nbsp;Neuilly-sur-Seine
+107,IDRINQ FRANCE,92100&nbsp;Boulogne-Billancourt
+108,MIND & SPIRITS,92290&nbsp;Châtenay-Malabry
+109,L'ACCENT DES VINS,92240&nbsp;Malakoff
+110,LA CAVINIERE,92100&nbsp;Boulogne-Billancourt
+111,LES GRANDES CAVES DE BOURGOGNE,92500&nbsp;Rueil-Malmaison
+112,SARL VIGNES ET LOIRE,92100&nbsp;Boulogne
+113,LES VINS DE CAMILLE,92170&nbsp;Vanves
+114,JAPAN EXQUISE FRANCE,92130&nbsp;Issy-les-Moulineaux
+115,LATIVINI,92200&nbsp;Neuilly-sur-Seine
+116,HELLO DRINKS,92400&nbsp;Courbevoie
+117,DUARTE Sylvie,92100&nbsp;Boulogne-Billancourt
+118,SOCIETE COMMERCIALE DE VIGNERONS RECOLTANTS,92200&nbsp;Neuilly-sur-Seine
+119,LES RUAULTS,92400&nbsp;Courbevoie
+120,JANAT,92500&nbsp;Rueil-Malmaison
+121,N.P. CONSEILS.,92300&nbsp;Levallois-Perret
+122,VINS ET CIE,92100&nbsp;Boulogne-Billancourt
+123,LES VINS DE LOUIS,92130&nbsp;Issy-les-Moulineaux
+124,CAMPANEUS,92100&nbsp;Boulogne-Billancourt
+125,SAS VINOPIA,92370&nbsp;Chaville
+126,FREDERIC PILMES-VINS ET CONSEILS,92160&nbsp;Antony
+127,MES VIGNES EN COFFRET,92200&nbsp;Neuilly-sur-Seine
+128,BOT & BON,92120&nbsp;Montrouge
+129,BENZ,92637&nbsp;Gennevilliers CEDEX
+130,MANARA DISTRIBUTION,92800&nbsp;Puteaux
+131,FRANCE BOISSONS TRADING,92500&nbsp;Rueil-Malmaison
+132,STEPHANE DUVERNE EURL,92150&nbsp;Suresnes
+133,ILO France,92100&nbsp;Boulogne-Billancourt
+134,BUBBLES UNLIMITED,92380&nbsp;Garches
+135,Rhum Invest,92400&nbsp;Courbevoie
+136,VIN ET MEZCAL,92514&nbsp;Boulogne Billancourt CEDEX
+137,AZEMA Frederic,92100&nbsp;Boulogne-Billancourt
+138,DOMAINE DE FONDOUCE,92100&nbsp;Boulogne-Billancourt
+139,SARAGO,92170&nbsp;Vanves
+140,VINYLES,92300&nbsp;Levallois-Perret
+141,WINE INTERNATIONAL,92200&nbsp;Neuilly-sur-Seine
+142,ALMA MATER WINE,92700&nbsp;Colombes
+143,AMZIANE VINS,92270&nbsp;Bois-Colombes
+144,JEAN-YVES,92400&nbsp;Courbevoie
+145,WINE TRIBUTE,92100&nbsp;Boulogne-Billancourt
+146,THOMAS WINERY,92120&nbsp;Montrouge
+147,MOET HENNESSY UDV-KRUG,92400&nbsp;COURBEVOIE
+148,DOYENNEL FABIEN,92110&nbsp;CLICHY
+149,SABAN MARIETTA FULBERT,92600&nbsp;ASNIERES SUR SEINE
+150,SIMON COLINE,92100&nbsp;BOULOGNE BILLANCOURT
+151,YENBOU ABDDOUAHID,92000&nbsp;NANTERRE
+152,STEF BOUANOU CHAFAA ET MOHAMMED,92250&nbsp;LA GARENNE COLOMBES

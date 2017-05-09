@@ -1,0 +1,18 @@
+1,SAS MOINE,88220&nbsp;Xertigny
+2,LA CAVE DE FONTENAY,88600&nbsp;Fontenay
+3,BOISSONS JOLY,88200&nbsp;Remiremont
+4,GOUTS ET SAVEURS,88420&nbsp;Moyenmoutier
+5,VINS ET TRADITIONS,88100&nbsp;Saint-Die-des-Vosges
+6,BRESSON Pascal Florent Henri,88170&nbsp;Houécourt
+7,CAVES VERDIER,88000&nbsp;Epinal
+8,SARL AUX MILLESIMES DE FRANCE,88100&nbsp;Saint-Die-des-Vosges
+9,MB BOISSONS,88520&nbsp;Raves
+10,AIT MOHKADI Abdarahim,88390&nbsp;Les Forges
+11,BARTH Quentin,88130&nbsp;Charmes
+12,JDG MIX,88300&nbsp;Neufchâteau
+13,AUBIN Christian Irénée André,88100&nbsp;Saint-Die
+14,VINS10VINS DISTRIBUTIONS,88300&nbsp;Neufchâteau
+15,SARL GRANDES BIERES ET GRANDS VINS DU MONDE,88230&nbsp;Plainfaing
+16,MOUGEOT Florian, Jeremy,88500&nbsp;Mirecourt
+17,LA CAVE DE SERGE,88000&nbsp;Epinal
+18,SHOPDEBIERES88,88190&nbsp;Golbey

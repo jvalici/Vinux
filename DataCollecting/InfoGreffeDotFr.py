@@ -26,7 +26,7 @@ def browse_infogreffe_activity(activity):
             page_index = 1
             viti_index = 1
             while page_index > 0:# browse the pages for this departement
-                r = http.request('GET', base_url + '/entreprises-departement/' + dep_str + '-1102B-'+d[0]+'-'+str(page_index)+'.html')
+                r = http.request('GET', base_url + '/entreprises-departement/' + dep_str + '-'+ activity +'-'+d[0]+'-'+str(page_index)+'.html')
                 if r.status == 200:
                     htmlFile = r.data.decode('utf-8')
                     pos = htmlFile.find(str(viti_index) + '&nbsp;-&nbsp;', 0)
@@ -53,7 +53,8 @@ def browse_infogreffe_activity(activity):
     all_out_file.close()
     
 def browse_infogreffe_dot_fr():
-    browse_infogreffe_activity('1102A')# Fabrication de vins effervescents
-    browse_infogreffe_activity('1102B')# Vinification
-    browse_infogreffe_activity('0121Z')# Culture de la Vigne
+#     browse_infogreffe_activity('1102A')# Fabrication de vins effervescents
+#     browse_infogreffe_activity('1102B')# Vinification
+#     browse_infogreffe_activity('0121Z')# Culture de la Vigne
+    browse_infogreffe_activity('4634Z')# commmerce de boisson
     

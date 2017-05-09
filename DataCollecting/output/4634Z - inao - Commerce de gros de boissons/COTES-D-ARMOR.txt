@@ -1,0 +1,29 @@
+1,ARMOR VINS,22440&nbsp;Ploufragan
+2,COZIGOU COTE D'EMERAUDE,22100&nbsp;Dinan
+3,ETABLISSEMENTS COZIGOU,22200&nbsp;Plouisy
+4,SODIBEL,22500&nbsp;Paimpol
+5,SOCIETE MAHE-SAVIDAN,22610&nbsp;Pleubian
+6,ETABLISSEMENTS GUILLOU - LE MAREC,22500&nbsp;Paimpol
+7,GOUET BOISSONS SERVICE,22800&nbsp;Saint-Brandan
+8,LES CAVES DU TREGOR,22700&nbsp;Saint-Quay-Perros
+9,France International Beverage,22440&nbsp;Ploufragan
+10,MIL & ZIM,22950&nbsp;Trégueux
+11,OEDIS,22100&nbsp;Léhon
+12,BIERES D'AILLEURS,22750&nbsp;Saint-Jacut-de-la Mer
+13,LABBE Suzanne, Adelaide, Nicole,22430&nbsp;Erquy
+14,CHAP'S COMPANY,22190&nbsp;Plérin
+15,DACI,22130&nbsp;Corseul
+16,INSTITUT DU COLOMBIER,22100&nbsp;DINAN
+17,OENOVITIS,22490&nbsp;Pleslin-Trigavou
+18,GUICHARD,22590&nbsp;Pordic
+19,LAMBALL'VINS,22400&nbsp;Lamballe
+20,LE HENAFF Christian,22420&nbsp;LE VIEUX MARCHE
+21,"BRASSERIE MILLESIME",22330&nbsp;Mené (Le)
+22,AU TIRE BOUCHON,22860&nbsp;Plourivo
+23,SARL NOUN,22370&nbsp;Pleneuf Val-André
+24,VINS ET MILLESIMES,22490&nbsp;Plouer sur rance
+25,GALY,22400&nbsp;Lamballe
+26,SARL BRIEG,22000&nbsp;Saint-Brieuc
+27,TARDY Thomas, Rodolphe, Geoffrey,22270&nbsp;Jugon-les-Lacs commune Nouvell
+28,B.H.L. VINS FINS,22740&nbsp;Lézardrieux
+29,RAOULT F ET FOOS J-M,22970&nbsp;PLOUMAGOAR

@@ -1,0 +1,20 @@
+1,AU FIN DEGUSTATEUR,08400&nbsp;Toges
+2,ARDENNES MEUSE BOISSONS,08140&nbsp;Douzy
+3,ENTREPOTS VRIGNOIS,08330&nbsp;Vrigne Aux Bois
+4,Societe d'Exploitation des Etablissements DEILLON BILLUART & C°,08170&nbsp;Fumay
+5,LA CAVE,08300&nbsp;Rethel
+6,SO.DI.EX. - SOCIETE DE DISTRIBUTION EXPRESSE,08090&nbsp;Cliron
+7,PARLIAMENT IMPORT COMPAGNY,08401&nbsp;ATLANTIC CITY -NEW JERSEY
+8,PATE Daniel Jean-Pierre,08160&nbsp;Dom-le-Mesnil
+9,D-C,08120&nbsp;Bogny-sur-Meuse
+10,FRUITOX,08320&nbsp;Vireux Molhain
+11,VANNET Paul,08150&nbsp;Lonny
+12,GOFFETTE Gérard Guy,08000&nbsp;Charleville-Mézières
+13,LA VALLEE DES BOISSONS,08120&nbsp;Bogny-sur-Meuse
+14,BOISSONS RICHARD HUET & Cie,08230&nbsp;Rocroi
+15,HENRIET Béatrice Pauline Elvire,08000&nbsp;Villers-Semeuse
+16,ALLARD Christophe Georges Ghislain,08600&nbsp;Givet
+17,ARDENNE BOISSONS,08200&nbsp;Sedan
+18,HODY BOISSON DISTRIBUTION,08000&nbsp;Charleville-Mézières
+19,WILLAIME Sébastien,08200&nbsp;Sedan
+20,DRINKS EURO BOISSONS,08000&nbsp;Charleville-Mézières

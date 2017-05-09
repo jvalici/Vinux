@@ -1,0 +1,22 @@
+1,OH CAVE,27930&nbsp;Saint-Vigor
+2,PAGES ENTREPOTS,27110&nbsp;Le Neubourg
+3,SARL J VERRIER,27210&nbsp;Boulleville
+4,GISORS BOISSONS,27140&nbsp;Gisors
+5,BERNAY DISTRIBUTION ENTREPOTS COLAS,27300&nbsp;BERNAY
+6,VERNEUIL BIERES BOISSONS,27130&nbsp;Verneuil-d'Avre-et-d'Iton
+7,AU CELLIER DE BACCHUS,27300&nbsp;BERNAY
+8,DISTRIVINS,27310&nbsp;BOURG ACHARD
+9,LA MAISON DU PERE TRANQUILLE,27350&nbsp;Routot
+10,BRAUN Eric,27460&nbsp;Le Manoir
+11,S.A.E.L.-NEGOCE EN VINS,27400&nbsp;Louviers
+12,BLAISOT Olivier Jacques Michel,27190&nbsp;Émanville
+13,CANAS Sylvie,27180&nbsp;Claville
+14,"S.A.R.L. IDEAL VIN",27220&nbsp;Saint-André-de-l'Eure
+15,EURL VETEL,27170&nbsp;BARC
+16,A LA ROSE DES VINS,27300&nbsp;Bernay
+17,A LA ROSE DES VINS,27600&nbsp;Fontaine-Bellenger
+18,PRTF NORD,27930&nbsp;Angerville-la-Campagne
+19,SENSAS BIERES,27930&nbsp;Gravigny
+20,STROBEL Philippe,27120&nbsp;Boisset-les-Prévanches
+21,CAVE SUR TABLE,27530&nbsp;Croth
+22,SEPTEMBREWINE,27630&nbsp;Vexin-sur-Epte

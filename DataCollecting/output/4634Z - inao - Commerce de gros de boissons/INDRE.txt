@@ -1,0 +1,15 @@
+1,BLANCHARD BOISSONS,36000&nbsp;Châteauroux
+2,DOMAINE DE REUILLY,36260&nbsp;Reuilly
+3,LOGISTIQUE GESTION SERVICES,36001&nbsp;Châteauroux
+4,ETABLISSEMENTS PICHON,36230&nbsp;Mers-sur-Indre
+5,BERRY BOISSONS,36170&nbsp;La châtre L'anglin
+6,DIMECOR,36120&nbsp;Etrechet
+7,EURL Odile,36400&nbsp;Chassignolles
+8,LA RESERVE DU 20,36200&nbsp;Argenton-sur-Creuse
+9,Gilles MERCIER. Vins et spiritueux,36230&nbsp;Neuvy-Saint-Sépulcre
+10,FRERES CHARPENTIER,36260&nbsp;Reuilly
+11,LAGARDE Jacques Raymond,36000&nbsp;CHATEAUROUX
+12,LE LAIN Nadine,36400&nbsp;LA CHATRE
+13,GUILLOISEAU Gilles Marie Pierre,36800&nbsp;SAINT GAULTIER
+14,ATELIER D'AROMES,36600&nbsp;Lye
+15,CLAUDE LAFOND SARL,36260&nbsp;Reuilly

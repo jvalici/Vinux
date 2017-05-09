@@ -1,0 +1,14 @@
+1,DESPRAT VINS,15130&nbsp;Sansac-de-Marmiesse
+2,ENTREPOTS AURILLACOIS DE VINS ET SPIRITUEUX.,15000&nbsp;Aurillac
+3,LES CHAIS DES VOLCANS,15300&nbsp;Murat
+4,CANTAL VINS,15130&nbsp;Arpajon-sur-Cère
+5,ESPACE VINS,15000&nbsp;Aurillac
+6,SARL BLANC FRERES,15130&nbsp;Ytrac
+7,DELAIR Patrick Henri Pierre,15500&nbsp;La Chapelle-Laurent
+8,SARL ETABLISSEMENTS LACHAISE,15190&nbsp;Condat
+9,FONTANILLE Thierry,15250&nbsp;Reilhac
+10,COMBES Patrick Jean Joseph,15300&nbsp;Murat
+11,SAS LES 3 CAVES,15000&nbsp;Aurillac
+12,IRLANDE Didier Thierry,15800&nbsp;Vic-sur-Cère
+13,ETABLISSEMENTS SIMON S.A.R.L.,15200&nbsp;Mauriac
+14,INDIVISION COMBES PATRICK,15300&nbsp;MURAT

@@ -1,0 +1,8 @@
+1,LES GRANDS CRUS EN CAVE,09200&nbsp;Montjoie-en-Couserans
+2,ARIEGE BOISSONS DISTRIBUTION,09340&nbsp;Verniolle
+3,L.C.V.D.,09130&nbsp;Artigat
+4,GIE Breuvages de Pyrène,09120&nbsp;Montégut-Plantaurel
+5,DURRIEU André,09200&nbsp;Saint-Girons
+6,FREYCHE Patricia Marie-Pierre,09100&nbsp;Saint-Martin-d'Oydes
+7,DP DISTRIBUTION,09600&nbsp;Laroque-d'Olmes
+8,STAUNER,09120&nbsp;Cazaux

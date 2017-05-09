@@ -1,0 +1,14 @@
+1,UNION DE DISTRIBUTION DU VELAY,43000&nbsp;Le Puy-en-Velay
+2,VEDEL BOISSONS,43300&nbsp;Langeac
+3,LES CAVES MARCON,43290&nbsp;Saint-Bonnet-le-Froid
+4,SARL BRASSERIE LA VELLAVIA,43000&nbsp;Polignac
+5,SOCIETE D'EXPLOITATION DES ETABLISSEMENTS VERDIER,43430&nbsp;Champclause
+6,SOCIETE D'EXPLOITATION DES ETABLISSEMENTS PAUL BAYER,43700&nbsp;Saint-Germain-Laprade
+7,SARL EXPERT BOISSONS,43800&nbsp;Beaulieu
+8,ENJOLRAS Dimitri Étienne,43000&nbsp;Le Puy-en-Velay
+9,CRESPY GILLES PIERRE BERNARD,43150&nbsp;Le Monastier-sur-Gazeille
+10,RABERIN CORINNE,43140&nbsp;Saint-Didier-en-Velay
+11,BARRIOL Philippe,43400&nbsp;Le Chambon-sur-Lignon
+12,RAVEL Kévin,43120&nbsp;Monistrol-sur-Loire
+13,PINTO Daniel,43620&nbsp;Saint-Pal-de-Mons
+14,FORCE BOISSON,43220&nbsp;Riotord

@@ -1,0 +1,16 @@
+1,SOLIBULLES,50380&nbsp;Saint-Pair-sur-Mer
+2,S.A.S. MALPLANCHE,50530&nbsp;Sartilly-Baie-Bocage
+3,DES BASSINS,50630&nbsp;Le vast
+4,THE SINGLE APPLE COMPANY,50240&nbsp;Saint-James
+5,SARL BEER HUNTERS,50600&nbsp;Saint-Hilaire-du-Harcouet
+6,FRANCE CIDRE EXPORT,50380&nbsp;Saint-Pair-sur-Mer
+7,KASZYCKI Richard, Marc, Basile,50690&nbsp;Hardinvast
+8,MICHAUD Michel Andre,50140&nbsp;Mortain-Bocage
+9,CAVCM,50140&nbsp;Mortain-Bocage
+10,LA THEVILLAISE,50100&nbsp;Cherbourg-en-Cotentin
+11,SAINT-PLANCHERS BOISSONS,50400&nbsp;Saint-Planchers
+12,BOULLIER Yvan Dominique Alain,50000&nbsp;Saint-Lô
+13,SEBIRE Karine, Thérèse, Marcelle, Madeleine,50600&nbsp;Moulines
+14,SOCIETE COOPERATIVE FERMIERE DES CALVADOS DU BOCAGE - FERMICALVA,50540&nbsp;Isigny-le-Buât
+15,LA CAVE DU BOURGUIGNON,50290&nbsp;Bréhal
+16,LAURENT SYLVIE,50340&nbsp;PIERREVILLE

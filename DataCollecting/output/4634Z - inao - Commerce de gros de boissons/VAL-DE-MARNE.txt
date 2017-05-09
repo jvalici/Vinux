@@ -1,0 +1,99 @@
+1,LAPLACE,94550&nbsp;Chevilly-Larue
+2,SAVOUR CLUB SELECTION,94320&nbsp;Thiais
+3,MARIE BRIZARD WINE & SPIRITS FRANCE,94200&nbsp;Ivry-sur-Seine
+4,SNC ERIC LE QUINIO,94140&nbsp;Alfortville
+5,ENTREPOT DUFFAUD PERE ET FILS,94100&nbsp;Saint-Maur-des-Fossés
+6,C.V.D. L'ENOTECA,94430&nbsp;Chennevières-sur-Marne
+7,SIMWILLER S.A.,94100&nbsp;SAINT MAUR DES FOSSES
+8,FOOD AND BEVERAGE SERVICES INTERNATIONAL,94150&nbsp;Rungis
+9,SPIRIDOM,94460&nbsp;Valenton
+10,LA BOITE A VINS,94300&nbsp;Vincennes
+11,MEREGALLI France,94370&nbsp;Sucy-en-Brie
+12,COMPAGNIE FRANCO HELLENIQUE DU SAMOS,94220&nbsp;Charenton-le-Pont
+13,WINE ON DEMAND,94160&nbsp;Saint-Mandé
+14,SAPHY INTERNATIONAL,94700&nbsp;Maisons-Alfort
+15,LA CADOLE,94300&nbsp;Vincennes
+16,OLIV DEVELOPPEMENT,94130&nbsp;Nogent-sur-Marne
+17,SOMIVIN,94320&nbsp;Thiais
+18,WINE COLLECTION CLUB,94100&nbsp;Saint-Maur-des-Fossés
+19,SALVI FRANCE,94120&nbsp;Fontenay-sous-Bois
+20,UNIVERS DES BOISSONS ARTISANALES,94500&nbsp;Champigny-sur-Marne
+21,POINT B,94600&nbsp;Choisy-le-Roi
+22,AROMES,94140&nbsp;Alfortville
+23,LE VIN A RUNGIS,94150&nbsp;Rungis
+24,PRIME WINES AND SPIRITS,94460&nbsp;Valenton
+25,GVF INTERNATIONAL,94586&nbsp;Rungis CEDEX
+26,MALARET VINS DISTRIBUTION,94170&nbsp;Le Perreux-sur-Marne
+27,LA CAVE A VIN 94,94410&nbsp;Saint-Maurice
+28,DEMETER INTERNATIONAL SARL,94600&nbsp;Choisy-le-Roi
+29,BISTROPRO,94587&nbsp;Rungis CEDEX
+30,PNP,94400&nbsp;Vitry-sur-Seine
+31,SOCIETE DE DISTRIBUTION DE VINS SELECTIONNES,94220&nbsp;Charenton-le-Pont
+32,STE NOUVELLE LA CAVE DE RUNGIS,94150&nbsp;RUNGIS MIN
+33,DESTOCASH,94150&nbsp;Rungis
+34,BIG VOILIER,94140&nbsp;Alfortville
+35,LA LUMIERE DU VIN,94380&nbsp;BONNEUIL SUR MARNE
+36,RIPARIA,94170&nbsp;Le Perreux-sur-Marne
+37,SBANA,94220&nbsp;Charenton-le-Pont
+38,TAXUS COMMERCE,94400&nbsp;Vitry-sur-Seine
+39,101 PARIS,94400&nbsp;Vitry-sur-Seine
+40,VINISTORY,94150&nbsp;Rungis
+41,GRAND CRU CLUB,94110&nbsp;Arcueil
+42,DAMA ES DISTRIBUTION,94320&nbsp;Thiais
+43,CHMG,94600&nbsp;Choisy-le-Roi
+44,JB WINE&VIN,94120&nbsp;Fontenay-sous-Bois
+45,BERNARD CHATEAU,94170&nbsp;Le Perreux-sur-Marne
+46,GASS DISTRIBUTION,94626&nbsp;Rungis CEDEX
+47,KAT SPIRIT,94140&nbsp;Alfortville
+48,COMMERCES ET PRESTATIONS,94600&nbsp;Choisy-le-Roi
+49,MARCHAND DU MONDE VINS ET SPIRITUEUX,94450&nbsp;Limeil-Brévannes
+50,MANUCRUS,94100&nbsp;Saint-Maur-des-Fossés
+51,CORSICA BOISSON,94100&nbsp;Saint-Maur-des-Fossés
+52,HENRI DUTEIL,94200&nbsp;Ivry-sur-Seine
+53,AXEVINEO,94120&nbsp;Fontenay-sous-Bois
+54,LECLOS DEBEAUFORT,94170&nbsp;Le Perreux-sur-Marne
+55,CARDEL BOISSONS,94100&nbsp;Saint-Maur-des-Fossés
+56,FOR US,94400&nbsp;Vitry-sur-Seine
+57,ACTE VIN,94400&nbsp;Vitry-sur-Seine
+58,SPACE SPICE,94230&nbsp;Cachan
+59,FRITZ Jean -Cyril,94120&nbsp;Fontenay-sous-Bois
+60,ZHOU Tongyu,94500&nbsp;Champigny-sur-Marne
+61,EURL YVES DE BOHAN,94160&nbsp;Saint-Mandé
+62,ABSOLUMENT VIN,94160&nbsp;Saint-Mandé
+63,JL LEFEVRE,94100&nbsp;Saint-Maur-des-Fossés
+64,CAVE AND WINE FRANCE,94270&nbsp;Le Kremlin-Bicêtre
+65,3A LTD,94400&nbsp;Vitry-sur-Seine
+66,TERROIRS & CO,94370&nbsp;Sucy-en-Brie
+67,BIILYON,94140&nbsp;Alfortville
+68,BACCHUSIA,94130&nbsp;Nogent-sur-Marne
+69,PARTENAIRE CHAMPAGNE,94240&nbsp;L'Hay-les-Roses
+70,TOURE Hamara,94160&nbsp;Saint-Mandé
+71,VINIVORE,94800&nbsp;Villejuif
+72,IMAK,94200&nbsp;Ivry-sur-Seine
+73,SDTB,94160&nbsp;Saint-Mandé
+74,INTERNATIONAL BUSINESS COMPANY,94500&nbsp;Champigny-sur-Marne
+75,PROVEYDER,94140&nbsp;Alfortville
+76,VENDING TRADING CONSULTING,94700&nbsp;Maisons-Alfort
+77,LE CELLIER DE PIERRE,94170&nbsp;Le Perreux-sur-Marne
+78,SAINT PIERRE,94100&nbsp;Saint-Maur-des-Fossés
+79,EURL ALBERT RUIMY,94300&nbsp;Vincennes
+80,BASARAN FOOD,94480&nbsp;Ablon-sur-Seine
+81,CELLIER DES VIGNERONS,94400&nbsp;Vitry-sur-Seine
+82,VAYLAC-PEUCH,94100&nbsp;SAINT MAUR DES FOSSES
+83,SCOTISH AND IRISH CONCEPT,94150&nbsp;Rungis
+84,MODIUS,94220&nbsp;Charenton-le-Pont
+85,BIERES ET MALTS,94170&nbsp;Le Perreux-sur-Marne
+86,ETABLISSEMENTS VALDIGNY,94200&nbsp;Ivry-sur-Seine
+87,FABRIS DIFFUSION SARL,94800&nbsp;Villejuif
+88,ALDEHYDE WINE,94800&nbsp;Villejuif
+89,LPEAIT,94800&nbsp;Villejuif
+90,AGENCE TERVIDIS,94460&nbsp;Valenton
+91,BULLES TRANQUILLES,94440&nbsp;Villecresnes
+92,ETABLISSEMENTS FILLOT,94250&nbsp;Gentilly
+93,DUROC Yoann,94300&nbsp;Vincennes
+94,FROM MADA,94300&nbsp;Vincennes
+95,ALLIANCE BOISSONS,94200&nbsp;Ivry-sur-Seine
+96,EXCLUSIVE DRINK,94340&nbsp;Joinville-le-Pont
+97,VEBER Maxime,94600&nbsp;Choisy-le-Roi
+98,AVENUE DU VIN,94000&nbsp;Créteil
+99,LE KALYPSO,94360&nbsp;Bry-sur-Marne

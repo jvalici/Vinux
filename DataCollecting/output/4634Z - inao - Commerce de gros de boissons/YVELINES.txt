@@ -1,0 +1,94 @@
+1,BOUQUET AUSTRAL,78590&nbsp;Noisy-le-Roi
+2,CHANTOVENT,78270&nbsp;Bonnières-sur-Seine
+3,REPRESENTATION ET DISTRIBUTION DE MARQUES,78550&nbsp;Houdan
+4,BRASSERIE BAVARIA,78750&nbsp;Mareil-Marly
+5,ETABLISSEMENTS MARTEAU ET COMPAGNIE,78350&nbsp;Jouy-en-Josas
+6,AIGLE 20,78160&nbsp;Marly-le-Roi
+7,BONBONNET ELEVAGE,78220&nbsp;Viroflay
+8,AQUALYRE,78310&nbsp;Coignières
+9,SOCIETE SAKAGUCHI,78830&nbsp;Bonnelles
+10,ETABLISSEMENTS MICHEL SABAN ET CIE,78150&nbsp;Le Chesnay
+11,DIVINITES DU SUD,78120&nbsp;Rambouillet
+12,PROXI BOISSONS NORMANDIE - PBN,78920&nbsp;Ecquevilly
+13,SARL ROHRBACH,78000&nbsp;Versailles
+14,ZERO DEGRES,78112&nbsp;Fourqueux
+15,AUD' & VINS,78290&nbsp;Croissy-sur-Seine
+16,SVDR,78750&nbsp;Mareil-Marly
+17,LA BEEROTEK,78000&nbsp;Versailles
+18,BRUNEAU ET FILS,78180&nbsp;Montigny-le-Bretonneux
+19,SARL CAVES BOURDIN,78380&nbsp;Bougival
+20,VINONOBILIS,78350&nbsp;Les Loges-en-Josas
+21,MARINAVINS,78730&nbsp;Saint-Arnoult-en-Yvelines
+22,CAP DELICES,78530&nbsp;Buc
+23,SOSWINE,78110&nbsp;Le Vésinet
+24,LA MAISON DES VIGNERONS,78000&nbsp;Versailles
+25,FRENCHIES WINES,78870&nbsp;Bailly
+26,OPENORGANIC SCS,78540&nbsp;Vernouillet
+27,CIRES,78620&nbsp;L'Étang-la-Ville
+28,ALLIANCE VINS FINS,78000&nbsp;Versailles
+29,ALLIANCE VINS FINS,78000&nbsp;Versailles
+30,VINS & CHATEAUX,78670&nbsp;Villennes-sur-Seine
+31,EPICURIS,78600&nbsp;Maisons-Laffitte
+32,BISSAO,78100&nbsp;Saint-Germain-en-Laye
+33,VINHOMINES,78600&nbsp;Maisons-Laffitte
+34,Jacques Millet Négoce,78630&nbsp;Morainvilliers
+35,DRINKS OF FIRE,78200&nbsp;Magnanville
+36,VINS D EXCEPTION,78100&nbsp;Saint-Germain-en-Laye
+37,SARL PEROSI,78110&nbsp;Le Vésinet
+38,VINS ET GOURMANDISES,78930&nbsp;Breuil-Bois-Robert
+39,SARL ANGELA,78270&nbsp;Jeufosse
+40,LES CAVES DU BON TEMPS,78780&nbsp;Maurecourt
+41,ATOUT-VINS,78800&nbsp;Houilles
+42,C.J.P. SILVER,78160&nbsp;Marly-le-Roi
+43,AGENCE VINCENT DUBERNET,78124&nbsp;Mareil-sur-Mauldre
+44,VINS SI,78430&nbsp;Louveciennes
+45,MALTS ET CEPAGES,78460&nbsp;Chevreuse
+46,OWUSU AFRIYIE Eric,78270&nbsp;Bonnières-sur-Seine
+47,LES VINS TRANQUILLE,78440&nbsp;Gargenville
+48,SINA Z FRANCE,78500&nbsp;Sartrouville
+49,DIFFERENT WINES,78120&nbsp;Rambouillet
+50,NPS,78310&nbsp;Maurepas
+51,LVF POISSY,78300&nbsp;Poissy
+52,SILENE GRANDS CRUS,78000&nbsp;Versailles
+53,LBDH DISTRIBUTION,78110&nbsp;Le Vésinet
+54,EDOUARD,78100&nbsp;Saint-Germain-en-Laye
+55,VINSUMMUM FRANCE,78124&nbsp;Mareil-sur-Mauldre
+56,VINOPHORIA,78100&nbsp;Saint-Germain-en-Laye
+57,ALTO NC,78310&nbsp;Maurepas
+58,LES TERROIRS,78180&nbsp;Montigny-le-Bretonneux
+59,VFX,78960&nbsp;Voisins-le-Bretonneux
+60,AJS VINS,78630&nbsp;Orgeval
+61,GDB,78190&nbsp;Trappes
+62,COUDERC Julien,78800&nbsp;Houilles
+63,IDA BOISSONNERIE,78220&nbsp;Viroflay
+64,CIDRES DU MONDE,78480&nbsp;Verneuil-sur-Seine
+65,DL CONSEILS,78790&nbsp;Tilly
+66,LAJUGIE Sylvain,78600&nbsp;Maisons-Laffitte
+67,ROUX Hugo,78580&nbsp;Les Alluets-le-Roi
+68,LMETRADINGEXPORT,78000&nbsp;Versailles
+69,TRESOR DE FRANCE,78000&nbsp;Versailles
+70,NOORA COSMETIQUES,78440&nbsp;Gargenville
+71,FEDERACAVE,78910&nbsp;Béhoust
+72,AGUA SALTZA,78000&nbsp;Versailles
+73,COSTES Paul Maurice,78100&nbsp;SAINT GERMAIN EN LAYE
+74,SCHLOSSER-VILLAUME DISTRIBUTION,78220&nbsp;Viroflay
+75,SARL FRANCE MAGHREB IMPORT,78580&nbsp;Les Alluets-le-Roi
+76,FRANCE ASIE PACIFIQUE,78230&nbsp;Le Pecq
+77,PETITS ET GRANDS CRUS DE FRANCE,78190&nbsp;Trappes
+78,LOUIS Jean Karl,78117&nbsp;Toussus-le-Noble
+79,MSELECTION,78360&nbsp;Montesson
+80,THIBAULT SARL,78100&nbsp;SAINT GERMAIN EN LAYE
+81,AROMES ET SAVEURS DES TERROIRS,78550&nbsp;Houdan
+82,SARL VINCELET,78440&nbsp;Montalet-le-Bois
+83,PARIMA,78650&nbsp;Beynes
+84,DISTRIBUTION DOMAINES ET CHATEAUX,78960&nbsp;Voisins-le-Bretonneux
+85,FRANSKABOLAGET,78124&nbsp;Mareil-sur-Mauldre
+86,AGENCE PHILIPPE ESCANDE SARL,78000&nbsp;Versailles
+87,VINS EXPRESS,78600&nbsp;Maisons-Laffitte
+88,LONGUETEAU Gérard Philippe,78460&nbsp;Chevreuse
+89,TERROIRS ET VINS NOBLES,78210&nbsp;Saint Cyr l'École
+90,NPBiodyvin,78630&nbsp;Morainvilliers
+91,CHAI Valentin,78160&nbsp;Marly-le-Roi
+92,AVOCAV',78910&nbsp;Orgerus
+93,NEOVINIA,78750&nbsp;Mareil-Marly
+94,NATURAL FOOD DISTRIBUTION,78930&nbsp;Guerville

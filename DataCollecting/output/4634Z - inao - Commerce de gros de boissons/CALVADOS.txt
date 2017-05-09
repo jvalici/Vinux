@@ -1,0 +1,28 @@
+1,SOCIETE PIERRE BOINET,14800&nbsp;Saint-Arnoult
+2,PROXI BOISSONS COTE DE NACRE,14730&nbsp;Giberville
+3,MESNIL,14480&nbsp;CREULLY SUR SEULLES
+4,PERIER LABEL BOISSONS,14310&nbsp;Villers-bocage
+5,SA COMMERCIALE DU CHATEAU D'HEBERTOT,14130&nbsp;Pont-l'Evêque
+6,DAIGREMONT DISTRIBUTION ET ASSOCIES,14430&nbsp;Annebault
+7,SASSY FRANCE,14130&nbsp;Manneville-la-Pipard
+8,AGENCE OUEST COMMERCE,14400&nbsp;Saint-Vigor-le-Grand
+9,LIBERGE VINS SARL,14170&nbsp;SAINT-PIERRE-EN-AUGE
+10,ENTREPOTS HEBERT SARL,14730&nbsp;Giberville
+11,VINS ET BULLES,14800&nbsp;Tourgéville
+12,BIERES QUALITE SERVICES - BQS,14730&nbsp;Giberville
+13,DOMIZY,14112&nbsp;Périers-sur-le-Dan
+14,VINIRA,14112&nbsp;Biéville-Beuville
+15,PRC INTERNATIONAL,14920&nbsp;Mathieu
+16,NORMANDIE SPIRIT,14880&nbsp;Hermanville-sur-Mer
+17,LE COINTE Bernard, Désiré, Henri,14790&nbsp;Fontaine Etoupefour
+18,MARCEL DIFFUSION,14000&nbsp;Caen
+19,Alambic & Co,14114&nbsp;Ver-sur-Mer
+20,LONG-NECK,14100&nbsp;Lisieux
+21,HOMMET Jules Roger Julien Georges,14130&nbsp;Saint-Julien-Sur-Calonne
+22,P.R DISTRIBUTION,14100&nbsp;Lisieux
+23,SARL VINEALE,14120&nbsp;Mondeville
+24,JUST VINOPHILE,14130&nbsp;Pont l'évêque
+25,VINCENT Benjamin, Jacques-Henri,14240&nbsp;Caumont sur Aure
+26,LA CAVE DU LOIR,14400&nbsp;Bayeux
+27,VILLEDIEU Johann, Mathieu, Antonin,14220&nbsp;Culey-le-Patry
+28,SPIRIT ARTISAN,14600&nbsp;Gonneville-sur-Honfleur

@@ -1,0 +1,22 @@
+1,FDL,79230&nbsp;Prahecq
+2,CENTRE OUEST BOISSONS -STE D'EXPLOITATION DES ETS Bernard MICHENOT -S.C.O.B.,79240&nbsp;Le Busseau
+3,NIORT BOISSONS,79000&nbsp;Niort
+4,NIORT BOISSONS,79000&nbsp;Niort
+5,LA MINUTE BLONDE,79000&nbsp;Bessines
+6,COSSET ET FILS,79160&nbsp;Saint-Pompain
+7,TY BIHAN,79180&nbsp;Chauray
+8,UNION VINICOLE,79160&nbsp;VILLIERS EN PLAINE
+9,RENAUDIN Jean-Michel François,79130&nbsp;Secondigny
+10,BLACHON François,79340&nbsp;Vasles
+11,Kmikaz SASU,79000&nbsp;Niort
+12,RECLAME DU JOUR,79100&nbsp;Saint-Léger-de-Montbrun
+13,BEEROUTE BREWERS CO,79100&nbsp;Sainte-Verge
+14,SIMONNEAU Alain Gérard,79420&nbsp;Vausseroux
+15,SARL THONNARD,79000&nbsp;Niort
+16,GERVAIS Nicolas Guy,79170&nbsp;Brioux-sur-Boutonne
+17,CHUPIN Michel Roger Elie,79420&nbsp;Saint-Lin
+18,LA CAVE DE L AUTIZE,79160&nbsp;Coulonges-sur-l'Autize
+19,LE RELAIS DE LA CHOUANNERIE,79450&nbsp;Saint-Aubin-le-Cloud
+20,AGENCE MARTINEAU,79370&nbsp;Mougon-Thorigné
+21,CHAIS DES ROCHES NEUVES,79140&nbsp;CIRIERE
+22,AGENCE VINICOLE HUET,79000&nbsp;Niort

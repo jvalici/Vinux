@@ -1,0 +1,38 @@
+1,VIGNOBLES MICHON,85340&nbsp;L ILE D OLONNE
+2,VINS REMY LIBOUREAU,85700&nbsp;Saint-Mesmin
+3,LE COMPTOIR DE LA BIERE,85600&nbsp;Boufféré
+4,INAXO,85000&nbsp;La Roche-sur-Yon
+5,COTE ET VINS,85800&nbsp;Saint-Gilles-Croix-de-Vie
+6,BOISSONS PLUS,85140&nbsp;Saint-Martin-des-Noyers
+7,BIERES ET PLAISIRS,85300&nbsp;Challans
+8,ETABLISSEMENTS GERARD PASQUET,85800&nbsp;Saint-Gilles-Croix-de-Vie
+9,CAVES CARTRON,85120&nbsp;La Châtaigneraie
+10,LE COMPTOIR DE CLEM,85190&nbsp;Maché
+11,AGATHE ET PIERRE,85000&nbsp;La Roche-sur-Yon
+12,ROUBALIKOVA Marie,85360&nbsp;La Tranche-sur-Mer
+13,C.V.V.B. VINS D'ANTHOLOGIE COMPTOIR VENDEEN DES VINS DE BORDEAUX,85110&nbsp;Chantonnay
+14,LES BIERES TCHEQUES,85140&nbsp;Saint-Martin-des-Noyers
+15,TESSIER Mickaël,85670&nbsp;Saint-Étienne-du-Bois
+16,VENDEE OUEST BOISSONS DISTRIBUTION,85000&nbsp;La Roche-sur-Yon
+17,CAVINOLIA,85170&nbsp;Saint-Denis-la-Chevasse
+18,ADVL.85,85560&nbsp;Longeville-sur-Mer
+19,BIERES ET PLAISIRS MONTOIS,85160&nbsp;Saint-Jean-de-Monts
+20,RAMAT Françoise,85500&nbsp;Les Herbiers
+21,SARL NER - VINS ET CAUDALIES,85000&nbsp;Mouilleron-le-Captif
+22,ACHILLE FAUCHER,85400&nbsp;Luçon
+23,NAIN Jean-François,85000&nbsp;La Roche-sur-Yon
+24,BLPP ATLANTIC,85350&nbsp;L ILE D YEU
+25,SARL D4 Découvertes,85160&nbsp;Saint-Jean-de-Monts
+26,VENDEE BOISSONS,85190&nbsp;Venansault
+27,ROCHE DISTRIBUTION,85400&nbsp;Luçon
+28,LES CHOPES YEU,85350&nbsp;L ILE D YEU
+29,B2R,85000&nbsp;La Roche-sur-Yon
+30,Illegal Energy Atlantique,85150&nbsp;Le Girouard
+31,JVS,85100&nbsp;Les Sables d'Olonne
+32,EURL ORCEAU,85140&nbsp;Saint-Martin-des-Noyers
+33,SARL GROSSIN FRERES,85220&nbsp;Coëx
+34,QDV,85540&nbsp;Saint-Vincent-sur-Graon
+35,"VINS SUR 20",85440&nbsp;Talmont-Saint-Hilaire
+36,CHAIS DES ROCHES NEUVES,85770&nbsp;Vix
+37,"LES 12 BRASSERIES",85000&nbsp;La Roche-sur-Yon
+38,WINE NOTE,85100&nbsp;Les Sables d'Olonne

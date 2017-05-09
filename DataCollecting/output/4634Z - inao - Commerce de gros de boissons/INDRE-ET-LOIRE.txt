@@ -1,0 +1,106 @@
+1,SCHOEN BOISSONS CHD,37300&nbsp;Joue les Tours
+2,ETABLISSEMENTS FAYETTE,37400&nbsp;Amboise
+3,MAISON JOURDAN,37500&nbsp;Cravant-les-Côteaux
+4,BIOVIDIS,37400&nbsp;Amboise
+5,LA COUR AU BERRUYER SAS,37190&nbsp;Cheille
+6,MAISON AUDEBERT ET FILS,37140&nbsp;Bourgueil
+7,MAISON COULY - DUTHEIL,37500&nbsp;Chinon
+8,R.G. DISTRIBUTION,37250&nbsp;Veigné
+9,SARL Jean-Maurice RAFFAULT,37420&nbsp;Savigny-en-Véron
+10,OINOS,37270&nbsp;Montlouis-Sur-Loire
+11,SARL GASTON HUET,37210&nbsp;Vouvray
+12,CATHERINE & PIERRE BRETON,37140&nbsp;Restigné
+13,FAMILLES AMIRAULT-GROSBOIS,37140&nbsp;Saint-Nicolas-de-Bourgueil
+14,LES PROS DU VIN,37210&nbsp;Vouvray
+15,SAS MARTINE BUDE,37420&nbsp;Beaumont-En-Veron
+16,SOCIETE DE DISTRIBUTION DES EAUX MINERALES DE FRANCE,37140&nbsp;Chouzé-sur-Loire
+17,M PLOUZEAU,37500&nbsp;La Roche-Clermault
+18,BARON DE BRIARE,37210&nbsp;Rochecorbon
+19,S.E. DES ETABLISSEMENTS JOUMIER,37600&nbsp;Loches
+20,SARL FONTAINE,37500&nbsp;Chinon
+21,CAVE DE LA PRETRISE,37150&nbsp;La Croix-en-Touraine
+22,CHAIS ET ENTREPOTS DE TOURAINE,37150&nbsp;La Croix-en-Touraine
+23,LES BELLES CAVES,37270&nbsp;Saint-Martin-Le-Beau
+24,VINI BE GOOD,37420&nbsp;BEAUMONT EN VERON
+25,ETIENNE de BONNAVENTURE,37420&nbsp;Beaumont-en-Véron
+26,CEF BOISSONS,37390&nbsp;Saint-Roch
+27,AMIRAULT,37140&nbsp;Saint Nicolas de Bourgueil
+28,LOIRE VALLEY DISTRIBUTION,37000&nbsp;Tours
+29,PASCALE ET FRANCOIS PLOUZEAU,37120&nbsp;Razines
+30,LES AMIS DU CASK,37210&nbsp;Vouvray
+31,LA CHAPELLE AUX VINS,37230&nbsp;Fondettes
+32,LA CHAPELLE AUX VINS,37230&nbsp;Fondettes
+33,FREDERIC MABILEAU,37140&nbsp;Saint-Nicolas-De-Bourgueil
+34,UNE AUTRE CAVE,37000&nbsp;Tours
+35,GV & FXB,37140&nbsp;Saint-Nicolas-de-Bourgueil
+36,TZAR WINES,37540&nbsp;Saint-Cyr-sur-Loire
+37,UN SAUMON DANS LA LOIRE,37270&nbsp;Montlouis Sur Loire
+38,Le Gambrinus,37000&nbsp;Tours
+39,LES GRANDS VINS DE FRANCE,37320&nbsp;Cormery
+40,SARL BAPAUGER,37550&nbsp;St Avertin
+41,ANTOINE ANTIER,37400&nbsp;Lussault Sur Loire
+42,BOUQUET DE LOIRE,37270&nbsp;Saint-Martin-Le-Beau
+43,AUREUS SARL,37300&nbsp;Joue-Les-Tours
+44,DVA EUROPE,37170&nbsp;Chambray-lès-Tours
+45,Lydie et Max COGNARD,37140&nbsp;Saint-Nicolas-de-Bourgueil
+46,SARL FABRICE GASNIER,37500&nbsp;Cravant-les-Côteaux
+47,LA RABELAISIENNE,37520&nbsp;La Riche
+48,SARL PIERRE ET BERTRAND COULY,37500&nbsp;Chinon
+49,PIPETTE,37210&nbsp;Vernou-sur-Brenne
+50,EURL WILFRID ROUSSE,37420&nbsp;Savigny-en-Véron
+51,CHESSERON Annabelle Georgette Michelle,37120&nbsp;Chaveignes
+52,CAV'PAR 3,37000&nbsp;Tours
+53,LES TUFFEAUX DE FOMBECHE,37270&nbsp;Saint-Martin-le-Beau
+54,SARL JEAN BRUNET,37210&nbsp;Vernou-Sur-Brenne
+55,LEVEQUE André,37530&nbsp;Mosnes
+56,EURL DE PALLUS,37500&nbsp;Cravant-les-Côteaux
+57,SARL Jean-Max MANCEAU,37500&nbsp;Chinon
+58,GEBU,37210&nbsp;Chançay
+59,PASSION ET PRESTIGE DU VIN,37100&nbsp;Tours
+60,LIGER,37000&nbsp;Tours
+61,LIBEJ,37270&nbsp;Montlouis Sur Loire
+62,SASU Laurent LEBLED,37420&nbsp;Savigny en Veron
+63,SHVED Iryna,37140&nbsp;Chouze Sur Loire
+64,France, vignobles et terroirs,37210&nbsp;Parcay Meslay
+65,CUATRO MANOS,37140&nbsp;Chouze Sur Loire
+66,SARL JACQUES CHEVREAU,37210&nbsp;Vernou Sur Brenne
+67,EURL MAISON DARRAGON,37210&nbsp;Vouvray
+68,BONGARS Denise,37210&nbsp;Noizay
+69,NICOLAS RENARD NEGOCE,37400&nbsp;Amboise
+70,LUDOVIC CHANSON NEGOCE,37210&nbsp;Noizay
+71,FRAJO 37,37000&nbsp;Tours
+72,L'OUBLIEE PAR XAVIER COURANT,37130&nbsp;Saint-Patrice
+73,EURL CAVES ANGELLIAUME,37500&nbsp;Cravant les Coteaux
+74,COLLA Sylvain,37220&nbsp;Crouzilles
+75,SIG DISTRIBUTION,37250&nbsp;Veigne
+76,ENVIE2LOIRE,37210&nbsp;Rochecorbon
+77,DOMAINE SYLVAIN GAUDRON,37210&nbsp;Vernou Sur Brenne
+78,SARL EMMANUEL TRIGAUX-MUREAU,37140&nbsp;La Chapelle-Sur-Loire
+79,JOULIN Frères,37270&nbsp;Saint Martin le Beau
+80,DANSAULT Régis Jean-Pierre,37270&nbsp;Montlouis-sur-Loire
+81,BOUCHET NICOLAS JEAN-MARIE,37270&nbsp;Montlouis Sur Loire
+82,DOMAINE OLGA RAFFAULT,37420&nbsp;Savigny-en-Véron
+83,SOCIETE VITICOLE DU VAL DE LOIRE - LES CAVES SAINT MEXME,37500&nbsp;Chinon
+84,SICA DES CAVES DES VINS DE RABELAIS,37500&nbsp;Chinon
+85,SARL FREDERIC BOURILLON,37210&nbsp;Rochecorbon
+86,CHATEAU DE LIGRE,37500&nbsp;Ligré
+87,L'ECHANSONNE,37210&nbsp;Vouvray
+88,SARL BERNARD FOUQUET,37210&nbsp;Vouvray
+89,GIE MORIN,37140&nbsp;Bourgueil
+90,SARL CHARLES PAIN,37220&nbsp;Panzoult
+91,MAISON JAMET SARL,37140&nbsp;Saint-Nicolas-de-Bourgueil
+92,GIRAUD,37270&nbsp;Saint Martin le Beau
+93,THIERRY NERISSON AUTHENTICITE TERROIR,37210&nbsp;Rochecorbon
+94,JAULIN-PLAISANTIN,37500&nbsp;Chinon
+95,VINS ET DOMAINES,37380&nbsp;Monnaie
+96,VINS ET DOMAINES,37380&nbsp;Monnaie
+97,LES MAINS ROUGES,37500&nbsp;Chinon
+98,CM WINES,37530&nbsp;Charge
+99,BALLIF MURAY,37140&nbsp;Restigné
+100,EURL HELENE BELLUT,37500&nbsp;Chinon
+101,VINEOS,37500&nbsp;Cravant-les-Côteaux
+102,AUTOUR DE L'ANNE,37530&nbsp;Charge
+103,SARL SOURDAIS,37500&nbsp;Cravant-Les-Coteaux
+104,T.C. CONCEPT,37000&nbsp;Tours
+105,VINAGORA,37110&nbsp;Chateau Renault
+106,ARNAUD & JACQUES COULY DUTHEIL,37500&nbsp;Chinon

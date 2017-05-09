@@ -1,0 +1,55 @@
+1,COMPAGNIE FINANCIERE DES GRANDS VINS DE TOKAJ SA,95500&nbsp;Gonesse
+2,EL ALAMO,95140&nbsp;Garges-lès-Gonesse
+3,LBA,95190&nbsp;Goussainville
+4,PARIS NORD BOISSONS,95500&nbsp;Gonesse
+5,IMPERIAL NEGOCE,95580&nbsp;Andilly
+6,GALLO VINEYARDS INC,95353&nbsp;USA
+7,L INDEPENDANTE DE DISTRIBUTION,95440&nbsp;Écouen
+8,PAKCAN EUROPE,95500&nbsp;Gonesse
+9,FRENCH STREET,95480&nbsp;Pierrelaye
+10,ALRIC,95650&nbsp;BOISSY-L'AILLERIE
+11,AK,95100&nbsp;Argenteuil
+12,JEAN LUC POUTEAU SARL,95130&nbsp;Franconville
+13,MIG X DRINKS,95600&nbsp;Eaubonne
+14,LA CAVE D'OLIVIER,95150&nbsp;Taverny
+15,ETABLISSEMENTS GUILLIER,95310&nbsp;SAINT OUEN L'AUMONE
+16,KOSHER WINE & CO,95500&nbsp;Gonesse
+17,GRANDROSE,95220&nbsp;Herblay
+18,20 PLAISIRS,95870&nbsp;Bezons
+19,LA MAISON LUSITAINE,95140&nbsp;Garges-lès-Gonesse
+20,CHRISTOPHE Yannick,95140&nbsp;Garges-lès-Gonesse
+21,CAVE DU CLOS,95410&nbsp;Groslay
+22,SAVOYE Dominique Gerard Michel,95160&nbsp;Montmorency
+23,VINESIME,95430&nbsp;Auvers-sur-Oise
+24,MEHADJI Mohamed,95340&nbsp;Persan
+25,PERIN Nicolas,95200&nbsp;Sarcelles
+26,OENOPHYTA,95600&nbsp;Eaubonne
+27,M ET B,95150&nbsp;Taverny
+28,VINIPHILIA,95740&nbsp;Frépillon
+29,LEANN SERVICES,95320&nbsp;Saint-Leu-la-Forêt
+30,PRESTIGE DE FRANCE,95300&nbsp;Pontoise
+31,ABRAHAM VARGAS,95230&nbsp;Soisy-sous-Montmorency
+32,CENTRALE VINIPHILIA,95740&nbsp;Frépillon
+33,MICKEY'S COFFEE,95500&nbsp;Gonesse
+34,J.A.N. EURL,95000&nbsp;Cergy
+35,LA CAVE D HUGO,95370&nbsp;Montigny-lès-Cormeilles
+36,GLOBAL WINES.FOOD &SPIRITS,95480&nbsp;Pierrelaye
+37,LE CHAIS,95130&nbsp;Franconville la Garenne
+38,LES VINS DU PATRIMOINE,95300&nbsp;Pontoise
+39,BOURMIK El Hassan,95100&nbsp;Argenteuil
+40,BOURGINE Gary,95270&nbsp;Saint-Martin-du-Tertre
+41,S.B.C.,95120&nbsp;Ermont
+42,SARL O.F.P. IMPORT-EXPORT,95610&nbsp;Eragny-sur-Oise
+43,SARL LA GRAND MARE,95230&nbsp;Soisy-sous-Montmorency
+44,SOFT DRINK SAS,95140&nbsp;Garges-lès-Gonesse
+45,AGENCE POUTIER,95130&nbsp;Franconville la Garenne
+46,LA VIGNE SAINT LOUPIENNE,95320&nbsp;Saint-Leu-la-Forêt
+47,WL TRADING,95100&nbsp;Argenteuil
+48,EUROPE PL,95500&nbsp;Le Thillay
+49,EKEY,95500&nbsp;Le Thillay
+50,LES CAVES PRESTIGES,95500&nbsp;Bonneuil-en-France
+51,SOFTDRINK'S,95100&nbsp;Argenteuil
+52,J 2 C,95160&nbsp;Montmorency
+53,KIFSA ENTREPRISE,95470&nbsp;Survilliers
+54,ZEN PROJECT,95000&nbsp;Cergy
+55,JACQUOTTE BAR FINANCES,95190&nbsp;Goussainville
