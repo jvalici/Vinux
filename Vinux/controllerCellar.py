@@ -36,7 +36,7 @@ def getCellar(request):
 @login_required(login_url='/accounts/login/')
 def getDenominations(request):
     hint = remove_special_chars( request.GET['hint'] )
-    denoms = WineDenomination.objects.filter(name__icontains=hint)
+    denoms = WineDenomination.objects.filter(searchName__icontains=hint)
     tmp = [{ 'id':d.id, 'label':d.name } for d in denoms]
     resList = { 'denoms': tmp  }
     return JsonResponse(resList)

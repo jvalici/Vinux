@@ -52,8 +52,7 @@ class Modal extends React.Component {
             {this.props.children}
           </div>
           {!this.props.noBackdrop &&
-              <div className={this.props.backdropClassName} style={backdropStyle}
-                   onClick={e => this.close(e)}/>}
+              <div className={this.props.backdropClassName} style={backdropStyle} onClick={e => this.close(e)}/>}
         </div>
       )
     }
@@ -99,12 +98,9 @@ class Modal extends React.Component {
               }
           });
   }
-  
-  openModal1() {
-      this.setState( { modalLevel: 1 });
-  }
 
-
+  //------------------------------------------------------------------------------
+  // get the list of the producers based on multiple of 3 letters
   getProducers(val)
   {
       if( val.length % 3 == 0){
@@ -124,6 +120,8 @@ class Modal extends React.Component {
       }
   }
   
+  //------------------------------------------------------------------------------
+  // get the list of the products based on multiple of 3 letters
   getDenominations(val)
   {
       if( val.length % 3 == 0){
@@ -143,38 +141,58 @@ class Modal extends React.Component {
       }
   }
   
-  
+  //------------------------------------------------------------------------------
+  // set the denomination
   handleDenominationChange(val)
   {
-      this.setState( { denomination_id: val.id });
+      this.setState( { denomination: val });
   }
+  //------------------------------------------------------------------------------
+  // set the producer
   handleProducerChange(val)
   {
-      this.setState( { producer_id: val.id });
+      this.setState( { producer: val });
   }
+  //------------------------------------------------------------------------------
+  // set the price
   handlePriceChange(form)
   {
       this.setState( { price: form.currentTarget.value });
   }
+  //------------------------------------------------------------------------------
+  // set the vintage
   handleVintageChange(form)
   {
       this.setState( { vintage: form.currentTarget.value });
   }
+  //------------------------------------------------------------------------------
+  // set the name
   handleNameChange(form)
   {
       this.setState( { name: form.currentTarget.value });
   }
   
+  //------------------------------------------------------------------------------
+  // open modal window
+  openModal() {
+      this.setState( { modalLevel: 1 });
+  }
+  //------------------------------------------------------------------------------
+  // close modal window
   closeModal() {
       this.setState( { price: '' });
+      this.setState( { denomination: null });
+      this.setState( { producer: null });
       this.setState( { modalLevel: 0 });
   }
   
+  //------------------------------------------------------------------------------
+  // post the new bottle
   finishAddingBottle()
   {
       $.ajax({
           url: '/Vinux/addBottle/',
-          data: {'denomination_id':this.state.denomination_id, 'producer_id':this.state.producer_id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
+          data: {'denomination_id':this.state.denomination.id, 'producer_id':this.state.producer.id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
           type:'POST',
           dataType: 'json',
           success: function(data) {
@@ -187,8 +205,6 @@ class Modal extends React.Component {
         });
       closeModal();
   }
-  
-  
 
       
   //------------------------------------------------------------------------------
@@ -212,14 +228,14 @@ class Modal extends React.Component {
           return (
               <div>
                   <p>Il ne reste plus que ça dans votre cave:</p>
-                  <button onClick={() => this.openModal1()}>Nvlle bouteille</button>
+                  <button onClick={() => this.openModal()}>Nvlle bouteille</button>
                   <Modal isOpen={this.state.modalLevel == 1} onClose={() => this.closeModal()}>
                      <p><button onClick={() => this.closeModal()}>Annuler</button></p>
                      <form>
                          <p>Choisir un produit:</p>
-                         <Select options={this.state.denominations} onInputChange={this.getDenominations.bind(this)} onChange={this.handleDenominationChange.bind(this)}></Select>
+                         <Select options={this.state.denominations} onInputChange={this.getDenominations.bind(this)} onChange={this.handleDenominationChange.bind(this)} value={this.state.denomination}></Select>
                          <p>Choisir un producteur:</p>
-                         <Select options={this.state.producers} onInputChange={this.getProducers.bind(this)}  onChange={this.handleProducerChange.bind(this)}></Select>
+                         <Select options={this.state.producers} onInputChange={this.getProducers.bind(this)}  onChange={this.handleProducerChange.bind(this)} value={this.state.producer}></Select>
                          <p>Prix (Euros): <input type="number" step="0.01" id="price" onChange={this.handlePriceChange.bind(this)}></input></p>
                          <p>Milésime: <input type="number" step="1" id="vintage" onChange={this.handleVintageChange.bind(this)}></input></p>
                          <p>Nom: <input type="text" id="name" onChange={this.handleNameChange.bind(this)}  ></input></p>
@@ -243,13 +259,12 @@ class Modal extends React.Component {
       }
 
   } // end render()
-}// end var Cellar
+}// end class Cellar
 
 ////////////////////////////////////////////////////////////////////////////////
 //------------------------------------------------------------------------------
 // main
 ReactDOM.render(
-  // usernameFromDjangoTestOnly is not a proper way to go
   <Cellar  />,
   document.getElementById('cellar-div')
 );
