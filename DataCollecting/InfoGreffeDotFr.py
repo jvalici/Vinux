@@ -55,6 +55,6 @@ def browse_infogreffe_activity(activity):
 def browse_infogreffe_dot_fr():
 #     browse_infogreffe_activity('1102A')# Fabrication de vins effervescents
 #     browse_infogreffe_activity('1102B')# Vinification
-#     browse_infogreffe_activity('0121Z')# Culture de la Vigne
-    browse_infogreffe_activity('4634Z')# commmerce de boisson
+    browse_infogreffe_activity('0121Z')# Culture de la Vigne
+#   browse_infogreffe_activity('4634Z')# commmerce de boisson
     
