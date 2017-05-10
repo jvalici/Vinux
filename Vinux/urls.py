@@ -13,5 +13,6 @@ urlpatterns = [
     url(r'^getDenominations/$', controllerCellar.getDenominations),
     url(r'^getProducers/$', controllerCellar.getProducers),
     url(r'^addBottle/$', controllerCellar.addBottle),
+    url(r'^removeBottle/$', controllerCellar.removeBottle),
 ]
 

@@ -23,6 +23,7 @@ def getCellar(request):
         #ignore that a user could have several cellars and that len(cellars) could be >  0
         cellar = cellars[0]                                 
     resList = { 'storedWineBottles': [ {
+                'id': str(s.id),
                 'denomination':s.bottle.denomination.name,
                 'vintage':s.bottle.vintage,
                 'productionArea':s.bottle.denomination.appelation.area.name,
@@ -83,3 +84,12 @@ def addBottle(request):
     nb.save()
     return JsonResponse({})
 
+
+@login_required(login_url='/accounts/login/')
+def removeBottle(request):
+    bottle_ids = request.POST.getlist('bottle_ids')
+    for b in bottle_ids:
+        b = StoredWineBottle.objects.get( id=int(b) )
+        b.delete()
+    return JsonResponse({})
+     

@@ -66,7 +66,6 @@ class Modal extends React.Component {
     }
   }
 
-
 ////////////////////////////////////////////////////////////////////////////////
 //------------------------------------------------------------------------------
  class Cellar extends React.Component {
@@ -206,7 +205,32 @@ class Modal extends React.Component {
       closeModal();
   }
 
-      
+  //------------------------------------------------------------------------------
+  // remove a bottle
+  removeBottle(rowKeys)
+  {
+      $.ajax({
+          url: '/Vinux/removeBottle/',
+          data: {'bottle_ids':rowKeys},
+          type:'POST',
+          dataType: 'json',
+          traditional:true,
+          success: function(data) {
+              alert('Byebye bouteille!');
+          }.bind(this),
+          error:function (xhr, ajaxOptions, thrownError) {
+              alert(xhr.status);
+              alert(thrownError);
+            }
+        });
+  }
+
+  //------------------------------------------------------------------------------
+  // does nothing but defining this allow to search the table
+  afterSearch(searchText, result) {
+  }
+
+
   //------------------------------------------------------------------------------
   // render the data  
   render() {
@@ -244,15 +268,21 @@ class Modal extends React.Component {
                   </Modal>
                       
                       
-                  <BootstrapTable exportCSV  
-                      data={ this.state.cellarData.storedWineBottles } stripped>
-                      <TableHeaderColumn dataField="denomination" isKey>Dénomination</TableHeaderColumn>
+                  <BootstrapTable 
+                         exportCSV  
+                         data={ this.state.cellarData.storedWineBottles }
+                         stripped={ true } 
+                         selectRow={ {mode: 'checkbox'} } 
+                         search={ true } 
+                         deleteRow={ true }
+                         options={{afterDeleteRow:this.removeBottle.bind(this), afterSearch: this.afterSearch.bind(this)}}>
+                      <TableHeaderColumn dataField="id" isKey hidden>id</TableHeaderColumn>
+                      <TableHeaderColumn dataField="denomination">Dénomination</TableHeaderColumn>
                       <TableHeaderColumn dataField="vintage">Milésime</TableHeaderColumn>
                       <TableHeaderColumn dataField="productionArea">Région</TableHeaderColumn>
                       <TableHeaderColumn dataField="producer">Producteur</TableHeaderColumn>
                       <TableHeaderColumn dataField="name">Name</TableHeaderColumn>
                       <TableHeaderColumn  dataField="priceIn" >Prix</TableHeaderColumn>
-              
                   </BootstrapTable>
               </div>
           );
