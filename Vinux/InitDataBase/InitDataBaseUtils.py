@@ -98,6 +98,18 @@ def init_data_base_with_known_objects():
         p = WineProducer.create(inputName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], producerType='e' )
         p.save()
         
+    path_to_sellers = os.path.join(path_to_files,'4634Z - inao - Commerce de gros de boissons','4634Z - Commerce.txt')
+    coops = open(path_to_coops, "r")
+    for c in coops:
+        pos1 = c.find(';')
+        pos2 = c.find(';', pos1 + 1)
+        pos3 = c.find(';', pos2 + 1)
+        pos4 = c.find(';', pos3 + 1)
+        if  pos4 > - 1:
+            errors.write(c)
+        p = WineProducer.create(inputName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], producerType='c' )
+        p.save()
+        
     errors.close()
         
         
