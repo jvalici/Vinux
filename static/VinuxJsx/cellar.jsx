@@ -137,6 +137,7 @@
               data: {'denomination_id':this.state.denomination.id, 'producer_id':this.state.producer.id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
               type:'POST',
               dataType: 'json',
+              async: false,
               success: function(data) {}.bind(this),
               error:function (xhr, ajaxOptions, thrownError) {
                   alert("finishAddingBottle; - " + xhr.status + "  - " + thrownError );
