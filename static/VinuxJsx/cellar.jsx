@@ -1,73 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
 //------------------------------------------------------------------------------
-class Modal extends React.Component {
-    render() {
-      if (this.props.isOpen === false)
-        return null
-
-      let modalStyle = {
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        width: '80%',
-        height: '80%',
-        transform: 'translate(-50%, -50%)',
-        zIndex: '9999',
-        background: '#fff'
-      }
-
-      if (this.props.width && this.props.height) {
-        modalStyle.width = this.props.width + 'px'
-        modalStyle.height = this.props.height + 'px'
-        modalStyle.marginLeft = '-' + (this.props.width/1.5) + 'px',
-        modalStyle.marginTop = '-' + (this.props.height/2) + 'px',
-        modalStyle.transform = null
-      }
-
-      if (this.props.style) {
-        for (let key in this.props.style) {
-          modalStyle[key] = this.props.style[key]
-        }
-      }
-
-      let backdropStyle = {
-        position: 'absolute',
-        width: '100%',
-        height: '100%',
-        top: '0px',
-        left: '0px',
-        zIndex: '9998',
-        background: 'rgba(0, 0, 0, 0.3)'
-      }
-
-      if (this.props.backdropStyle) {
-        for (let key in this.props.backdropStyle) {
-          backdropStyle[key] = this.props.backdropStyle[key]
-        }
-      }
-
-      return (
-        <div className={this.props.containerClassName}>
-          <div className={this.props.className} style={modalStyle}>
-            {this.props.children}
-          </div>
-          {!this.props.noBackdrop &&
-              <div className={this.props.backdropClassName} style={backdropStyle} onClick={e => this.close(e)}/>}
-        </div>
-      )
-    }
-
-    close(e) {
-      e.preventDefault()
-
-      if (this.props.onClose) {
-        this.props.onClose()
-      }
-    }
-  }
-
-////////////////////////////////////////////////////////////////////////////////
-//------------------------------------------------------------------------------
  class Cellar extends React.Component {
   //------------------------------------------------------------------------------
   // initialise the data  
@@ -96,13 +28,24 @@ class Modal extends React.Component {
                 alert(thrownError);
               }
           });
+      $.ajax({
+          url: '/Vinux/getGoneBottles/',
+          dataType: 'json',
+          success: function(data) {
+              this.setState({goneBottles: data});
+          }.bind(this),
+          error:function (xhr, ajaxOptions, thrownError) {
+              alert(xhr.status);
+              alert(thrownError);
+            }
+        });
   }
 
   //------------------------------------------------------------------------------
   // get the list of the producers based on multiple of 3 letters
   getProducers(val)
   {
-      if( val.length % 3 == 0){
+      if( val.length % 3 == 0 && val.length!=0 ){
           $.ajax({
               url: '/Vinux/getProducers/',
               data: {'hint':val},
@@ -123,7 +66,7 @@ class Modal extends React.Component {
   // get the list of the products based on multiple of 3 letters
   getDenominations(val)
   {
-      if( val.length % 3 == 0){
+      if( val.length % 3 == 0 && val.length!=0 ){
           $.ajax({
               url: '/Vinux/getDenominations/',
               data: {'hint':val},
@@ -224,6 +167,25 @@ class Modal extends React.Component {
             }
         });
   }
+  //------------------------------------------------------------------------------
+  // remove a bottle
+  deleteBottle(rowKeys)
+  {
+      $.ajax({
+          url: '/Vinux/deleteBottle/',
+          data: {'bottle_ids':rowKeys},
+          type:'POST',
+          dataType: 'json',
+          traditional:true,
+          success: function(data) {
+              alert('Byebye bouteille!');
+          }.bind(this),
+          error:function (xhr, ajaxOptions, thrownError) {
+              alert(xhr.status);
+              alert(thrownError);
+            }
+        });
+  }
 
   //------------------------------------------------------------------------------
   // does nothing but defining this allow to search the table
@@ -250,7 +212,7 @@ class Modal extends React.Component {
       }
       else { // display the bottles
           return (
-              <div>
+               <div>
                   <p>Il ne reste plus que ça dans votre cave:</p>
                   <button onClick={() => this.openModal()}>Nvlle bouteille</button>
                   <Modal isOpen={this.state.modalLevel == 1} onClose={() => this.closeModal()}>
@@ -267,7 +229,6 @@ class Modal extends React.Component {
                      </form>
                   </Modal>
                       
-                      
                   <BootstrapTable 
                          exportCSV  
                          data={ this.state.cellarData.storedWineBottles }
@@ -283,6 +244,27 @@ class Modal extends React.Component {
                       <TableHeaderColumn dataField="producer">Producteur</TableHeaderColumn>
                       <TableHeaderColumn dataField="name">Name</TableHeaderColumn>
                       <TableHeaderColumn  dataField="priceIn" >Prix</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="additionDate" >Date d'ajout</TableHeaderColumn>
+                  </BootstrapTable>
+
+                  <p>Coquin, voila ce que tu t'es déjà mis dans le gosier:</p>
+                  <BootstrapTable 
+                         exportCSV  
+                         data={ this.state.goneBottles.storedWineBottles }
+                         stripped={ true } 
+                         selectRow={ {mode: 'checkbox'} } 
+                         search={ true } 
+                         deleteRow={ true }
+                         options={{afterDeleteRow:this.deleteBottle.bind(this), afterSearch: this.afterSearch.bind(this)}}>
+                      <TableHeaderColumn dataField="id" isKey hidden>id</TableHeaderColumn>
+                      <TableHeaderColumn dataField="denomination">Dénomination</TableHeaderColumn>
+                      <TableHeaderColumn dataField="vintage">Milésime</TableHeaderColumn>
+                      <TableHeaderColumn dataField="productionArea">Région</TableHeaderColumn>
+                      <TableHeaderColumn dataField="producer">Producteur</TableHeaderColumn>
+                      <TableHeaderColumn dataField="name">Name</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="priceIn" >Prix</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="additionDate" >Date d'ajout</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="removalDate" >Date de retrait</TableHeaderColumn>
                   </BootstrapTable>
               </div>
           );

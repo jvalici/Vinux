@@ -60,6 +60,42 @@ def init_data_base_with_known_objects():
             den = WineDenomination.create( name=d[:pos1].title(), appelation=app)
             den.save()
             
+    path_to_sellers = os.path.join(path_to_files,'4634Z - inao - Commerce de gros de boissons','4634Z - Commerce.txt')
+    sellers = open(path_to_sellers, "r")
+    for s in sellers:
+        pos1 = s.find(';')
+        pos2 = s.find(';', pos1 + 1)
+        pos3 = s.find(';', pos2 + 1)
+        pos4 = s.find(';', pos3 + 1)
+        if  pos4 > - 1:
+            errors.write(s)
+        p = WineProducer.create(inputName = s[pos1+1:pos2].title(), country = 'France', postCode = s[pos2+1:pos3], city = s[pos3+1:len(s)-1], producerType='g' )
+        p.save()
+        
+    path_to_fves = os.path.join(path_to_files,'1102A - inao - Fabrication de vins effervescents','1102A - Fabrication de vins effervescents.txt')
+    fves = open(path_to_fves, "r")
+    for f in fves:
+        pos1 = f.find(';')
+        pos2 = f.find(';', pos1 + 1)
+        pos3 = f.find(';', pos2 + 1)
+        pos4 = f.find(';', pos3 + 1)
+        if  pos4 > - 1:
+            errors.write(f)
+        p = WineProducer.create(inputName = f[pos1+1:pos2].title(), country = 'France', postCode = f[pos2+1:pos3], city = f[pos3+1:len(f)-1], producerType='e' )
+        p.save()
+
+    path_to_coops = os.path.join(path_to_files,'1102B - inao - Vinification','1102B - Vinification.txt')
+    coops = open(path_to_coops, "r")
+    for c in coops:
+        pos1 = c.find(';')
+        pos2 = c.find(';', pos1 + 1)
+        pos3 = c.find(';', pos2 + 1)
+        pos4 = c.find(';', pos3 + 1)
+        if  pos4 > - 1:
+            errors.write(c)
+        p = WineProducer.create(inputName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(c)-1], producerType='e' )
+        p.save()
+
     path_to_growers = os.path.join(path_to_files,'0121Z - inao - Culture de la Vigne', '0121Z - Culture de la Vigne.txt')
     growers = open(path_to_growers, "r")
     for g in growers:
@@ -72,42 +108,6 @@ def init_data_base_with_known_objects():
         name = g[pos1+1:pos2].title()
         city = g[pos3+1:len(g)-1].title()
         p = WineProducer.create(inputName = name, country = 'France', postCode = g[pos2+1:pos3], city = city, producerType='v' )
-        p.save()
-        
-    path_to_fves = os.path.join(path_to_files,'1102A - inao - Fabrication de vins effervescents','1102A - Fabrication de vins effervescents.txt')
-    fves = open(path_to_fves, "r")
-    for f in fves:
-        pos1 = f.find(';')
-        pos2 = f.find(';', pos1 + 1)
-        pos3 = f.find(';', pos2 + 1)
-        pos4 = f.find(';', pos3 + 1)
-        if  pos4 > - 1:
-            errors.write(f)
-        p = WineProducer.create(inputName = f[pos1+1:pos2].title(), country = 'France', postCode = f[pos2+1:pos3], city = f[pos3+1:len(g)-1], producerType='e' )
-        p.save()
-        
-    path_to_coops = os.path.join(path_to_files,'1102B - inao - Vinification','1102B - Vinification.txt')
-    coops = open(path_to_coops, "r")
-    for c in coops:
-        pos1 = c.find(';')
-        pos2 = c.find(';', pos1 + 1)
-        pos3 = c.find(';', pos2 + 1)
-        pos4 = c.find(';', pos3 + 1)
-        if  pos4 > - 1:
-            errors.write(c)
-        p = WineProducer.create(inputName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], producerType='e' )
-        p.save()
-        
-    path_to_sellers = os.path.join(path_to_files,'4634Z - inao - Commerce de gros de boissons','4634Z - Commerce.txt')
-    coops = open(path_to_coops, "r")
-    for c in coops:
-        pos1 = c.find(';')
-        pos2 = c.find(';', pos1 + 1)
-        pos3 = c.find(';', pos2 + 1)
-        pos4 = c.find(';', pos3 + 1)
-        if  pos4 > - 1:
-            errors.write(c)
-        p = WineProducer.create(inputName = c[pos1+1:pos2].title(), country = 'France', postCode = c[pos2+1:pos3], city = c[pos3+1:len(g)-1], producerType='c' )
         p.save()
         
     errors.close()

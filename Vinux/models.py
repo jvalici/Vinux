@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
+from django.utils import timezone
 from Vinux.modelsUtils import get_usual_name_from_compagny_name, remove_special_chars
 
 
@@ -20,7 +21,7 @@ class WineProducer(models.Model):
     country = models.CharField(max_length=200)
     postCode = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
-    producerType = models.CharField(max_length=1,choices=(('v', 'Viticulteur'),('c','Cooperative'),('e','Fabrication effervescents')))
+    producerType = models.CharField(max_length=1,choices=(('v', 'Viticulteur'),('c','Cooperative'),('e','Fabrication effervescents'),('g','Commerce de gros')))
     
 class WineProductionArea(models.Model):
     name = models.CharField(max_length=200, primary_key=True)
@@ -83,4 +84,6 @@ class StoredWineBottle(models.Model):
     vineCellar = models.ForeignKey(WineCellar)
     bottle = models.ForeignKey(WineBottle)
     priceIn = models.DecimalField(decimal_places=2, max_digits=7,  validators=[MinValueValidator(0)])
+    additionDate = models.DateTimeField(auto_now_add=True)
+    removalDate = models.DateTimeField(blank=True, null=True)
     

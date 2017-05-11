@@ -8,11 +8,9 @@ def load_example_objects():
     
     wineProducer = WineProducer( companyName='G.A.E.C. Bret Brothers, la soufriandiere', country='France', postCode='71680', city='VINZELLES')
     wineProducer.save()
-    test = wineProducer.usualName
     
     wineProducer2 = WineProducer( companyName='Bret Brothers, la soufriandiere EARL', country='France', postCode='71680', city='VINZELLES')
     wineProducer2.save()
-    test = wineProducer2.usualName
     
     bourgogne = WineProductionArea( name='Bourgogne' )
     bourgogne.save()
@@ -20,9 +18,9 @@ def load_example_objects():
     maconnais = WineProductionArea( name='Maconnais', parentArea = bourgogne )
     maconnais.save()
     
-    pf = WineAppelation('Pouilly Fuiss\u00E9', bourgogne, 'AOP', True)
+    pf = WineAppelation(name='Pouilly Fuiss\u00E9', area=bourgogne, euStatus='AOP', isAOC=True)
     pf.save()
-    pfec = WineDenomination('Pouilly-Fuiss\u00E9 En Carmentrant', pf)
+    pfec = WineDenomination.create('Pouilly-Fuiss\u00E9 En Carmentrant', pf)
     pfec.save()
     
     wineBottle = WineBottle( producer = wineProducer, denomination = pfec, vintage = 2015 )
@@ -40,7 +38,6 @@ def load_example_objects():
     
     dir_path = os.path.dirname(os.path.realpath(__file__))
     image_path = os.path.join(dir_path, 'testImageData', 'etiquette_3.jpg')
-    image_file = Image.open(image_path)
     i = CommentImage(comment = c, image = image_path)
     i.save()
     
