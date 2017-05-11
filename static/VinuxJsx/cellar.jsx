@@ -18,16 +18,15 @@
   // call to get the data
   loadData() {
       $.ajax({
-            url: '/Vinux/getCellar/',
-            dataType: 'json',
-            success: function(data) {
-                this.setState({cellarData: data});
-            }.bind(this),
-            error:function (xhr, ajaxOptions, thrownError) {
-                alert(xhr.status);
-                alert(thrownError);
-              }
-          });
+          url: '/Vinux/getCellar/',
+          dataType: 'json',
+          success: function(data) {
+              this.setState({cellarData: data});
+          }.bind(this),
+          error:function (xhr, ajaxOptions, thrownError) {
+              alert("loadData 1; " + xhr.status + " " + thrownError )
+          }
+      });
       $.ajax({
           url: '/Vinux/getGoneBottles/',
           dataType: 'json',
@@ -35,8 +34,7 @@
               this.setState({goneBottles: data});
           }.bind(this),
           error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
+              alert("loadData 2; " + xhr.status + " " + thrownError )
             }
         });
   }
@@ -55,8 +53,7 @@
                   this.setState({producers: data.prods});
               }.bind(this),
               error:function (xhr, ajaxOptions, thrownError) {
-                  alert(xhr.status);
-                  alert(thrownError);
+                  alert("getProducers; " + xhr.status + " " + thrownError )
                 }
             });
       }
@@ -76,8 +73,7 @@
                   this.setState({denominations: data.denoms});
               }.bind(this),
               error:function (xhr, ajaxOptions, thrownError) {
-                  alert(xhr.status);
-                  alert(thrownError);
+                  alert("getDenominations; " + xhr.status + " " + thrownError )
                 }
             });
       }
@@ -132,20 +128,22 @@
   // post the new bottle
   finishAddingBottle()
   {
-      $.ajax({
-          url: '/Vinux/addBottle/',
-          data: {'denomination_id':this.state.denomination.id, 'producer_id':this.state.producer.id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
-          type:'POST',
-          dataType: 'json',
-          success: function(data) {
-              alert('Bravo pour cette nouvelle bouteille!');
-          }.bind(this),
-          error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
-            }
-        });
-      closeModal();
+      if( this.state.vintage < 1900 || this.state.vintage > 2050 ) {
+          alert("Le milésime doit être entre 1900 et 2050");
+      }
+      else {
+          $.ajax({
+              url: '/Vinux/addBottle/',
+              data: {'denomination_id':this.state.denomination.id, 'producer_id':this.state.producer.id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
+              type:'POST',
+              dataType: 'json',
+              success: function(data) {}.bind(this),
+              error:function (xhr, ajaxOptions, thrownError) {
+                  alert("finishAddingBottle; - " + xhr.status + "  - " + thrownError );
+                }
+            });
+          closeModal();
+      }
   }
 
   //------------------------------------------------------------------------------
@@ -162,8 +160,7 @@
               alert('Byebye bouteille!');
           }.bind(this),
           error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
+              alert("removeBottle; " + xhr.status + " " + thrownError );
             }
         });
   }
@@ -181,8 +178,7 @@
               alert('Byebye bouteille!');
           }.bind(this),
           error:function (xhr, ajaxOptions, thrownError) {
-              alert(xhr.status);
-              alert(thrownError);
+              alert("deleteBottle; " + xhr.status + " " + thrownError )
             }
         });
   }
@@ -232,39 +228,39 @@
                   <BootstrapTable 
                          exportCSV  
                          data={ this.state.cellarData.storedWineBottles }
-                         stripped={ true } 
+                         pagination
                          selectRow={ {mode: 'checkbox'} } 
                          search={ true } 
                          deleteRow={ true }
                          options={{afterDeleteRow:this.removeBottle.bind(this), afterSearch: this.afterSearch.bind(this)}}>
                       <TableHeaderColumn dataField="id" isKey hidden>id</TableHeaderColumn>
-                      <TableHeaderColumn dataField="denomination">Dénomination</TableHeaderColumn>
-                      <TableHeaderColumn dataField="vintage">Milésime</TableHeaderColumn>
-                      <TableHeaderColumn dataField="productionArea">Région</TableHeaderColumn>
-                      <TableHeaderColumn dataField="producer">Producteur</TableHeaderColumn>
-                      <TableHeaderColumn dataField="name">Name</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="priceIn" >Prix</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="additionDate" >Date d'ajout</TableHeaderColumn>
+                      <TableHeaderColumn dataField="denomination" dataSort={ true }>Dénomination</TableHeaderColumn>
+                      <TableHeaderColumn dataField="vintage" dataSort={ true }>Milésime</TableHeaderColumn>
+                      <TableHeaderColumn dataField="productionArea" dataSort={ true }>Région</TableHeaderColumn>
+                      <TableHeaderColumn dataField="producer" dataSort={ true }>Producteur</TableHeaderColumn>
+                      <TableHeaderColumn dataField="name" dataSort={ true }>Name</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="priceIn" dataSort={ true }>Prix</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="additionDate" dataSort={ true }>Date d'ajout</TableHeaderColumn>
                   </BootstrapTable>
 
                   <p>Coquin, voila ce que tu t'es déjà mis dans le gosier:</p>
                   <BootstrapTable 
                          exportCSV  
                          data={ this.state.goneBottles.storedWineBottles }
-                         stripped={ true } 
+                         pagination
                          selectRow={ {mode: 'checkbox'} } 
                          search={ true } 
                          deleteRow={ true }
                          options={{afterDeleteRow:this.deleteBottle.bind(this), afterSearch: this.afterSearch.bind(this)}}>
                       <TableHeaderColumn dataField="id" isKey hidden>id</TableHeaderColumn>
-                      <TableHeaderColumn dataField="denomination">Dénomination</TableHeaderColumn>
-                      <TableHeaderColumn dataField="vintage">Milésime</TableHeaderColumn>
-                      <TableHeaderColumn dataField="productionArea">Région</TableHeaderColumn>
-                      <TableHeaderColumn dataField="producer">Producteur</TableHeaderColumn>
-                      <TableHeaderColumn dataField="name">Name</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="priceIn" >Prix</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="additionDate" >Date d'ajout</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="removalDate" >Date de retrait</TableHeaderColumn>
+                      <TableHeaderColumn dataField="denomination" dataSort={ true }>Dénomination</TableHeaderColumn>
+                      <TableHeaderColumn dataField="vintage" dataSort={ true }>Milésime</TableHeaderColumn>
+                      <TableHeaderColumn dataField="productionArea" dataSort={ true }>Région</TableHeaderColumn>
+                      <TableHeaderColumn dataField="producer" dataSort={ true }>Producteur</TableHeaderColumn>
+                      <TableHeaderColumn dataField="name" dataSort={ true }>Name</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="priceIn" dataSort={ true }>Prix</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="additionDate" dataSort={ true }>Date d'ajout</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="removalDate" dataSort={ true }>Date de retrait</TableHeaderColumn>
                   </BootstrapTable>
               </div>
           );
