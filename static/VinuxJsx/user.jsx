@@ -6,8 +6,9 @@ var GreatingMessage = React.createClass({
   render: function() {
     return (
       <div>
-            <p>{ this.state.message } { this.props.userName }</p>
+            <p>{ this.state.message } { this.props.userName } (<a href="/accounts/logout/?next=/accounts/login/">Log out.)</a></p>
       </div>
+      
     );
   }
 });
