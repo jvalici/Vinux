@@ -137,13 +137,16 @@
               data: {'denomination_id':this.state.denomination.id, 'producer_id':this.state.producer.id, 'price':this.state.price, 'vintage':this.state.vintage, 'name':this.state.name},
               type:'POST',
               dataType: 'json',
-              async: false,
-              success: function(data) {}.bind(this),
+              success: function(data) {
+                  // this is the output of the request being redirected to getCellar
+                  this.setState({cellarData: data});
+                  this.closeModal();
+              }.bind(this),
               error:function (xhr, ajaxOptions, thrownError) {
                   alert("finishAddingBottle; - " + xhr.status + "  - " + thrownError );
                 }
             });
-          closeModal();
+          this.closeModal();
       }
   }
 
@@ -158,7 +161,8 @@
           dataType: 'json',
           traditional:true,
           success: function(data) {
-              alert('Byebye bouteille!');
+              // this is the redirection to getGoneBottles
+              this.setState({goneBottles: data});
           }.bind(this),
           error:function (xhr, ajaxOptions, thrownError) {
               alert("removeBottle; " + xhr.status + " " + thrownError );
@@ -176,6 +180,8 @@
           dataType: 'json',
           traditional:true,
           success: function(data) {
+              // this is the redirection to getGoneBottles
+              this.setState({goneBottles: data});
               alert('Byebye bouteille!');
           }.bind(this),
           error:function (xhr, ajaxOptions, thrownError) {
@@ -195,18 +201,10 @@
   render() {
 
       // issue with the Ajax call to get the data
-      if ( this.state.cellarData == undefined ) {
+      if ( this.state.cellarData == undefined || this.state.goneBottles == undefined ) {
           return ( <div><p>Dev error</p></div> );
       }
       
-      // no bottle  
-      if ( this.state.cellarData.length == 0 ) {
-          return (
-              <div>
-                  <p>Votre cave est deseperement vide</p>
-              </div>
-          );
-      }
       else { // display the bottles
           return (
                <div>
@@ -222,14 +220,15 @@
                          <p>Prix (Euros): <input type="number" step="0.01" id="price" onChange={this.handlePriceChange.bind(this)}></input></p>
                          <p>Milésime: <input type="number" step="1" id="vintage" onChange={this.handleVintageChange.bind(this)}></input></p>
                          <p>Nom: <input type="text" id="name" onChange={this.handleNameChange.bind(this)}  ></input></p>
-                         <p><button onClick={() => this.finishAddingBottle()}>Ajouter</button></p>
                      </form>
+                     <p><button onClick={() => this.finishAddingBottle()}>Ajouter</button></p>
                   </Modal>
                       
                   <BootstrapTable 
                          exportCSV  
-                         data={ this.state.cellarData.storedWineBottles }
-                         pagination
+                         data={ this.state.cellarData.bottles }
+                         pagination={ true } 
+                         hover={ true } 
                          selectRow={ {mode: 'checkbox'} } 
                          search={ true } 
                          deleteRow={ true }
@@ -247,8 +246,9 @@
                   <p>Coquin, voila ce que tu t'es déjà mis dans le gosier:</p>
                   <BootstrapTable 
                          exportCSV  
-                         data={ this.state.goneBottles.storedWineBottles }
-                         pagination
+                         data={ this.state.goneBottles.bottles }
+                         pagination={ true } 
+                         hover={ true } 
                          selectRow={ {mode: 'checkbox'} } 
                          search={ true } 
                          deleteRow={ true }

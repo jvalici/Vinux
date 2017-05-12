@@ -1,6 +1,0 @@
- 1) remove "async: false," from cellar.jsx
- removing it causes the error:
- django format_date_time(time.time())).encode('iso-8859-1')
- 
- 
- 2) avoid reload after call to finishAddingBottle() in  cellar.jsx

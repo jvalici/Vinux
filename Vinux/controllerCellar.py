@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from Vinux.models import  WineCellar, StoredWineBottle, WineDenomination, WineProductionArea, WineProducer, WineBottle, WineCellar, StoredWineBottle
@@ -21,7 +22,7 @@ def getCellarInOrGone(request, true_when_only_in_or_false_for_only_gone ):
     else:
         #ignore that a user could have several cellars and that len(cellars) could be >  0
         cellar = cellars[0]                                 
-    resList = { 'storedWineBottles': [ {
+    resList = { 'bottles': [ {
                 'id': str(s.id),
                 'denomination':s.bottle.denomination.name,
                 'vintage':s.bottle.vintage,
@@ -94,7 +95,7 @@ def addBottle(request):
         cellar = cellars[0]
     nb = StoredWineBottle(vineCellar=cellar, bottle=b, priceIn=price)
     nb.save()
-    return JsonResponse({})
+    return redirect('/Vinux/getCellar')
 
 
 @login_required(login_url='/accounts/login/')
@@ -104,7 +105,7 @@ def removeBottle(request):
         b = StoredWineBottle.objects.get( id=int(b) )
         b.removalDate = datetime.now()
         b.save()
-    return JsonResponse({})
+    return redirect('/Vinux/getGoneBottles')
 
 @login_required(login_url='/accounts/login/')
 def deleteBottle(request):
@@ -112,5 +113,5 @@ def deleteBottle(request):
     for b in bottle_ids:
         b = StoredWineBottle.objects.get( id=int(b) )
         b.delete()
-    return JsonResponse({})
+    return redirect('/Vinux/getGoneBottles')
      
