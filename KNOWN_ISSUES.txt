@@ -1,0 +1,2 @@
+1) extend row with comment, contact for the producers, ... (cf. expandableRow)
+2) sort wrapping for long text (or display on hoover)
