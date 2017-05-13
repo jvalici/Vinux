@@ -1,2 +1,1 @@
-1) extend row with comment, contact for the producers, ... (cf. expandableRow)
-2) sort wrapping for long text (or display on hoover)
+1) add comments on bottle to row extension

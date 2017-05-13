@@ -1,5 +1,27 @@
 ////////////////////////////////////////////////////////////////////////////////
 //------------------------------------------------------------------------------
+// information to show when the row is expended
+class RowExtension extends React.Component {
+  render() {
+      if( this.props.data.removalDate == "" ) {
+          return (
+                  <div>
+                      <p>Date d'ajout: {this.props.data.additionDate}</p>
+                  </div> );
+          }
+      else {
+          return (
+                  <div>
+                      <p>Date d'ajout: {this.props.data.additionDate}</p>
+                      <p>Date de retrait: {this.props.data.removalDate} </p>
+                  </div> );
+      }
+
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////
+//------------------------------------------------------------------------------
  class Cellar extends React.Component {
   //------------------------------------------------------------------------------
   // initialise the data  
@@ -113,7 +135,7 @@
   //------------------------------------------------------------------------------
   // open modal window
   openModal() {
-      this.setState( { modalLevel: 1 });
+      this.setState({ modalLevel: 1 });
   }
   //------------------------------------------------------------------------------
   // close modal window
@@ -195,6 +217,19 @@
   afterSearch(searchText, result) {
   }
 
+  //------------------------------------------------------------------------------
+  // all the rows can be extended
+  isExpandableRow(row) {
+       return true;
+  }
+ 
+  //------------------------------------------------------------------------------
+  // get the row extension
+  expandComponent(row) {
+      return (  
+              <RowExtension data={ row }/>
+      );
+  }
 
   //------------------------------------------------------------------------------
   // render the data  
@@ -229,18 +264,20 @@
                          data={ this.state.cellarData.bottles }
                          pagination={ true } 
                          hover={ true } 
-                         selectRow={ {mode: 'checkbox'} } 
+                         selectRow={ {mode: 'checkbox', clickToSelect: false, clickToExpand: true} } 
                          search={ true } 
                          deleteRow={ true }
-                         options={{afterDeleteRow:this.removeBottle.bind(this), afterSearch: this.afterSearch.bind(this)}}>
+                         expandableRow={ this.isExpandableRow.bind(this) }
+                         expandComponent={ this.expandComponent.bind(this) }
+                         expandColumnOptions={ { expandColumnVisible: true } }
+                         options={{afterDeleteRow:this.removeBottle.bind(this), afterSearch: this.afterSearch.bind(this), expandRowBgColor: 'rgb(242, 255, 163)'}}>
                       <TableHeaderColumn dataField="id" isKey hidden>id</TableHeaderColumn>
-                      <TableHeaderColumn dataField="denomination" dataSort={ true }>Dénomination</TableHeaderColumn>
-                      <TableHeaderColumn dataField="vintage" dataSort={ true }>Milésime</TableHeaderColumn>
-                      <TableHeaderColumn dataField="productionArea" dataSort={ true }>Région</TableHeaderColumn>
-                      <TableHeaderColumn dataField="producer" dataSort={ true }>Producteur</TableHeaderColumn>
-                      <TableHeaderColumn dataField="name" dataSort={ true }>Name</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="priceIn" dataSort={ true }>Prix</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="additionDate" dataSort={ true }>Date d'ajout</TableHeaderColumn>
+                      <TableHeaderColumn dataField="denomination" dataSort={ true } tdStyle={ { whiteSpace: 'normal' } }>Dénomination</TableHeaderColumn>
+                      <TableHeaderColumn dataField="producer" dataSort={ true } tdStyle={ { whiteSpace: 'normal' } }>Producteur</TableHeaderColumn>
+                      <TableHeaderColumn dataField="name" width='150' dataSort={ true }>Name</TableHeaderColumn>
+                      <TableHeaderColumn dataField="vintage" width='110' dataSort={ true }>Milésime</TableHeaderColumn>
+                      <TableHeaderColumn dataField="productionArea" width='150' dataSort={ true }>Région</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="priceIn" width='80' dataSort={ true }>Prix</TableHeaderColumn>
                   </BootstrapTable>
 
                   <p>Coquin, voila ce que tu t'es déjà mis dans le gosier:</p>
@@ -249,19 +286,20 @@
                          data={ this.state.goneBottles.bottles }
                          pagination={ true } 
                          hover={ true } 
-                         selectRow={ {mode: 'checkbox'} } 
+                         selectRow={ {mode: 'checkbox', clickToSelect: false, clickToExpand: true} } 
                          search={ true } 
                          deleteRow={ true }
-                         options={{afterDeleteRow:this.deleteBottle.bind(this), afterSearch: this.afterSearch.bind(this)}}>
+                         expandableRow={ this.isExpandableRow.bind(this) }
+                         expandComponent={ this.expandComponent.bind(this) }
+                         expandColumnOptions={ { expandColumnVisible: true } }
+                         options={{afterDeleteRow:this.removeBottle.bind(this), afterSearch: this.afterSearch.bind(this), expandRowBgColor: 'rgb(242, 255, 163)'}}>
                       <TableHeaderColumn dataField="id" isKey hidden>id</TableHeaderColumn>
-                      <TableHeaderColumn dataField="denomination" dataSort={ true }>Dénomination</TableHeaderColumn>
-                      <TableHeaderColumn dataField="vintage" dataSort={ true }>Milésime</TableHeaderColumn>
-                      <TableHeaderColumn dataField="productionArea" dataSort={ true }>Région</TableHeaderColumn>
-                      <TableHeaderColumn dataField="producer" dataSort={ true }>Producteur</TableHeaderColumn>
-                      <TableHeaderColumn dataField="name" dataSort={ true }>Name</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="priceIn" dataSort={ true }>Prix</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="additionDate" dataSort={ true }>Date d'ajout</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="removalDate" dataSort={ true }>Date de retrait</TableHeaderColumn>
+                      <TableHeaderColumn dataField="denomination" dataSort={ true } tdStyle={ { whiteSpace: 'normal' } }>Dénomination</TableHeaderColumn>
+                      <TableHeaderColumn dataField="producer" dataSort={ true } tdStyle={ { whiteSpace: 'normal' } }>Producteur</TableHeaderColumn>
+                      <TableHeaderColumn dataField="name" width='150' dataSort={ true }>Name</TableHeaderColumn>
+                      <TableHeaderColumn dataField="vintage" width='110' dataSort={ true }>Milésime</TableHeaderColumn>
+                      <TableHeaderColumn dataField="productionArea" width='150' dataSort={ true }>Région</TableHeaderColumn>
+                      <TableHeaderColumn  dataField="priceIn" width='80' dataSort={ true }>Prix</TableHeaderColumn>
                   </BootstrapTable>
               </div>
           );
