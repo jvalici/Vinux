@@ -22,7 +22,7 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    url(r'^$', RedirectView.as_view(url='Vinux/homeView/')),#The only app for now is Vinux, redirect there...
+    url(r'^$', RedirectView.as_view(url='Vinux/cellarView/')),#The only app for now is Vinux, redirect there...
     url(r'^Vinux/', include('Vinux.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.simple.urls')),

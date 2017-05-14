@@ -8,8 +8,13 @@ from datetime import datetime
 
 # home view
 @login_required(login_url='/accounts/login/')
-def homeView(request):
-    return render(request, 'homeView.html',  {}, content_type='html')
+def cellarView(request):
+    return render(request, 'cellarView.html',  {}, content_type='html')
+
+# home view
+@login_required(login_url='/accounts/login/')
+def goneBottlesView(request):
+    return render(request, 'goneBottlesView.html',  {}, content_type='html')
 
 
 # get the bottles in the cellar of the user or those which used to be

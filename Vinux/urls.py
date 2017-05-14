@@ -7,7 +7,8 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-    url(r'^homeView/$', controllerCellar.homeView),
+    url(r'^cellarView/$', controllerCellar.cellarView),
+    url(r'^goneBottlesView/$', controllerCellar.goneBottlesView),
     url(r'^getCellar/$', controllerCellar.getCellar),
     url(r'^getGoneBottles/$', controllerCellar.getGoneBottles),
     url(r'^getDenominations/$', controllerCellar.getDenominations),

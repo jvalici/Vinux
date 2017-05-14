@@ -1,0 +1,82 @@
+/* CSS definition file containing stylesheets */
+.header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	height: 50px;
+	width: 90%;
+	display: block;
+}
+
+.myTab {
+	color:#FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-right: 8px;
+	padding-top: 9px;
+	padding-right: 3px;
+	padding-left: 3px;
+	box-shadow: 4px 4px 4px #666666;
+	-webkit-box-shadow: 4px 4px 4px #666666;
+	-moz-box-shadow: 4px 4px 4px #666666;
+	height: 50px;
+	width: 9%;
+	display: block;
+	float: left;
+}
+
+.myTitle {
+	display: inline;
+	font-size: 1.8em;
+	color: #0080FF;
+	background: #FFFFFF;
+	width: 45%;
+}
+
+.smaller {
+	font-size: 50%;
+}
+
+.menu {
+	color: #FFFFFF;
+	width: 100%;
+}
+
+.tabN0 {
+	background: #027F02;
+}
+
+.tabN1 {
+	background: #0080FF;
+}
+
+.tabN2 {
+	background: #CC0033;
+}
+
+.tabN3 {
+	background: #FFCC00;
+}
+
+.tabN4 {
+	background: #A440A4;
+	margin-right: 0;
+}
+
+.selectedTab {
+	border-style: solid;
+	border-width: 3px;
+	border-color: Red;
+	height: 51px;
+	width: 10%;
+	perspective: 50px;
+	-webkit-perspective: 50px; /* Safari and Chrome */
+	-moz-perspective: 50px; /* mozilla */
+}
+
+
