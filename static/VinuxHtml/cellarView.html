@@ -23,7 +23,7 @@
 
     <script src="https://unpkg.com/classnames/index.js"></script>
     <script src="https://unpkg.com/react-input-autosize@1.1.0/dist/react-input-autosize.js"></script>
-    <script src="https://unpkg.com/react-select/dist/react-select.js"></script>
+    <script src="https://unpkg.com/react-select@1.0.0-rc.3/dist/react-select.js"></script>
 </head>
 <body>
 
@@ -40,10 +40,17 @@
 
 	<script language="JavaScript" type="text/javascript">makeHeader(0, '{{ user.username }}')</script>
 
-    <div id="cellar-div"></div>
+
+	<div id="cellar-div"></div>
+	<!--     for dev
     <script type="text/babel" src="{% static "VinuxJsx/modal.jsx" %}"></script>
     <script type="text/babel" src="{% static "VinuxJsx/rowExtension.jsx" %}"></script>
-    <script type="text/babel" src="{% static "VinuxJsx/cellar.jsx" %}"></script>
+    <script type="text/babel" src="{% static "VinuxJsx/cellar.jsx" %}"></script> -->
+	<!--     for prod   -->
+    <script type="text/babel" src="{% static "VinuxJsFromJsx/modal.js" %}"></script>
+    <script type="text/babel" src="{% static "VinuxJsFromJsx/rowExtension.js" %}"></script>
+    <script type="text/babel" src="{% static "VinuxJsFromJsx/cellar.js" %}"></script>  
+    
 
 </body>
 </html>

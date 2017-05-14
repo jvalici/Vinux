@@ -19,5 +19,9 @@ go to  static/CoreJs and run "browserify vinuxIncludes.js > bundle.js"
 RUN SERVER
 python manage.py runserver
 
+TRANSFORM JSX TO JS
+npm install --save
+babel --presets es2015,react --watch C:\Users\gh\Documents\code\workspace\Vinux\src\static\VinuxJsx/ --out-dir C:\Users\gh\Documents\code\workspace\Vinux\src\static\VinuxJsFromJsx
+
 DOC
 https://docs.djangoproject.com/en/1.10/intro/tutorial01/

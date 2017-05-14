@@ -1,0 +1,39 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "1) read trought install list",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "jquery": "^3.2.1",
+    "react": "^15.0.1",
+    "react-bootstrap": "^0.30.8",
+    "react-bootstrap-table": "^3.3.3",
+    "react-dom": "^15.0.1",
+    "react-native-popup-dialog": "^0.7.22",
+    "react-input-autosize": "^1.1.0",
+    "react-select": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvalici/Vinux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvalici/Vinux/issues"
+  },
+  "homepage": "https://github.com/jvalici/Vinux#readme"
+}

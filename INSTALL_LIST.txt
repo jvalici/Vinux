@@ -12,15 +12,15 @@ pip install simpleJson
 pip install django-registration (https://django-registration.readthedocs.io/en/2.2/install.html)
 
 
-CORE JS (not yet used)
+CORE JS 
 Nodejs (for npm)
-npm install -g browserify
-npm install jquery
-npm install babel-core
-npm install react
-npm install react-dom
-npm install react-bootstrap-table --save
 
+TO GENERATE JAVASCRIPT TO USE IN BROWSER(not yet used)
+npm install -g browserify
+
+TRANSFORM JSX TO JS
+npm install -g --save-dev babel-cli
+npm install --save-dev babel-preset-es2015 babel-preset-react
 
 IMAGE RECOGNITION
 https://pypi.python.org/pypi/pytesseract 

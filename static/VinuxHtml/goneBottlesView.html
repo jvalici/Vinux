@@ -19,10 +19,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
     <script src="{% static "coreJs/bootstrap-3.3.7-dist/js/bootstrap.min.js" %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap-table/3.3.3/react-bootstrap-table.min.js" ></script>
-
-    <script src="https://unpkg.com/classnames/index.js"></script>
-    <script src="https://unpkg.com/react-input-autosize@1.1.0/dist/react-input-autosize.js"></script>
-    <script src="https://unpkg.com/react-select/dist/react-select.js"></script>
 </head>
 <body>
 
@@ -40,8 +36,11 @@
   <script language="JavaScript" type="text/javascript">makeHeader(1,'{{ user.username }}')</script>
 
     <div id="goneBottles-div"></div>
+    <!--  for dev 
     <script type="text/babel" src="{% static "VinuxJsx/rowExtension.jsx" %}"></script>
-    <script type="text/babel" src="{% static "VinuxJsx/goneBottles.jsx" %}"></script>
+    <script type="text/babel" src="{% static "VinuxJsx/goneBottles.jsx" %}"></script> -->
+    <script type="text/babel" src="{% static "VinuxJsFromJsx/rowExtension.js" %}"></script>
+    <script type="text/babel" src="{% static "VinuxJsFromJsx/goneBottles.js" %}"></script>
 
 </body>
 </html>
