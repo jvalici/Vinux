@@ -5,7 +5,7 @@ Tortoise Git
 Mozilla Firebug
 
 CORE Python
-Python 3.6.0 :: Anaconda 4.3.0 (64-bit)  and pipe (Windows: add python path to environement variables.)
+Python 3.6.0 :: Anaconda 3.4.3.0 (64-bit)  and pipe (Windows: add python path to environement variables.)
 pip install Django==1.10.5
 pip install djangorestframework
 pip install simpleJson
