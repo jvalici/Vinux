@@ -65,7 +65,7 @@
   // get the row extension
   expandComponent(row) {
       return (  
-              <RowExtension bottle={ row }/>
+              <RowExtension bottle={ row } onAddSame={this.loadData.bind(this)}/>
       );
   }
 

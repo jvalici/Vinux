@@ -24,7 +24,7 @@ var Cellar = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (Cellar.__proto__ || Object.getPrototypeOf(Cellar)).call(this, props));
 
-        _this.state = { modalLevel: 0 };
+        _this.state = { modalLevel: 0, name: '' };
         return _this;
     }
 
@@ -156,6 +156,7 @@ var Cellar = function (_React$Component) {
         key: 'closeModal',
         value: function closeModal() {
             this.setState({ price: '' });
+            this.setState({ name: '' });
             this.setState({ denomination: null });
             this.setState({ producer: null });
             this.setState({ modalLevel: 0 });

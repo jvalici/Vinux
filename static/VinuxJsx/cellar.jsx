@@ -8,7 +8,7 @@ var Modal = ReactBootstrap.Modal;
   // initialise the data  
    constructor(props) {
      super(props);
-     this.state = {modalLevel: 0};
+     this.state = {modalLevel: 0, name:''};
   }
   
   //------------------------------------------------------------------------------
@@ -112,6 +112,7 @@ var Modal = ReactBootstrap.Modal;
   // close modal window
   closeModal() {
       this.setState( { price: '' });
+      this.setState( { name: '' });
       this.setState( { denomination: null });
       this.setState( { producer: null });
       this.setState( { modalLevel: 0 });

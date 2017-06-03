@@ -78,7 +78,7 @@ def addBottle(request):
     producer_id = request.POST['producer_id']
     price = None if request.POST['price'] =='' else float(request.POST['price'])
     vintage = int(request.POST['vintage'])
-    name = None if request.POST['name'] == '' else request.POST['name']
+    name = '' if request.POST['name'] == '' else request.POST['name']
     bottles = WineBottle.objects.filter( producer__id = producer_id, denomination__id = denomination_id, name = name, vintage = vintage )
 
     if len(bottles) != 1:
@@ -104,8 +104,9 @@ def removeBottle(request):
     bottle_ids = request.POST.getlist('bottle_ids')
     for b in bottle_ids:
         b = StoredWineBottle.objects.get( id=int(b) )
-        b.removalDate = datetime.now()
-        b.save()
+        if b.vineCellar.owner == request.user:
+            b.removalDate = datetime.now()
+            b.save()
     return redirect('/Vinux/getGoneBottles')
 
 
@@ -122,7 +123,8 @@ def deleteBottle(request):
     bottle_ids = request.POST.getlist('bottle_ids')
     for b in bottle_ids:
         b = StoredWineBottle.objects.get( id=int(b) )
-        b.delete()
+        if b.vineCellar.owner == request.user:
+            b.delete()
     return redirect('/Vinux/getGoneBottles')
      
 @login_required(login_url='/accounts/login/')
@@ -135,7 +137,6 @@ def commentProducer(request):
     pc = ProducerUserReview( comment = c, producer = producer, mark = mark)
     pc.save()
     return JsonResponse({})
-
 
 @login_required(login_url='/accounts/login/')
 def commentBottle(request):
