@@ -1,3 +1,6 @@
+var Button = ReactBootstrap.Button;
+var Modal = ReactBootstrap.Modal;
+
 ////////////////////////////////////////////////////////////////////////////////
 //------------------------------------------------------------------------------
  class Cellar extends React.Component {
@@ -5,7 +8,7 @@
   // initialise the data  
    constructor(props) {
      super(props);
-     this.state = {modalLeve: 0};
+     this.state = {modalLevel: 0};
   }
   
   //------------------------------------------------------------------------------
@@ -174,7 +177,7 @@
   // get the row extension
   expandComponent(row) {
       return (  
-              <RowExtension data={ row }/>
+              <RowExtension bottle={row} onAddSame={this.loadData.bind(this)}></RowExtension>
       );
   }
 
@@ -190,11 +193,13 @@
       else { // display the bottles
           return (
                <div>
-                  <p>Il ne reste plus que ça dans votre cave:</p>
-                  <button onClick={() => this.openModal()}>Nvlle bouteille</button>
-                  <Modal isOpen={this.state.modalLevel == 1} onClose={() => this.closeModal()}>
-                     <p><button onClick={() => this.closeModal()}>Annuler</button></p>
-                     <form>
+                  <p>Attention, il ne reste plus que ça dans ta cave:</p>
+                  <Button bsStyle="primary" onClick={() => this.openModal()}>Nvlle bouteille</Button>
+                  <Modal className="static-modal" show={this.state.modalLevel == 1} onHide={() => this.closeModal()} bsSize="large">
+                      <Modal.Header closeButton>
+                          <Modal.Title>Ajouter une bouteille</Modal.Title>
+                      </Modal.Header>
+                     <Modal.Body>
                          <p>Choisir un produit:</p>
                          <Select options={this.state.denominations} onInputChange={this.getDenominations.bind(this)} onChange={this.handleDenominationChange.bind(this)} value={this.state.denomination}></Select>
                          <p>Choisir un producteur:</p>
@@ -202,29 +207,36 @@
                          <p>Prix (Euros): <input type="number" step="0.01" id="price" onChange={this.handlePriceChange.bind(this)}></input></p>
                          <p>Milésime: <input type="number" step="1" id="vintage" onChange={this.handleVintageChange.bind(this)}></input></p>
                          <p>Nom: <input type="text" id="name" onChange={this.handleNameChange.bind(this)}  ></input></p>
-                     </form>
-                     <p><button onClick={() => this.finishAddingBottle()}>Ajouter</button></p>
-                  </Modal>
-                      
+                     </Modal.Body>
+                     <Modal.Footer>
+                             <Button onClick={() => this.closeModal()}>Annuler</Button>
+                             <Button bsStyle="primary" onClick={() => this.finishAddingBottle()}>Ajouter</Button>
+                     </Modal.Footer>
+                  </Modal>   
                   <BootstrapTable 
-                         exportCSV  
                          data={ this.state.cellarData.bottles }
                          pagination={ true } 
                          hover={ true } 
                          selectRow={ {mode: 'checkbox', clickToSelect: false, clickToExpand: true} } 
-                         search={ true } 
+                         search={ true }
                          deleteRow={ true }
+                         exportCSV={ true }
                          expandableRow={ this.isExpandableRow.bind(this) }
                          expandComponent={ this.expandComponent.bind(this) }
                          expandColumnOptions={ { expandColumnVisible: true } }
-                         options={{afterDeleteRow:this.removeBottle.bind(this), afterSearch: this.afterSearch.bind(this), expandRowBgColor: 'rgb(242, 255, 163)'}}>
+                         options={{
+                             afterDeleteRow:this.removeBottle.bind(this),
+                             afterSearch: this.afterSearch.bind(this),
+                             expandRowBgColor: 'rgb(242, 255, 163)',
+                             deleteText: 'Supprimer les bouteilles selectionnées',
+                             }}>
                       <TableHeaderColumn dataField="id" isKey hidden>id</TableHeaderColumn>
                       <TableHeaderColumn dataField="denomination" dataSort={ true } tdStyle={ { whiteSpace: 'normal' } }>Dénomination</TableHeaderColumn>
                       <TableHeaderColumn dataField="producer" dataSort={ true } tdStyle={ { whiteSpace: 'normal' } }>Producteur</TableHeaderColumn>
                       <TableHeaderColumn dataField="name" width='150' dataSort={ true }>Name</TableHeaderColumn>
                       <TableHeaderColumn dataField="vintage" width='110' dataSort={ true }>Milésime</TableHeaderColumn>
                       <TableHeaderColumn dataField="productionArea" width='150' dataSort={ true }>Région</TableHeaderColumn>
-                      <TableHeaderColumn  dataField="priceIn" width='80' dataSort={ true }>Prix</TableHeaderColumn>
+                      <TableHeaderColumn dataField="priceIn" width='80' dataSort={ true }>Prix</TableHeaderColumn>
                   </BootstrapTable>
               </div>
           );

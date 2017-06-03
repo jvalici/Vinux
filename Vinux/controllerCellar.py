@@ -3,6 +3,7 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from Vinux.models import  WineCellar, StoredWineBottle, WineDenomination, WineProductionArea, WineProducer, WineBottle, WineCellar, StoredWineBottle
+from Vinux.models import  UserComment, BottleUserReview, ProducerUserReview
 from Vinux.modelsUtils import remove_special_chars
 from datetime import datetime 
 
@@ -29,10 +30,12 @@ def getCellarInOrGone(request, true_when_only_in_or_false_for_only_gone ):
         cellar = cellars[0]                                 
     resList = { 'bottles': [ {
                 'id': str(s.id),
+                'underlying_id': str(s.bottle.id),
                 'denomination':s.bottle.denomination.name,
                 'vintage':s.bottle.vintage,
                 'productionArea':s.bottle.denomination.appelation.area.name,
                 'producer':s.bottle.producer.companyName,
+                'producer_id':s.bottle.producer.id,
                 'name':s.bottle.name,
                 'priceIn':s.priceIn,
                 'additionDate':s.additionDate.strftime('%d-%m-%Y'),
@@ -73,22 +76,15 @@ def getProducers(request):
 def addBottle(request):
     denomination_id = request.POST['denomination_id']
     producer_id = request.POST['producer_id']
-    price = float(request.POST['price'])
+    price = None if request.POST['price'] =='' else float(request.POST['price'])
     vintage = int(request.POST['vintage'])
-    if 'name' in request.POST:
-        has_a_name = True
-        name = request.POST['name']
-        bottles = WineBottle.objects.filter( producer__id = producer_id, denomination__id = denomination_id, name = name, vintage = vintage )
-    else:
-        has_a_name =  False
-        bottles = WineBottle.objects.filter( producer__id = producer_id, denomination__id = denomination_id, vintage = vintage )
+    name = None if request.POST['name'] == '' else request.POST['name']
+    bottles = WineBottle.objects.filter( producer__id = producer_id, denomination__id = denomination_id, name = name, vintage = vintage )
+
     if len(bottles) != 1:
         producer = WineProducer.objects.get(id = producer_id)
         denom = WineDenomination.objects.get(id = denomination_id)
-        if has_a_name:
-            b = WineBottle( producer = producer, denomination = denom, name = name, vintage = vintage )
-        else:
-            b = WineBottle( producer = producer, denomination = denom, vintage = vintage )
+        b = WineBottle( producer = producer, denomination = denom, name = name, vintage = vintage )
         b.save()
     else:
         b = bottles[0]
@@ -112,6 +108,15 @@ def removeBottle(request):
         b.save()
     return redirect('/Vinux/getGoneBottles')
 
+
+@login_required(login_url='/accounts/login/')
+def addTheSameBottle(request):
+    bottle_id = request.POST['bottle_id']
+    b = StoredWineBottle.objects.get( id=bottle_id )
+    nb = StoredWineBottle(vineCellar=b.vineCellar, bottle=b.bottle, priceIn=b.priceIn)
+    nb.save()
+    return redirect('/Vinux/getCellar')
+
 @login_required(login_url='/accounts/login/')
 def deleteBottle(request):
     bottle_ids = request.POST.getlist('bottle_ids')
@@ -120,3 +125,66 @@ def deleteBottle(request):
         b.delete()
     return redirect('/Vinux/getGoneBottles')
      
+@login_required(login_url='/accounts/login/')
+def commentProducer(request):
+    producer_id = request.POST['producer_id']
+    producer = WineProducer.objects.get(id = producer_id)
+    c = UserComment( comment = request.POST['comment'], author = request.user )
+    c.save()
+    mark = None if request.POST['mark'] == '' else request.POST['mark']
+    pc = ProducerUserReview( comment = c, producer = producer, mark = mark)
+    pc.save()
+    return JsonResponse({})
+
+
+@login_required(login_url='/accounts/login/')
+def commentBottle(request):
+    bottle_id = request.POST['bottle_id']
+    bottle = WineBottle.objects.get(id = bottle_id)
+    c = UserComment( comment = request.POST['comment'], author = request.user )
+    c.save()
+    mark = None if request.POST['mark'] == '' else request.POST['mark']
+    pairing = None if request.POST['pairing'] == '' else request.POST['pairing']
+    flavor = None if request.POST['flavor'] == '' else request.POST['flavor']
+    bc = BottleUserReview( comment = c, bottle = bottle, mark = mark, pairing = pairing, flavor = flavor)
+    bc.save()
+    return JsonResponse({})
+
+# get all the comments 
+@login_required(login_url='/accounts/login/')
+def getComments(request):
+    producer_id=remove_special_chars( request.GET['producer_id'] )
+    producer = WineProducer.objects.get(id = producer_id)
+    producerComments = ProducerUserReview.objects.filter(producer=producer)
+    producerCommentList =  [ {
+        'comment_id':c.comment.id,
+        'comment':c.comment.comment,
+        'author':c.comment.author.username,
+        'mark':'' if c.mark is None else c.mark,
+        'date':c.comment.commentDate.strftime('%d-%m-%Y'),
+        'is_from_user':c.comment.author.id== request.user.id
+        } for c in producerComments ]
+    bottle_id=remove_special_chars( request.GET['bottle_id'] )
+    bottle = WineBottle.objects.get(id = bottle_id)
+    bottleComments = BottleUserReview.objects.filter(bottle=bottle)
+    bottleCommentList =  [ {
+        'comment_id':b.comment.id,
+        'comment':b.comment.comment,
+        'author':b.comment.author.username,
+        'mark':'' if b.mark is None else b.mark,
+        'pairing':'' if b.pairing is None else b.pairing,
+        'flavor':'' if b.flavor is None else b.flavor,
+        'date':b.comment.commentDate.strftime('%d-%m-%Y'),
+        'is_from_user':b.comment.author.id== request.user.id
+        } for b in bottleComments ]
+    return JsonResponse( { 'producerComments': producerCommentList, 'bottleComments':bottleCommentList } )
+
+@login_required(login_url='/accounts/login/')
+def deleteSelectedComments(request):
+    comment_ids = request.POST.getlist('comment_ids')
+    for c in comment_ids:
+        c = UserComment.objects.get( id=int(c) )
+        if c.author == request.user: 
+            c.delete()
+    return JsonResponse({})
+

@@ -97,7 +97,7 @@ var GoneBottles = function (_React$Component) {
     }, {
         key: 'expandComponent',
         value: function expandComponent(row) {
-            return React.createElement(RowExtension, { data: row });
+            return React.createElement(RowExtension, { bottle: row });
         }
 
         //------------------------------------------------------------------------------

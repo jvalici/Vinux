@@ -16,5 +16,10 @@ urlpatterns = [
     url(r'^addBottle/$', controllerCellar.addBottle),
     url(r'^removeBottle/$', controllerCellar.removeBottle),
     url(r'^deleteBottle/$', controllerCellar.deleteBottle),
+    url(r'^commentProducer/$', controllerCellar.commentProducer),
+    url(r'^commentBottle/$', controllerCellar.commentBottle),
+    url(r'^getComments/$', controllerCellar.getComments),
+    url(r'^deleteSelectedComments/$', controllerCellar.deleteSelectedComments),
+    url(r'^addTheSameBottle/$', controllerCellar.addTheSameBottle),
 ]
 

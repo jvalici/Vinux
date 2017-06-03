@@ -8,8 +8,12 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var Button = ReactBootstrap.Button;
+var Modal = ReactBootstrap.Modal;
+
 ////////////////////////////////////////////////////////////////////////////////
 //------------------------------------------------------------------------------
+
 var Cellar = function (_React$Component) {
     _inherits(Cellar, _React$Component);
 
@@ -20,7 +24,7 @@ var Cellar = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (Cellar.__proto__ || Object.getPrototypeOf(Cellar)).call(this, props));
 
-        _this.state = { modalLeve: 0 };
+        _this.state = { modalLevel: 0 };
         return _this;
     }
 
@@ -227,7 +231,7 @@ var Cellar = function (_React$Component) {
     }, {
         key: 'expandComponent',
         value: function expandComponent(row) {
-            return React.createElement(RowExtension, { data: row });
+            return React.createElement(RowExtension, { bottle: row, onAddSame: this.loadData.bind(this) });
         }
 
         //------------------------------------------------------------------------------
@@ -257,33 +261,31 @@ var Cellar = function (_React$Component) {
                     React.createElement(
                         'p',
                         null,
-                        'Il ne reste plus que \xE7a dans votre cave:'
+                        'Attention, il ne reste plus que \xE7a dans ta cave:'
                     ),
                     React.createElement(
-                        'button',
-                        { onClick: function onClick() {
+                        Button,
+                        { bsStyle: 'primary', onClick: function onClick() {
                                 return _this2.openModal();
                             } },
                         'Nvlle bouteille'
                     ),
                     React.createElement(
                         Modal,
-                        { isOpen: this.state.modalLevel == 1, onClose: function onClose() {
+                        { className: 'static-modal', show: this.state.modalLevel == 1, onHide: function onHide() {
                                 return _this2.closeModal();
-                            } },
+                            }, bsSize: 'large' },
                         React.createElement(
-                            'p',
-                            null,
+                            Modal.Header,
+                            { closeButton: true },
                             React.createElement(
-                                'button',
-                                { onClick: function onClick() {
-                                        return _this2.closeModal();
-                                    } },
-                                'Annuler'
+                                Modal.Title,
+                                null,
+                                'Ajouter une bouteille'
                             )
                         ),
                         React.createElement(
-                            'form',
+                            Modal.Body,
                             null,
                             React.createElement(
                                 'p',
@@ -317,11 +319,18 @@ var Cellar = function (_React$Component) {
                             )
                         ),
                         React.createElement(
-                            'p',
+                            Modal.Footer,
                             null,
                             React.createElement(
-                                'button',
+                                Button,
                                 { onClick: function onClick() {
+                                        return _this2.closeModal();
+                                    } },
+                                'Annuler'
+                            ),
+                            React.createElement(
+                                Button,
+                                { bsStyle: 'primary', onClick: function onClick() {
                                         return _this2.finishAddingBottle();
                                     } },
                                 'Ajouter'
@@ -331,17 +340,22 @@ var Cellar = function (_React$Component) {
                     React.createElement(
                         BootstrapTable,
                         {
-                            exportCSV: true,
                             data: this.state.cellarData.bottles,
                             pagination: true,
                             hover: true,
                             selectRow: { mode: 'checkbox', clickToSelect: false, clickToExpand: true },
                             search: true,
                             deleteRow: true,
+                            exportCSV: true,
                             expandableRow: this.isExpandableRow.bind(this),
                             expandComponent: this.expandComponent.bind(this),
                             expandColumnOptions: { expandColumnVisible: true },
-                            options: { afterDeleteRow: this.removeBottle.bind(this), afterSearch: this.afterSearch.bind(this), expandRowBgColor: 'rgb(242, 255, 163)' } },
+                            options: {
+                                afterDeleteRow: this.removeBottle.bind(this),
+                                afterSearch: this.afterSearch.bind(this),
+                                expandRowBgColor: 'rgb(242, 255, 163)',
+                                deleteText: 'Supprimer les bouteilles selectionnées'
+                            } },
                         React.createElement(
                             TableHeaderColumn,
                             { dataField: 'id', isKey: true, hidden: true },

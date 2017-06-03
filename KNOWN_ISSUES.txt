@@ -1,1 +1,1 @@
-1) add comments on bottle to row extension
+1) use the the button "nlle bouteille" to add a bottle taking a picture, and add a button "nouvelle bouteille" to the button group (this last bit is more difficult that expected)

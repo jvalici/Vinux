@@ -12,7 +12,7 @@ function makeHeader(tabIndex, userName) {
   // add the banner
   var myVar = '<div class="header">'
         + '<div class="myTab myTitle">'
-      + '    <p>' + shownName + ', bienvenu sur Vinux <a class="smaller" href="/accounts/logout/?next=/accounts/login/">- logout</a></p>'
+      + '    <p>' + shownName + ', bienvenue sur Vinux <a class="smaller" href="/accounts/logout/?next=/accounts/login/">- logout</a></p>'
       + '</div>';
   // add the tabs
   for (var tab = 0; tab < arrayLoc.length; ++tab) {

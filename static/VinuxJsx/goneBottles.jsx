@@ -65,7 +65,7 @@
   // get the row extension
   expandComponent(row) {
       return (  
-              <RowExtension data={ row }/>
+              <RowExtension bottle={ row }/>
       );
   }
 
