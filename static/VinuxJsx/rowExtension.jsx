@@ -329,7 +329,7 @@ class RowExtension extends React.Component {
                         <TableHeaderColumn dataField="date" width='120' dataSort={true} tdStyle={{ whiteSpace: 'normal' }}>Date</TableHeaderColumn>
                         <TableHeaderColumn dataField="pairing" width='120' dataSort={true} tdStyle={{ whiteSpace: 'normal' }}>Assortiment</TableHeaderColumn>
                         <TableHeaderColumn dataField="flavor" width='120' dataSort={true} tdStyle={{ whiteSpace: 'normal' }}>Nez</TableHeaderColumn>
-                        <TableHeaderColumn dataField="comment" dataSort={true} tdStyle={{ whiteSpace: 'normal' }}  >Commentaire sur le producteur</TableHeaderColumn>
+                        <TableHeaderColumn dataField="comment" dataSort={true} tdStyle={{ whiteSpace: 'normal' }}  >Commentaire sur la bouteille</TableHeaderColumn>
                     </BootstrapTable>
                 </div> );
         }

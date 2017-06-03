@@ -579,7 +579,7 @@ var RowExtension = function (_React$Component3) {
                         React.createElement(
                             TableHeaderColumn,
                             { dataField: "comment", dataSort: true, tdStyle: { whiteSpace: 'normal' } },
-                            "Commentaire sur le producteur"
+                            "Commentaire sur la bouteille"
                         )
                     )
                 );
